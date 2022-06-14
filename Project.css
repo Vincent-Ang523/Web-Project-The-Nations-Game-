@@ -1,0 +1,8 @@
+body{
+    background-color: blue;
+    background-image: linear-gradient(to top right, #7be4e3, #fbe8e3);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0px;
+}
