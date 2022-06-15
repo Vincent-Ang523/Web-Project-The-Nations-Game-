@@ -1,0 +1,22 @@
+{
+  "name": "geography-wordle",
+  "version": "1.0.0",
+  "description": "A geography game where a random country would be picked and the player can only guess using country names. If it is incorrect, the AI would tell the players similarities between the two countries.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vincent-Ang523/Geography-Wordle.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vincent-Ang523/Geography-Wordle/issues"
+  },
+  "homepage": "https://github.com/Vincent-Ang523/Geography-Wordle#readme",
+  "dependencies": {
+    "@popperjs/core": "^2.11.5"
+  }
+}
