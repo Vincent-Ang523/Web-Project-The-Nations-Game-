@@ -1,8 +1,20 @@
 body{
-    background-color: blue;
-    background-image: linear-gradient(to top right, #7be4e3, #fbe8e3);
+    background-color: #161a47;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     margin: 0px;
+}
+h1{
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+
 }
