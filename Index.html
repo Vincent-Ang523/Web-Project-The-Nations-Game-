@@ -5,28 +5,103 @@
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="description" content="A geography game where a random country would be picked and the player can only guess using country names. If it is incorrect, the AI would tell the players similarities between the two countries." />
         <link rel="stylesheet" href="css/bootstrap.css">
-
+        <style type="text/css">
+            body { 
+                background: black !important; 
+            }
+            #Maps {
+                filter: invert(1);
+            }
+            input[type="text"]:disabled{
+                background: rgba(0,0,0,0.5);
+                color: white;
+                border: 1px solid rgba(256,256,256,0.5)
+            }
+        </style>
 <title>Geography Project</title>
     </head>
     <body>
-<h1 class="text-center">What Country am I Thinking of?</h1>
+<p class="text-center display-2 fw-bold text-white">What Country am I Thinking of?</p>
 
-<div class="container-fluid border">
-    <div class="row">
-    <div class="col-4">
+<div class="container-fluid">
+    <div class="row d-flex justify-content-center flex-wrap">
+    <div class="col-sm d-flex justify-content-center">
         <img src="Flag of Countries/Austria.png" alt="flag of Austria" id="Flags" style="height: 132px">
     </div>
-    <div class="col-5">
+    <div class="col-sm d-flex justify-content-center">
         <img src="Map of Countries/Austria.png" alt="map of Austria" id="Maps">
     </div>
     </div>
 </div>
 <div class="Row">
-    <div class="CountryNames">
-    <h2 id="Names">Austria</h2>
+    <div class="text-center text-white">
+    <h2 class="fw-bold display-5">Austria</h2>
     </div>
 </div>
-
+<form class="container justify-content-center d-flex flex-wrap mb-3">
+    <div class="form-group row w-75 gy-1">
+        <input type="text" id="Guess" class="form-control" value="" disabled>
+        <input type="text" id="Guess1" class="form-control" value="" disabled>
+        <input type="text" id="Guess2" class="form-control" value="" disabled>
+        <input type="text" id="Guess3" class="form-control" value="" disabled>
+        <input type="text" id="Guess4" class="form-control" value="" disabled>
+    </div>
+</form>
+<form class="container justify-content-center d-flex flex-wrap">
+    <div class="form-group  row w-75 gy-1">
+        <input class="form-control" type="text" placeholder="Guess the Country" name="Country" list="countrynames">
+        <datalist id="countrynames">
+            <option value="Albania">
+            <option value="Andorra">
+            <option value="Austria">
+            <option value="Azerbaijan">
+            <option value="Belarus">
+            <option value="Belgium">
+            <option value="Bosnia">
+            <option value="Bulgaria">
+            <option value="Croatia">
+            <option value="Czech Republic">
+            <option value="Denmark">
+            <option value="Estonia">
+            <option value="Finland">
+            <option value="France">
+            <option value="Georgia">
+            <option value="Germany">
+            <option value="Greece">
+            <option value="Hungary">
+            <option value="Iceland">
+            <option value="Ireland">
+            <option value="Italy">
+            <option value="Kazakhstan">
+            <option value="Latvia">
+            <option value="Liechtenstein">
+            <option value="Lithuania">
+            <option value="Luxembourg">
+            <option value="Malta">
+            <option value="Moldova">
+            <option value="Monaco">
+            <option value="Montenegro">
+            <option value="Netherlands">
+            <option value="North Macedonia">
+            <option value="Norway">
+            <option value="Poland">
+            <option value="Portugal">
+            <option value="Romania">
+            <option value="Russia">
+            <option value="San Marino">
+            <option value="Serbia">
+            <option value="Slovakia">
+            <option value="Slovenia">
+            <option value="Spain">
+            <option value="Sweden">
+            <option value="Switzerland">
+            <option value="Turkey">
+            <option value="Ukraine">
+            <option value="United Kingdom">
+            <option value="Vatican City">
+        </datalist>
+    </div>
+</form>
 <script src="js/bootstrap.bundle.js"></script>
     </body>
 </html>
