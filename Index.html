@@ -12,7 +12,7 @@
             #Maps {
                 filter: invert(1);
             }
-            input[type="text"]:disabled{
+            input[type="text"]:read-only{
                 background: rgba(0,0,0,0.5);
                 color: white;
                 border: 1px solid rgba(256,256,256,0.5);
@@ -38,18 +38,18 @@
     <h2 class="fw-bold display-5">Austria</h2>
     </div>
 </div>
-<form class="container justify-content-center d-flex flex-wrap mb-3">
+<form class="container justify-content-center d-flex flex-wrap mb-3" name="Guesses">
     <div class="form-group row w-75 gy-1">
-        <input type="text" id="Guess" class="form-control" value="" disabled>
-        <input type="text" id="Guess1" class="form-control" value="" disabled>
-        <input type="text" id="Guess2" class="form-control" value="" disabled>
-        <input type="text" id="Guess3" class="form-control" value="" disabled>
-        <input type="text" id="Guess4" class="form-control" value="" disabled>
+        <input type="text" id="Guess" class="form-control" value="" readonly>
+        <input type="text" id="Guess1" class="form-control" value="" readonly>
+        <input type="text" id="Guess2" class="form-control" value="" readonly>
+        <input type="text" id="Guess3" class="form-control" value="" readonly>
+        <input type="text" id="Guess4" class="form-control" value="" readonly>
     </div>
 </form>
-<form class="container justify-content-center d-flex flex-wrap">
+<form class="container justify-content-center d-flex flex-wrap" name="Inputs">
     <div class="form-group  row w-75 gy-1">
-        <input class="form-control" type="text" placeholder="Guess the Country" name="Country" list="countrynames">
+        <input class="form-control" type="text" placeholder="Guess the Country" name="Country" list="countrynames" id="Countries">
         <datalist id="countrynames">
             <option value="Albania">
             <option value="Andorra">
@@ -102,6 +102,21 @@
         </datalist>
     </div>
 </form>
-<script src="js/bootstrap.bundle.js"></script>
+<script>
+    var input = document.getElementById("Countries");
+    var firstGuess = document.getElementById("Guess");
+    document.getElementById("Countries").addEventListener('keypress', event=> {
+  if (event.keyCode === 13) {
+    event.preventDefault();
+    guessInput();
+    input.value="";
+  }
+});
+    function guessInput(){
+        firstGuess.value=input.value;
+};
+</script>
+<script src="js/bootstrap.bundle.js">
+</script>
     </body>
 </html>
