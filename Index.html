@@ -105,6 +105,10 @@
 <script>
     var input = document.getElementById("Countries");
     var firstGuess = document.getElementById("Guess");
+    var secondGuess = document.getElementById("Guess1");
+    var thirdGuess = document.getElementById("Guess2");
+    var fourthGuess = document.getElementById("Guess3");
+    var fifthGuess = document.getElementById("Guess4");
     document.getElementById("Countries").addEventListener('keypress', event=> {
   if (event.keyCode === 13) {
     event.preventDefault();
@@ -113,7 +117,25 @@
   }
 });
     function guessInput(){
+        if (firstGuess.value==""){
         firstGuess.value=input.value;
+        }
+        else if (firstGuess.value!="" && secondGuess.value=="" && thirdGuess.value=="" && fourthGuess.value=="" && fifthGuess.value==""){
+        secondGuess.value=input.value;
+        }
+        else if (firstGuess.value!="" && secondGuess.value!="" && thirdGuess.value=="" && fourthGuess.value=="" && fifthGuess.value==""){
+        thirdGuess.value=input.value;
+        }
+        else if (firstGuess.value!="" && secondGuess.value!="" && thirdGuess.value!="" && fourthGuess.value=="" && fifthGuess.value==""){
+        fourthGuess.value=input.value;
+        }
+        else if (firstGuess.value!="" && secondGuess.value!="" && thirdGuess.value!="" && fourthGuess.value!="" && fifthGuess.value==""){
+        fifthGuess.value=input.value;
+        }
+        else if (firstGuess.value!="" && secondGuess.value!="" && thirdGuess.value!="" && fourthGuess.value!="" && fifthGuess.value!=""){
+        alert("Run out of Guesses");
+        location.reload();
+        };
 };
 </script>
 <script src="js/bootstrap.bundle.js">
