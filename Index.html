@@ -25,17 +25,17 @@
 
 <div class="container-fluid">
     <div class="row d-flex justify-content-center flex-wrap">
-    <div class="col-sm d-flex justify-content-center">
-        <img src="Flag of Countries/Austria.png" alt="flag of Austria" id="Flags" style="height: 132px">
+    <div class="col-sm d-flex justify-content-center align-items-center">
+        <img src="" alt="flag of Austria" id="Flags" style="height: 132px; display: none">
     </div>
-    <div class="col-sm d-flex justify-content-center">
-        <img src="Map of Countries/Austria.png" alt="map of Austria" id="Maps">
+    <div class="col-sm d-flex justify-content-center align-items-center">
+        <img src="" alt="map of Austria" id="Maps" style="display: none">
     </div>
     </div>
 </div>
 <div class="Row">
     <div class="text-center text-white">
-    <h2 class="fw-bold display-5">Austria</h2>
+    <p class="fw-bold display-5" id="Names" style="display: none"></p>
     </div>
 </div>
 <form class="container justify-content-center d-flex flex-wrap mb-3" name="Guesses">
@@ -109,9 +109,12 @@
     var thirdGuess = document.getElementById("Guess2");
     var fourthGuess = document.getElementById("Guess3");
     var fifthGuess = document.getElementById("Guess4");
-    var countries = ["Albania", "Andorra", "Austria", "Azerbaijan", "Belarus", "Belgium", "Bosnia and Herzegovina", "Bulgaria", "Croatia", "Czech Republic", "Denmark", "Estonia", "Finland", "France", "Georgia", "Germany", "Greece", "Hungary", "Iceland", "Ireland", "Italy", "Kazakhstan", "Latvia", "Liechtenstein", "Lithuania", "Luxembourg", "Malta", "Moldova", "Monaco", "Montenegro", "The Netherlands", "North Macedonia", "Norway", "Poland", "Portugal", "Romania", "Russia", "San Marino", "Serbia", "Slovakia", "Slovenia", "Spain", "Sweden", "Switzerland", "Turkey", "Ukraine", "United Kingdom", "Vatican City"]
+    var countries = ["Albania", "Andorra", "Austria", "Azerbaijan", "Belarus", "Belgium", "Bosnia and Herzegovina", "Bulgaria", "Croatia", "Czech Republic", "Denmark", "Estonia", "Finland", "France", "Georgia", "Germany", "Greece", "Hungary", "Iceland", "Ireland", "Italy", "Kazakhstan", "Latvia", "Liechtenstein", "Lithuania", "Luxembourg", "Malta", "Moldova", "Monaco", "Montenegro", "The Netherlands", "North Macedonia", "Norway", "Poland", "Portugal", "Romania", "Russia", "San Marino", "Serbia", "Slovakia", "Slovenia", "Spain", "Sweden", "Switzerland", "Turkey", "Ukraine", "United Kingdom", "Vatican City"];
     var countryPick = countries[Math.floor(Math.random()*countries.length)];
+    var flag = "Flag of Countries/" + countryPick + ".png";
+    var map = "Map of Countries/" + countryPick + ".png";
     console.log(countryPick);
+    console.log(flag);
     document.getElementById("Countries").addEventListener('keypress', event=> {
   if (event.keyCode === 13) {
     event.preventDefault();
@@ -154,12 +157,24 @@ function resetIfInvalid(input){
         fifthGuess.value=input.value;
         alert("It is " + countryPick + "!");
         input.disabled="true";
+        document.getElementById("Flags").src= flag;
+        document.getElementById("Maps").src= map;
+        document.getElementById("Names").innerHTML=countryPick;
+        document.getElementById("Flags").style.display= "block";
+        document.getElementById("Maps").style.display= "block";
+        document.getElementById("Names").style.display= "block";
         }
 };
     function inputCheck(){
         if(input.value==countryPick){
             alert("Your Guess is Correct!");
             input.disabled="true";
+            document.getElementById("Flags").src= flag;
+            document.getElementById("Maps").src= map;
+            document.getElementById("Names").innerHTML=countryPick;
+            document.getElementById("Flags").style.display= "block";
+            document.getElementById("Maps").style.display= "block";
+            document.getElementById("Names").style.display= "block";
         }
         else{
             return;
