@@ -20,7 +20,7 @@
         </style>
 <title>Geography Project</title>
     </head>
-    <body>
+    <body onload="refreshFunction()">
 <p class="text-center display-2 fw-bold text-white">What Country am I Thinking of?</p>
 
 <div class="container-fluid">
@@ -40,11 +40,11 @@
 </div>
 <form class="container justify-content-center d-flex flex-wrap mb-3" name="Guesses">
     <div class="form-group row w-75 gy-1">
-        <input type="text" id="Guess" class="form-control" value="" readonly>
-        <input type="text" id="Guess1" class="form-control" value="" readonly>
-        <input type="text" id="Guess2" class="form-control" value="" readonly>
-        <input type="text" id="Guess3" class="form-control" value="" readonly>
-        <input type="text" id="Guess4" class="form-control" value="" readonly>
+        <input type="text" id="Guess" class="form-control pe-none" value="" readonly>
+        <input type="text" id="Guess1" class="form-control pe-none" value="" readonly>
+        <input type="text" id="Guess2" class="form-control pe-none" value="" readonly>
+        <input type="text" id="Guess3" class="form-control pe-none" value="" readonly>
+        <input type="text" id="Guess4" class="form-control pe-none" value="" readonly>
     </div>
 </form>
 <form class="container justify-content-center d-flex flex-wrap" name="Inputs">
@@ -57,7 +57,7 @@
             <option value="Azerbaijan">
             <option value="Belarus">
             <option value="Belgium">
-            <option value="Bosnia">
+            <option value="Bosnia and Herzegovina">
             <option value="Bulgaria">
             <option value="Croatia">
             <option value="Czech Republic">
@@ -109,7 +109,7 @@
     var thirdGuess = document.getElementById("Guess2");
     var fourthGuess = document.getElementById("Guess3");
     var fifthGuess = document.getElementById("Guess4");
-    var countries = ["Albania", "Andorra", "Austria", "Azerbaijan", "Belarus", "Belgium", "Bosnia", "Bulgaria", "Croatia", "Czech Republic", "Denmark", "Estonia", "Finland", "France", "Georgia", "Germany", "Greece", "Hungary", "Iceland", "Ireland", "Italy", "Kazakhstan", "Latvia", "Liechtenstein", "Lithuania", "Luxembourg", "Malta", "Moldova", "Monaco", "Montenegro", "The Netherlands", "North Macedonia", "Norway", "Poland", "Portugal", "Romania", "Russia", "San Marino", "Serbia", "Slovakia", "Slovenia", "Spain", "Sweden", "Switzerland", "Turkey", "Ukraine", "United Kingdom", "Vatican City"]
+    var countries = ["Albania", "Andorra", "Austria", "Azerbaijan", "Belarus", "Belgium", "Bosnia and Herzegovina", "Bulgaria", "Croatia", "Czech Republic", "Denmark", "Estonia", "Finland", "France", "Georgia", "Germany", "Greece", "Hungary", "Iceland", "Ireland", "Italy", "Kazakhstan", "Latvia", "Liechtenstein", "Lithuania", "Luxembourg", "Malta", "Moldova", "Monaco", "Montenegro", "The Netherlands", "North Macedonia", "Norway", "Poland", "Portugal", "Romania", "Russia", "San Marino", "Serbia", "Slovakia", "Slovenia", "Spain", "Sweden", "Switzerland", "Turkey", "Ukraine", "United Kingdom", "Vatican City"]
     var countryPick = countries[Math.floor(Math.random()*countries.length)];
     console.log(countryPick);
     document.getElementById("Countries").addEventListener('keypress', event=> {
@@ -146,15 +146,14 @@ function resetIfInvalid(input){
         fourthGuess.value=input.value;
         inputCheck();
         }
-        else if (firstGuess.value!="" && secondGuess.value!="" && thirdGuess.value!="" && fourthGuess.value!="" && fifthGuess.value==""){
+        else if (firstGuess.value!="" && secondGuess.value!="" && thirdGuess.value!="" && fourthGuess.value!="" && fifthGuess.value=="" && input.value==countryPick){
         fifthGuess.value=input.value;
         inputCheck();
+        }
+        else if (firstGuess.value!="" && secondGuess.value!="" && thirdGuess.value!="" && fourthGuess.value!="" && fifthGuess.value=="" && input.value!=countryPick){
+        fifthGuess.value=input.value;
         alert("It is " + countryPick + "!");
-        firstGuess.value="";
-        secondGuess.value="";
-        thirdGuess.value="";
-        fourthGuess.value="";
-        fifthGuess.value="";
+        input.disabled="true";
         }
 };
     function inputCheck(){
@@ -165,6 +164,14 @@ function resetIfInvalid(input){
         else{
             return;
         }
+    };
+    function refreshFunction(){
+        firstGuess.value="";
+        secondGuess.value="";
+        thirdGuess.value="";
+        fourthGuess.value="";
+        fifthGuess.value="";
+        input.value="";
     };
 </script>
 <script src="js/bootstrap.bundle.js">
