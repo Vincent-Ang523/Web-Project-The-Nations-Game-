@@ -49,7 +49,7 @@
 </form>
 <form class="container justify-content-center d-flex flex-wrap" name="Inputs">
     <div class="form-group  row w-75 gy-1">
-        <input class="form-control" type="text" placeholder="Guess the Country" name="Country" list="countrynames" id="Countries">
+        <input class="form-control" type="text" placeholder="Guess the Country" name="Country" list="countrynames" id="Countries" autocomplete="on">
         <datalist id="countrynames">
             <option value="Albania">
             <option value="Andorra">
@@ -112,10 +112,20 @@
     document.getElementById("Countries").addEventListener('keypress', event=> {
   if (event.keyCode === 13) {
     event.preventDefault();
-    guessInput();
+    resetIfInvalid(input);
     input.value="";
   }
 });
+function resetIfInvalid(input){
+   if (input.value == "")
+       return;
+   var options = input.list.options;
+   for (var i = 0; i< options.length; i++) {
+       if (input.value == options[i].value)
+           guessInput();
+   }
+   input.value = "";
+};
     function guessInput(){
         if (firstGuess.value==""){
         firstGuess.value=input.value;
@@ -132,10 +142,10 @@
         else if (firstGuess.value!="" && secondGuess.value!="" && thirdGuess.value!="" && fourthGuess.value!="" && fifthGuess.value==""){
         fifthGuess.value=input.value;
         }
-        else if (firstGuess.value!="" && secondGuess.value!="" && thirdGuess.value!="" && fourthGuess.value!="" && fifthGuess.value!=""){
+        else if (firstGuess.value!="" && secondGuess.value!="" && thirdGuess.value!="" && fourthGuess.value!="" && fifthGuess.value!="" && input.value!=""){
         alert("Run out of Guesses");
         location.reload();
-        };
+        }
 };
 </script>
 <script src="js/bootstrap.bundle.js">
