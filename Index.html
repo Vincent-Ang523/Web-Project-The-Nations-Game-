@@ -81,7 +81,7 @@
             <option value="Moldova">
             <option value="Monaco">
             <option value="Montenegro">
-            <option value="Netherlands">
+            <option value="The Netherlands">
             <option value="North Macedonia">
             <option value="Norway">
             <option value="Poland">
@@ -109,6 +109,9 @@
     var thirdGuess = document.getElementById("Guess2");
     var fourthGuess = document.getElementById("Guess3");
     var fifthGuess = document.getElementById("Guess4");
+    var countries = ["Albania", "Andorra", "Austria", "Azerbaijan", "Belarus", "Belgium", "Bosnia", "Bulgaria", "Croatia", "Czech Republic", "Denmark", "Estonia", "Finland", "France", "Georgia", "Germany", "Greece", "Hungary", "Iceland", "Ireland", "Italy", "Kazakhstan", "Latvia", "Liechtenstein", "Lithuania", "Luxembourg", "Malta", "Moldova", "Monaco", "Montenegro", "The Netherlands", "North Macedonia", "Norway", "Poland", "Portugal", "Romania", "Russia", "San Marino", "Serbia", "Slovakia", "Slovenia", "Spain", "Sweden", "Switzerland", "Turkey", "Ukraine", "United Kingdom", "Vatican City"]
+    var countryPick = countries[Math.floor(Math.random()*countries.length)];
+    console.log(countryPick);
     document.getElementById("Countries").addEventListener('keypress', event=> {
   if (event.keyCode === 13) {
     event.preventDefault();
@@ -129,24 +132,40 @@ function resetIfInvalid(input){
     function guessInput(){
         if (firstGuess.value==""){
         firstGuess.value=input.value;
+        inputCheck();
         }
         else if (firstGuess.value!="" && secondGuess.value=="" && thirdGuess.value=="" && fourthGuess.value=="" && fifthGuess.value==""){
         secondGuess.value=input.value;
+        inputCheck();
         }
         else if (firstGuess.value!="" && secondGuess.value!="" && thirdGuess.value=="" && fourthGuess.value=="" && fifthGuess.value==""){
         thirdGuess.value=input.value;
+        inputCheck();
         }
         else if (firstGuess.value!="" && secondGuess.value!="" && thirdGuess.value!="" && fourthGuess.value=="" && fifthGuess.value==""){
         fourthGuess.value=input.value;
+        inputCheck();
         }
         else if (firstGuess.value!="" && secondGuess.value!="" && thirdGuess.value!="" && fourthGuess.value!="" && fifthGuess.value==""){
         fifthGuess.value=input.value;
-        }
-        else if (firstGuess.value!="" && secondGuess.value!="" && thirdGuess.value!="" && fourthGuess.value!="" && fifthGuess.value!="" && input.value!=""){
-        alert("Run out of Guesses");
-        location.reload();
+        inputCheck();
+        alert("It is " + countryPick + "!");
+        firstGuess.value="";
+        secondGuess.value="";
+        thirdGuess.value="";
+        fourthGuess.value="";
+        fifthGuess.value="";
         }
 };
+    function inputCheck(){
+        if(input.value==countryPick){
+            alert("Your Guess is Correct!");
+            input.disabled="true";
+        }
+        else{
+            return;
+        }
+    };
 </script>
 <script src="js/bootstrap.bundle.js">
 </script>
