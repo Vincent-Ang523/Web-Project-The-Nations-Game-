@@ -17,7 +17,6 @@
   },
   "homepage": "https://github.com/Vincent-Ang523/Geography-Wordle#readme",
   "dependencies": {
-    "@popperjs/core": "^2.11.5",
     "autocorrect": "^1.2.0",
     "jquery": "^3.6.0"
   }

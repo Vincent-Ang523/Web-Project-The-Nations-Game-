@@ -5,7 +5,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="description" content="A geography game where a random country would be picked and the player can only guess using country names. If it is incorrect, the AI would tell the players similarities between the two countries." />
         <link rel="stylesheet" href="css/bootstrap.css">
-        <script src="node_modules/jquery/dist/jquery.min.js"></script>
+        <script src="node_modules/jquery/dist/jquery.min.js">
+            $(function () {
+                $('[data-toggle="tooltip"]').tooltip()
+            });
+        </script>
         <style type="text/css">
             body { 
                 background: black !important; 
@@ -40,23 +44,24 @@
     </div>
 </div>
 <form class="container justify-content-center d-flex flex-wrap mb-3" name="Guesses">
-        <div class="form-group row w-75 gy-1 mb-1" data-toggle="popover" data-placement="right" title="Hint" data-content="Hints go here">
+
+        <div class="form-group row w-75 gy-1 mb-1" data-bs-toggle="popover" title="Hint 1" data-bs-content="Hints go here" data-bs-trigger="hover focus">
         <input type="text" id="Guess" class="form-control pe-none" value="" disabled>
         </div>
 
-        <div class="form-group row w-75 gy-1 mb-1" data-toggle="popover" data-placement="right" title="Hint" data-content="Hints go here">
+        <div class="form-group row w-75 gy-1 mb-1" data-bs-toggle="popover" title="Hint 2" data-bs-content="Hints go here" data-bs-trigger="hover focus">
         <input type="text" id="Guess1" class="form-control pe-none" value="" disabled>
         </div>
 
-        <div class="form-group row w-75 gy-1 mb-1" data-toggle="popover" data-placement="right" title="Hint" data-content="Hints go here">
+        <div class="form-group row w-75 gy-1 mb-1" data-bs-toggle="popover" title="Hint 3" data-bs-content="Hints go here" data-bs-trigger="hover focus">
         <input type="text" id="Guess2" class="form-control pe-none" value="" disabled>
         </div>
 
-        <div class="form-group row w-75 gy-1 mb-1" data-toggle="popover" data-placement="right" title="Hint" data-content="Hints go here">
+        <div class="form-group row w-75 gy-1 mb-1" data-bs-toggle="popover" title="Hint 4" data-bs-content="Hints go here" data-bs-trigger="hover focus">
         <input type="text" id="Guess3" class="form-control pe-none" value="" disabled>
         </div>
 
-        <div class="form-group row w-75 gy-1 mb-1" data-toggle="popover" data-placement="right" title="Hint" data-content="Hints go here">
+        <div class="form-group row w-75 gy-1 mb-1" data-bs-toggle="popover" title="Hint 5" data-bs-content="Hints go here" data-bs-trigger="hover focus">
         <input type="text" id="Guess4" class="form-control pe-none" value="" disabled>
     </div>
 </form>
@@ -115,7 +120,13 @@
         </datalist>
     </div>
 </form>
+<script src="js/bootstrap.bundle.js">
+</script>
 <script>
+    var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'));
+    var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+    return new bootstrap.Popover(popoverTriggerEl)
+    });
     var input = document.getElementById("Countries");
     var firstGuess = document.getElementById("Guess");
     var secondGuess = document.getElementById("Guess1");
@@ -208,11 +219,9 @@ function resetIfInvalid(input){
         fifthGuess.value="";
         input.value="";
     };
-</script>
-<script src="js/bootstrap.bundle.js">
     $(function () {
-  $('[data-toggle="popover"]').popover()
-});
+        $('[data-toggle="tooltip"]').tooltip()
+    });
 </script>
     </body>
 </html>
