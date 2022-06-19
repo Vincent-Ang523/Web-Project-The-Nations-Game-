@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="description" content="A geography game where a random country would be picked and the player can only guess using country names. If it is incorrect, the AI would tell the players similarities between the two countries." />
         <link rel="stylesheet" href="css/bootstrap.css">
+        <script src="node_modules/jquery/dist/jquery.min.js"></script>
         <style type="text/css">
             body { 
                 background: black !important; 
@@ -12,10 +13,10 @@
             #Maps {
                 filter: invert(1);
             }
-            input[type="text"]:read-only{
-                background: rgba(0,0,0,0.5);
+            input[type="text"]:disabled{
+                background-color: rgba(105, 105, 105, 0.5);
                 color: white;
-                border: 1px solid rgba(256,256,256,0.5);
+                border: none;
             }
         </style>
 <title>Geography Project</title>
@@ -39,12 +40,24 @@
     </div>
 </div>
 <form class="container justify-content-center d-flex flex-wrap mb-3" name="Guesses">
-    <div class="form-group row w-75 gy-1">
-        <input type="text" id="Guess" class="form-control pe-none" value="" readonly>
-        <input type="text" id="Guess1" class="form-control pe-none" value="" readonly>
-        <input type="text" id="Guess2" class="form-control pe-none" value="" readonly>
-        <input type="text" id="Guess3" class="form-control pe-none" value="" readonly>
-        <input type="text" id="Guess4" class="form-control pe-none" value="" readonly>
+        <div class="form-group row w-75 gy-1 mb-1" data-toggle="popover" data-placement="right" title="Hint" data-content="Hints go here">
+        <input type="text" id="Guess" class="form-control pe-none" value="" disabled>
+        </div>
+
+        <div class="form-group row w-75 gy-1 mb-1" data-toggle="popover" data-placement="right" title="Hint" data-content="Hints go here">
+        <input type="text" id="Guess1" class="form-control pe-none" value="" disabled>
+        </div>
+
+        <div class="form-group row w-75 gy-1 mb-1" data-toggle="popover" data-placement="right" title="Hint" data-content="Hints go here">
+        <input type="text" id="Guess2" class="form-control pe-none" value="" disabled>
+        </div>
+
+        <div class="form-group row w-75 gy-1 mb-1" data-toggle="popover" data-placement="right" title="Hint" data-content="Hints go here">
+        <input type="text" id="Guess3" class="form-control pe-none" value="" disabled>
+        </div>
+
+        <div class="form-group row w-75 gy-1 mb-1" data-toggle="popover" data-placement="right" title="Hint" data-content="Hints go here">
+        <input type="text" id="Guess4" class="form-control pe-none" value="" disabled>
     </div>
 </form>
 <form class="container justify-content-center d-flex flex-wrap" name="Inputs">
@@ -113,8 +126,13 @@
     var countryPick = countries[Math.floor(Math.random()*countries.length)];
     var flag = "Flag of Countries/" + countryPick + ".png";
     var map = "Map of Countries/" + countryPick + ".png";
+    var today = new Date();
+    var dd = String(today.getDate()).padStart(2, '0');
+    var mm = String(today.getMonth() + 1).padStart(2, '0'); 
+    var yyyy = today.getFullYear();
+    today = yyyy + '/' + mm + '/' + dd;
+    console.log(today);
     console.log(countryPick);
-    console.log(flag);
     document.getElementById("Countries").addEventListener('keypress', event=> {
   if (event.keyCode === 13) {
     event.preventDefault();
@@ -175,6 +193,8 @@ function resetIfInvalid(input){
             document.getElementById("Flags").style.display= "block";
             document.getElementById("Maps").style.display= "block";
             document.getElementById("Names").style.display= "block";
+            localStorage.setItem("GuessTime", today);
+            console.log(localStorage.getItem("GuessTime"));
         }
         else{
             return;
@@ -190,6 +210,9 @@ function resetIfInvalid(input){
     };
 </script>
 <script src="js/bootstrap.bundle.js">
+    $(function () {
+  $('[data-toggle="popover"]').popover()
+});
 </script>
     </body>
 </html>
