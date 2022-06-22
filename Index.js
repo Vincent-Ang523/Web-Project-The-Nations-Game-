@@ -38,27 +38,35 @@ input.value = "";
 };
 function guessInput(){
     if (firstGuess.value==""){
+    firstGuess.innerText=input.value;
     firstGuess.value=input.value;
+    firstGuess.disabled=false;
     inputCheck();
     }
     else if (firstGuess.value!="" && secondGuess.value=="" && thirdGuess.value=="" && fourthGuess.value=="" && fifthGuess.value==""){
+    secondGuess.innerText=input.value;
     secondGuess.value=input.value;
+    secondGuess.disabled=false;
     inputCheck();
     }
     else if (firstGuess.value!="" && secondGuess.value!="" && thirdGuess.value=="" && fourthGuess.value=="" && fifthGuess.value==""){
+    thirdGuess.innerText=input.value;
     thirdGuess.value=input.value;
+    thirdGuess.disabled=false;
     inputCheck();
     }
     else if (firstGuess.value!="" && secondGuess.value!="" && thirdGuess.value!="" && fourthGuess.value=="" && fifthGuess.value==""){
+    fourthGuess.innerText=input.value;
     fourthGuess.value=input.value;
+    thirdGuess.disabled=false;
     inputCheck();
     }
     else if (firstGuess.value!="" && secondGuess.value!="" && thirdGuess.value!="" && fourthGuess.value!="" && fifthGuess.value=="" && input.value==countryPick){
-    fifthGuess.value=input.value;
+    fifthGuess.innerText=input.value;
     inputCheck();
     }
     else if (firstGuess.value!="" && secondGuess.value!="" && thirdGuess.value!="" && fourthGuess.value!="" && fifthGuess.value=="" && input.value!=countryPick){
-    fifthGuess.value=input.value;
+    fifthGuess.innerText=input.value;
     alert("It is " + countryPick + "!");
     input.disabled="true";
     document.getElementById("Flags").src= flag;
@@ -79,6 +87,10 @@ function inputCheck(){
         document.getElementById("Flags").style.display= "block";
         document.getElementById("Maps").style.display= "block";
         document.getElementById("Names").style.display= "block";
+        firstGuess.disabled=true;
+        secondGuess.disabled=true;
+        thirdGuess.disabled=true;
+        fourthGuess.disabled=true;
         localStorage.setItem("GuessTime", today);
         console.log(localStorage.getItem("GuessTime"));
     }
@@ -92,6 +104,10 @@ function refreshFunction(){
     thirdGuess.value="";
     fourthGuess.value="";
     fifthGuess.value="";
+    firstGuess.disabled=true;
+    secondGuess.disabled=true;
+    thirdGuess.disabled=true;
+    fourthGuess.disabled=true;
     input.value="";
 };
 $(function () {

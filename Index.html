@@ -25,6 +25,7 @@
     <body onload="refreshFunction()">
 <p class="text-center display-4 fw-bold text-white">What Country am I Thinking of?</p>
 
+<!--Pictures and Country Names-->
 <div class="container-fluid">
     <div class="row d-flex justify-content-center flex-wrap">
     <div class="col-sm d-flex justify-content-center align-items-center">
@@ -40,28 +41,47 @@
     <p class="fw-bold display-6" id="Names" style="display: none"></p>
     </div>
 </div>
+<!--Buttons-->
 <form class="container justify-content-center d-flex flex-wrap mb-3" name="Guesses">
 
-        <div class="form-group row w-75 gy-1 mb-1" id="firstGuess" data-bs-toggle="popover" title="Hint 1" data-bs-content="" data-bs-trigger="hover focus" data-bs-animation="true" data-bs-customClass="bg-dark text-white">
-        <input type="text" id="Guess" class="form-control pe-none" value="" disabled>
+        <div class="form-group row w-75 gy-1 mb-1">
+            <button type="button" id="Guess" class="btn btn-dark" value="" data-bs-toggle="modal" data-bs-target="#exampleModal" style="height:40px" disabled></button>
         </div>
 
-        <div class="form-group row w-75 gy-1 mb-1" id="secondGuess" data-bs-toggle="popover" title="Hint 2" data-bs-content="Hints go here" data-bs-trigger="hover focus">
-        <input type="text" id="Guess1" class="form-control pe-none" value="" disabled>
+        <div class="form-group row w-75 gy-1 mb-1">
+            <button type="button" id="Guess1" class="btn btn-dark" value="" data-bs-toggle="modal" data-bs-target="#exampleModal" style="height:40px" disabled></button>
         </div>
 
-        <div class="form-group row w-75 gy-1 mb-1" id="thirdGuess" data-bs-toggle="popover" title="Hint 3" data-bs-content="Hints go here" data-bs-trigger="hover focus">
-        <input type="text" id="Guess2" class="form-control pe-none" value="" disabled>
+        <div class="form-group row w-75 gy-1 mb-1">
+            <button type="button" id="Guess2" class="btn btn-dark" value="" data-bs-toggle="modal" data-bs-target="#exampleModal" style="height:40px" disabled></button>
         </div>
 
-        <div class="form-group row w-75 gy-1 mb-1" id="fourthGuess" data-bs-toggle="popover" title="Hint 4" data-bs-content="Hints go here" data-bs-trigger="hover focus">
-        <input type="text" id="Guess3" class="form-control pe-none" value="" disabled>
+        <div class="form-group row w-75 gy-1 mb-1">
+            <button type="button" id="Guess3" class="btn btn-dark" value="" data-bs-toggle="modal" data-bs-target="#exampleModal" style="height:40px" disabled></button>
         </div>
 
-        <div class="form-group row w-75 gy-1 mb-1" id="fifthGuess">
-        <input type="text" id="Guess4" class="form-control pe-none" value="" disabled>
+        <div class="form-group row w-75 gy-1 mb-1">
+            <button type="button" id="Guess4" class="btn btn-dark" value="" data-bs-toggle="modal" data-bs-target="#exampleModal" style="height:40px" disabled></button>
     </div>
 </form>
+<!--Modal-->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Hint(s)</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body" id="modalHints">
+          Hints Go Here
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Inputs-->
 <form class="container justify-content-center d-flex flex-wrap" name="Inputs">
     <div class="form-group  row w-75 gy-1">
         <input class="form-control" type="text" placeholder="Guess the Country" name="Country" list="countrynames" id="Countries" autocomplete="on">
@@ -117,6 +137,7 @@
         </datalist>
     </div>
 </form>
+<!--Javascript-->
 <script src="js/bootstrap.bundle.js">
 </script>
 <script src="Index.js">
