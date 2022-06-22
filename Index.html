@@ -22,7 +22,7 @@
         </style>
 <title>Geography Project</title>
     </head>
-    <body onload="refreshFunction()">
+    <body onload="">
 <p class="text-center display-4 fw-bold text-white">What Country am I Thinking of?</p>
 
 <!--Pictures and Country Names-->
@@ -73,9 +73,14 @@
           <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body bg-dark text-light" id="modalHints">
-          <h4 class="display-7">First Hint</h4>
-          <h4 class="display-7">Second Hint</h4>
-          <h4 class="display-7">Third Hint</h4>
+          <h4 class="display-7" id="Hint" style="display:none"></h4>
+          <h4 class="display-7" id="Hint1" style="display:none"></h4>
+          <h4 class="display-7" id="Hint2" style="display:none"></h4>
+          <h4 class="display-7" id="Hint3" style="display:none"></h4>
+          <h4 class="display-7" id="Hint4" style="display:none"></h4>
+          <h4 class="display-7" id="Hint5" style="display:none"></h4>
+          <h4 class="display-7" id="Hint6" style="display:none"></h4>
+          <h4 class="display-7" id="Hint7" style="display:none"></h4>
         </div>
         <div class="modal-footer bg-dark">
           <button type="button" class="btn btn-light" data-bs-dismiss="modal">Close</button>
@@ -142,7 +147,7 @@
 <!--Javascript-->
 <script src="js/bootstrap.bundle.js">
 </script>
-<script src="Index.js">
+<script src="Index.js" type="module">
 </script>
     </body>
 </html>
