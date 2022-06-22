@@ -3,12 +3,9 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="description" content="A geography game where a random country would be picked and the player can only guess using country names. If it is incorrect, the AI would tell the players similarities between the two countries." />
+        <meta name="description" content="A geography game where a random country would be picked and the player can only guess using country names. If it is incorrect, the website would tell the users similarities between the two countries." />
         <link rel="stylesheet" href="css/bootstrap.css">
         <script src="node_modules/jquery/dist/jquery.min.js">
-            $(function () {
-                $('[data-toggle="tooltip"]').tooltip()
-            });
         </script>
         <style type="text/css">
             body { 
@@ -26,42 +23,42 @@
 <title>Geography Project</title>
     </head>
     <body onload="refreshFunction()">
-<p class="text-center display-2 fw-bold text-white">What Country am I Thinking of?</p>
+<p class="text-center display-4 fw-bold text-white">What Country am I Thinking of?</p>
 
 <div class="container-fluid">
     <div class="row d-flex justify-content-center flex-wrap">
     <div class="col-sm d-flex justify-content-center align-items-center">
-        <img src="" alt="flag of Austria" id="Flags" style="height: 132px; display: none">
+        <img src="" alt="flag of Austria" id="Flags" style="height: 100px; display: none">
     </div>
     <div class="col-sm d-flex justify-content-center align-items-center">
-        <img src="" alt="map of Austria" id="Maps" style="display: none">
+        <img src="" alt="map of Austria" id="Maps" style="display: none; height: 110px">
     </div>
     </div>
 </div>
 <div class="Row">
     <div class="text-center text-white">
-    <p class="fw-bold display-5" id="Names" style="display: none"></p>
+    <p class="fw-bold display-6" id="Names" style="display: none"></p>
     </div>
 </div>
 <form class="container justify-content-center d-flex flex-wrap mb-3" name="Guesses">
 
-        <div class="form-group row w-75 gy-1 mb-1" data-bs-toggle="popover" title="Hint 1" data-bs-content="Hints go here" data-bs-trigger="hover focus">
+        <div class="form-group row w-75 gy-1 mb-1" id="firstGuess" data-bs-toggle="popover" title="Hint 1" data-bs-content="" data-bs-trigger="hover focus" data-bs-animation="true" data-bs-customClass="bg-dark text-white">
         <input type="text" id="Guess" class="form-control pe-none" value="" disabled>
         </div>
 
-        <div class="form-group row w-75 gy-1 mb-1" data-bs-toggle="popover" title="Hint 2" data-bs-content="Hints go here" data-bs-trigger="hover focus">
+        <div class="form-group row w-75 gy-1 mb-1" id="secondGuess" data-bs-toggle="popover" title="Hint 2" data-bs-content="Hints go here" data-bs-trigger="hover focus">
         <input type="text" id="Guess1" class="form-control pe-none" value="" disabled>
         </div>
 
-        <div class="form-group row w-75 gy-1 mb-1" data-bs-toggle="popover" title="Hint 3" data-bs-content="Hints go here" data-bs-trigger="hover focus">
+        <div class="form-group row w-75 gy-1 mb-1" id="thirdGuess" data-bs-toggle="popover" title="Hint 3" data-bs-content="Hints go here" data-bs-trigger="hover focus">
         <input type="text" id="Guess2" class="form-control pe-none" value="" disabled>
         </div>
 
-        <div class="form-group row w-75 gy-1 mb-1" data-bs-toggle="popover" title="Hint 4" data-bs-content="Hints go here" data-bs-trigger="hover focus">
+        <div class="form-group row w-75 gy-1 mb-1" id="fourthGuess" data-bs-toggle="popover" title="Hint 4" data-bs-content="Hints go here" data-bs-trigger="hover focus">
         <input type="text" id="Guess3" class="form-control pe-none" value="" disabled>
         </div>
 
-        <div class="form-group row w-75 gy-1 mb-1" data-bs-toggle="popover" title="Hint 5" data-bs-content="Hints go here" data-bs-trigger="hover focus">
+        <div class="form-group row w-75 gy-1 mb-1" id="fifthGuess">
         <input type="text" id="Guess4" class="form-control pe-none" value="" disabled>
     </div>
 </form>
@@ -122,106 +119,7 @@
 </form>
 <script src="js/bootstrap.bundle.js">
 </script>
-<script>
-    var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'));
-    var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
-    return new bootstrap.Popover(popoverTriggerEl)
-    });
-    var input = document.getElementById("Countries");
-    var firstGuess = document.getElementById("Guess");
-    var secondGuess = document.getElementById("Guess1");
-    var thirdGuess = document.getElementById("Guess2");
-    var fourthGuess = document.getElementById("Guess3");
-    var fifthGuess = document.getElementById("Guess4");
-    var countries = ["Albania", "Andorra", "Austria", "Azerbaijan", "Belarus", "Belgium", "Bosnia and Herzegovina", "Bulgaria", "Croatia", "Czech Republic", "Denmark", "Estonia", "Finland", "France", "Georgia", "Germany", "Greece", "Hungary", "Iceland", "Ireland", "Italy", "Kazakhstan", "Latvia", "Liechtenstein", "Lithuania", "Luxembourg", "Malta", "Moldova", "Monaco", "Montenegro", "The Netherlands", "North Macedonia", "Norway", "Poland", "Portugal", "Romania", "Russia", "San Marino", "Serbia", "Slovakia", "Slovenia", "Spain", "Sweden", "Switzerland", "Turkey", "Ukraine", "United Kingdom", "Vatican City"];
-    var countryPick = countries[Math.floor(Math.random()*countries.length)];
-    var flag = "Flag of Countries/" + countryPick + ".png";
-    var map = "Map of Countries/" + countryPick + ".png";
-    var today = new Date();
-    var dd = String(today.getDate()).padStart(2, '0');
-    var mm = String(today.getMonth() + 1).padStart(2, '0'); 
-    var yyyy = today.getFullYear();
-    today = yyyy + '/' + mm + '/' + dd;
-    console.log(today);
-    console.log(countryPick);
-    document.getElementById("Countries").addEventListener('keypress', event=> {
-  if (event.keyCode === 13) {
-    event.preventDefault();
-    resetIfInvalid(input);
-    input.value="";
-  }
-});
-function resetIfInvalid(input){
-   if (input.value == "")
-       return;
-   var options = input.list.options;
-   for (var i = 0; i< options.length; i++) {
-       if (input.value == options[i].value)
-           guessInput();
-   }
-   input.value = "";
-};
-    function guessInput(){
-        if (firstGuess.value==""){
-        firstGuess.value=input.value;
-        inputCheck();
-        }
-        else if (firstGuess.value!="" && secondGuess.value=="" && thirdGuess.value=="" && fourthGuess.value=="" && fifthGuess.value==""){
-        secondGuess.value=input.value;
-        inputCheck();
-        }
-        else if (firstGuess.value!="" && secondGuess.value!="" && thirdGuess.value=="" && fourthGuess.value=="" && fifthGuess.value==""){
-        thirdGuess.value=input.value;
-        inputCheck();
-        }
-        else if (firstGuess.value!="" && secondGuess.value!="" && thirdGuess.value!="" && fourthGuess.value=="" && fifthGuess.value==""){
-        fourthGuess.value=input.value;
-        inputCheck();
-        }
-        else if (firstGuess.value!="" && secondGuess.value!="" && thirdGuess.value!="" && fourthGuess.value!="" && fifthGuess.value=="" && input.value==countryPick){
-        fifthGuess.value=input.value;
-        inputCheck();
-        }
-        else if (firstGuess.value!="" && secondGuess.value!="" && thirdGuess.value!="" && fourthGuess.value!="" && fifthGuess.value=="" && input.value!=countryPick){
-        fifthGuess.value=input.value;
-        alert("It is " + countryPick + "!");
-        input.disabled="true";
-        document.getElementById("Flags").src= flag;
-        document.getElementById("Maps").src= map;
-        document.getElementById("Names").innerHTML=countryPick;
-        document.getElementById("Flags").style.display= "block";
-        document.getElementById("Maps").style.display= "block";
-        document.getElementById("Names").style.display= "block";
-        }
-};
-    function inputCheck(){
-        if(input.value==countryPick){
-            alert("Your Guess is Correct!");
-            input.disabled="true";
-            document.getElementById("Flags").src= flag;
-            document.getElementById("Maps").src= map;
-            document.getElementById("Names").innerHTML=countryPick;
-            document.getElementById("Flags").style.display= "block";
-            document.getElementById("Maps").style.display= "block";
-            document.getElementById("Names").style.display= "block";
-            localStorage.setItem("GuessTime", today);
-            console.log(localStorage.getItem("GuessTime"));
-        }
-        else{
-            return;
-        }
-    };
-    function refreshFunction(){
-        firstGuess.value="";
-        secondGuess.value="";
-        thirdGuess.value="";
-        fourthGuess.value="";
-        fifthGuess.value="";
-        input.value="";
-    };
-    $(function () {
-        $('[data-toggle="tooltip"]').tooltip()
-    });
+<script src="Index.js">
 </script>
     </body>
 </html>
