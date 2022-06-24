@@ -515,5 +515,5 @@ const Vatican={
   isPartofNato: "no",
   Region: "Southern Europe"
 }
-const countries=[Albania,Andorra,Austria,Azerbaijan,Belarus,Belgium,Bosnia,Bulgaria,Croatia,Czechia,Denmark,Estonia,Finland,France,Germany,Georgia,Greece,Hungary,Iceland,Ireland,Italy,Latvia,Liechtenstein,Lithuania,Luxembourg,Moldova,Monaco,Montenegro,Netherlands,Macedonia,Norway,Poland,Portugal,Romania,Russia,Marino,Serbia,Slovakia,Slovenia,Spain,Sweden,Switzerland,Turkey,Ukraine,UK,Vatican]
-export{countries}
+let countries=[Albania,Andorra,Austria,Azerbaijan,Belarus,Belgium,Bosnia,Bulgaria,Croatia,Czechia,Denmark,Estonia,Finland,France,Germany,Georgia,Greece,Hungary,Iceland,Ireland,Italy,Latvia,Liechtenstein,Lithuania,Luxembourg,Moldova,Monaco,Montenegro,Netherlands,Macedonia,Norway,Poland,Portugal,Romania,Russia,Marino,Serbia,Slovakia,Slovenia,Spain,Sweden,Switzerland,Turkey,Ukraine,UK,Vatican]
+export {countries as default}
