@@ -1,7 +1,10 @@
 import countries from './CountryInfo.js'
-//Triggers the modal in the page
-
-let input = document.getElementById("Countries");
+//triggers the modal
+var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'));
+var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+return new bootstrap.Popover(popoverTriggerEl)
+});
+let input = document.getElementById("userInputs");
 let firstGuess = document.getElementById("Guess");
 let secondGuess = document.getElementById("Guess1");
 let thirdGuess = document.getElementById("Guess2");
@@ -16,9 +19,8 @@ let dd = String(today.getDate()).padStart(2, '0');
 let mm = String(today.getMonth() + 1).padStart(2, '0'); 
 let yyyy = today.getFullYear();
 today = yyyy + '/' + mm + '/' + dd;
-console.log(today);
-console.log(firstCountry);
-document.getElementById("Countries").addEventListener('keypress', event=> {
+console.log(countryPick);
+document.getElementById("userInputs").addEventListener('keypress', event=> {
 if (event.keyCode === 13) {
 event.preventDefault();
 resetIfInvalid(input);
@@ -32,8 +34,6 @@ let options = input.list.options;
 for (let i = 0; i< options.length; i++) {
    if (input.value == options[i].value)
        guessInput();
-       similarFlagDesign();
-       borderEachOther();
 }
 input.value = "";
 };
@@ -99,25 +99,26 @@ function inputCheck(){
         return;
     }
 };
-function refreshFunction(){
-    firstGuess.value="";
-    secondGuess.value="";
-    thirdGuess.value="";
-    fourthGuess.value="";
-    fifthGuess.value="";
-    firstGuess.disabled=false;
-    secondGuess.disabled=true;
-    thirdGuess.disabled=true;
-    fourthGuess.disabled=true;
-    input.value="";
-};
-$(function () {
-    $('[data-toggle="tooltip"]').tooltip()
+window.addEventListener("load", function() {
+  firstGuess.value="";
+  secondGuess.value="";
+  thirdGuess.value="";
+  fourthGuess.value="";
+  fifthGuess.value="";
+  firstGuess.disabled=true;
+  secondGuess.disabled=true;
+  thirdGuess.disabled=true;
+  fourthGuess.disabled=true;
+  input.value="";
 });
-function hints(){
+firstGuess.addEventListener("click", Hints);
+secondGuess.addEventListener("click", Hints);
+thirdGuess.addEventListener("click", Hints);
+fourthGuess.addEventListener("click", Hints);
+fifthGuess.addEventListener("click", Hints);
+function Hints(){
   let secondCountry = countries.find(x => x.Name === input.value);
   let colors = firstCountry.flagColors.filter(element => secondCountry.flagColors.includes(element));
-  let colorsLength = colors.length;
 function similarFlagDesign() {
     if(firstCountry.flagDesign==secondCountry.flagDesign){
       document.getElementById("Hint").style.display="block";
@@ -139,47 +140,51 @@ function similarFlagDesign() {
   
   function similarColors() {
     if(colors!=null && colors.length==1){
-      return "Both Countries have " + colors + " in their flags"
+      document.getElementById("Hint2").style.display="block";
+      document.getElementById("Hint2").innerHTML = "Both Countries have " + colors + " in their flags";
     }
     else if(colors!=null && colors.length==2){
-      return "Both Countries have " + colors[0] + " and "+ colors[1] + " in their flags"
+      document.getElementById("Hint2").style.display="block";
+      document.getElementById("Hint2").innerHTML = "Both Countries have " + colors[0] + " and "+ colors[1] + " in their flags";
     }
     else if(colors!=null && colors.length>2){
       let text=""
       for(let i=0; i<colorsLength-1; i++){
       text += colors[i]+", "
       }
-      return "Both Countries have " + text + "and " + colors[colorsLength-1] + " in their flags"
+      document.getElementById("Hint2").style.display="block";
+      document.getElementById("Hint2").innerHTML = "Both Countries have " + text + "and " + colors[colorsLength-1] + " in their flags";
     }
     else {
       return;
     }
   }
-  console.log(similarColors());
   
   function europeanUnion() {
     if(firstCountry.isPartOfTheEU==secondCountry.isPartOfTheEU && firstCountry.isPartOfTheEU=="yes"){
-      return "Both countries are members of the EU"
+      document.getElementById("Hint3").style.display="block";
+      document.getElementById("Hint3").innerHTML = "Both countries are members of the EU";
     }
     else if(firstCountry.isPartOfTheEU==secondCountry.isPartOfTheEU && firstCountry.isPartOfTheEU=="no"){
-      return "Both countries are not members of the EU"
+      document.getElementById("Hint3").style.display="block";
+      document.getElementById("Hint3").innerHTML = "Both countries are not members of the EU";
     }
     else {
-      return ""
+      return;
     }
   }
-  console.log(europeanUnion())
   
   function nato () {
     if(firstCountry.isPartofNato==secondCountry.isPartofNato && firstCountry.isPartofNato=="yes"){
-      return "Both countries are members of NATO"
+      document.getElementById("Hint4").style.display="block";
+      document.getElementById("Hint4").innerHTML =  "Both countries are members of NATO";
     }
     else if(firstCountry.isPartofNato==secondCountry.isPartofNato && firstCountry.isPartofNato=="no"){
-      return "Both countries are not members of NATO"
+      document.getElementById("Hint4").style.display="block";
+      document.getElementById("Hint3").innerHTML = "Both countries are not members of NATO";
     }
     else {
-      return ""
+      return;
     }
   }
-  console.log(nato())
-}
+};
