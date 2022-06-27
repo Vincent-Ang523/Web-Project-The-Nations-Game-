@@ -140,16 +140,16 @@ function fifthHint(){
 }
 function Hints(){
   let colors = firstCountry.flagColors.filter(element => secondCountry.flagColors.includes(element)); //finds the colors that are present in both the first country's flag colors array and the second country's
-function similarFlagDesign() {
+  function similarFlagDesign() {
     if(firstCountry.flagDesign==secondCountry.flagDesign){
       document.getElementById("Hint").style.display="block";
       document.getElementById("Hint").innerHTML = "Both Countries have " + firstCountry.flagDesign + " flag designs";
     }
   }
   function borderEachOther() {
-    if(firstCountry.Borders.includes(secondCountry.Name)!=null){
-      document.getElementById("Hint1").style.display="block";
-      document.getElementById("Hint1").innerHTML = "Both countries border each other";
+    if(firstCountry.Borders.includes(secondCountry.Name)==true){
+     document.getElementById("Hint1").style.display="block";
+     document.getElementById("Hint1").innerHTML = "Both countries border each other";
     }
   }
   
