@@ -5,7 +5,8 @@ var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
 return new bootstrap.Popover(popoverTriggerEl)
 });
 let input = document.getElementById("userInputs");
-let modalCloses = document.getElementById("closeButton");
+let modalClose = document.getElementById("closeButton");
+let crossButton = document.getElementById("xButton");
 let firstGuess = document.getElementById("Guess");
 let secondGuess = document.getElementById("Guess1");
 let thirdGuess = document.getElementById("Guess2");
@@ -61,7 +62,7 @@ function guessInput(){
     else if (firstGuess.value!="" && secondGuess.value!="" && thirdGuess.value!="" && fourthGuess.value=="" && fifthGuess.value==""){
     fourthGuess.innerText=input.value;
     fourthGuess.value=input.value;
-    thirdGuess.disabled=false;
+    fourthGuess.disabled=false;
     inputCheck();
     }
     else if (firstGuess.value!="" && secondGuess.value!="" && thirdGuess.value!="" && fourthGuess.value!="" && fifthGuess.value=="" && input.value==countryPick){
@@ -78,6 +79,10 @@ function guessInput(){
     document.getElementById("Flags").style.display= "block";
     document.getElementById("Maps").style.display= "block";
     document.getElementById("Names").style.display= "block";
+    firstGuess.disabled=true;
+    secondGuess.disabled=true;
+    thirdGuess.disabled=true;
+    fourthGuess.disabled=true;
     }
 };
 function inputCheck(){
@@ -117,7 +122,6 @@ firstGuess.addEventListener("click", firstHint);
 secondGuess.addEventListener("click", secondHint);
 thirdGuess.addEventListener("click", thirdHint);
 fourthGuess.addEventListener("click", fourthHint);
-fifthGuess.addEventListener("click", fifthHint);
 function firstHint(){
   secondCountry = countries.find(x => x.Name == firstGuess.value);
   Hints()
@@ -134,10 +138,6 @@ function fourthHint(){
   secondCountry = countries.find(x => x.Name == fourthGuess.value);
   Hints()
 }
-function fifthHint(){
-  secondCountry = countries.find(x => x.Name == fifthGuess.value);
-  Hints()
-}
 function Hints(){
   let colors = firstCountry.flagColors.filter(element => secondCountry.flagColors.includes(element)); //finds the colors that are present in both the first country's flag colors array and the second country's
   function similarFlagDesign() {
@@ -145,11 +145,17 @@ function Hints(){
       document.getElementById("Hint").style.display="block";
       document.getElementById("Hint").innerHTML = "Both Countries have " + firstCountry.flagDesign + " flag designs";
     }
+    else{
+      return;
+    }
   }
   function borderEachOther() {
     if(firstCountry.Borders.includes(secondCountry.Name)==true){
      document.getElementById("Hint1").style.display="block";
      document.getElementById("Hint1").innerHTML = "Both countries border each other";
+    }
+    else{
+      return;
     }
   }
   
@@ -170,6 +176,9 @@ function Hints(){
       document.getElementById("Hint2").style.display="block";
       document.getElementById("Hint2").innerHTML = "Both Countries have " + text + "and " + colors[colors.length-1] + " in their flags";
     }
+    else{
+      return;
+    }
   }
   
   function europeanUnion() {
@@ -180,6 +189,9 @@ function Hints(){
     else if(firstCountry.isPartOfTheEU==secondCountry.isPartOfTheEU && firstCountry.isPartOfTheEU=="no"){
       document.getElementById("Hint3").style.display="block";
       document.getElementById("Hint3").innerHTML = "Both countries are not members of the EU";
+    }
+    else {
+      return;
     }
   }
   
@@ -192,6 +204,9 @@ function Hints(){
       document.getElementById("Hint4").style.display="block";
       document.getElementById("Hint4").innerHTML = "Both countries are not members of NATO";
     }
+    else {
+      return;
+    }
   }
   similarFlagDesign();
   borderEachOther();
@@ -200,7 +215,8 @@ function Hints(){
   nato();
 };
 
-modalCloses.addEventListener("click", modalExit)
+modalClose.addEventListener("click", modalExit)
+crossButton.addEventListener("click", modalExit)
 
 function modalExit(){
   document.getElementById("Hint").style.display="none";
