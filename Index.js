@@ -1,25 +1,27 @@
 import countries from './CountryInfo.js'
-//triggers the modal
+//triggers the modal please don't erase
 var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'));
 var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
 return new bootstrap.Popover(popoverTriggerEl)
 });
 let input = document.getElementById("userInputs");
+let modalCloses = document.getElementById("closeButton");
 let firstGuess = document.getElementById("Guess");
 let secondGuess = document.getElementById("Guess1");
 let thirdGuess = document.getElementById("Guess2");
 let fourthGuess = document.getElementById("Guess3");
 let fifthGuess = document.getElementById("Guess4");
-let firstCountry = countries[Math.floor(Math.random()*countries.length)];
+let firstCountry = countries[Math.floor(Math.random()*countries.length)]; //chooses random object from the countries list
+let secondCountry = ""; //when the user inputs a country, the country's value will be registered in this variable
 let countryPick = firstCountry.Name;
-let flag = "Flag of Countries/" + firstCountry + ".png";
-let map = "Map of Countries/" + firstCountry + ".png";
+console.log(countryPick)
+let flag = "Flag of Countries/" + countryPick + ".png";
+let map = "Map of Countries/" + countryPick + ".png";
 let today = new Date();
 let dd = String(today.getDate()).padStart(2, '0');
 let mm = String(today.getMonth() + 1).padStart(2, '0'); 
 let yyyy = today.getFullYear();
 today = yyyy + '/' + mm + '/' + dd;
-console.log(countryPick);
 document.getElementById("userInputs").addEventListener('keypress', event=> {
 if (event.keyCode === 13) {
 event.preventDefault();
@@ -110,31 +112,44 @@ window.addEventListener("load", function() {
   thirdGuess.disabled=true;
   fourthGuess.disabled=true;
   input.value="";
-});
-firstGuess.addEventListener("click", Hints);
-secondGuess.addEventListener("click", Hints);
-thirdGuess.addEventListener("click", Hints);
-fourthGuess.addEventListener("click", Hints);
-fifthGuess.addEventListener("click", Hints);
+}); //Uses add event listener to prevent reference error
+firstGuess.addEventListener("click", firstHint);
+secondGuess.addEventListener("click", secondHint);
+thirdGuess.addEventListener("click", thirdHint);
+fourthGuess.addEventListener("click", fourthHint);
+fifthGuess.addEventListener("click", fifthHint);
+function firstHint(){
+  secondCountry = countries.find(x => x.Name == firstGuess.value);
+  Hints()
+}
+function secondHint(){
+  secondCountry = countries.find(x => x.Name == secondGuess.value);
+  Hints()
+}
+function thirdHint(){
+  secondCountry = countries.find(x => x.Name == thirdGuess.value);
+  Hints()
+}
+function fourthHint(){
+  secondCountry = countries.find(x => x.Name == fourthGuess.value);
+  Hints()
+}
+function fifthHint(){
+  secondCountry = countries.find(x => x.Name == fifthGuess.value);
+  Hints()
+}
 function Hints(){
-  let secondCountry = countries.find(x => x.Name === input.value);
-  let colors = firstCountry.flagColors.filter(element => secondCountry.flagColors.includes(element));
+  let colors = firstCountry.flagColors.filter(element => secondCountry.flagColors.includes(element)); //finds the colors that are present in both the first country's flag colors array and the second country's
 function similarFlagDesign() {
     if(firstCountry.flagDesign==secondCountry.flagDesign){
       document.getElementById("Hint").style.display="block";
-      document.getElementById("Hint").innerHTML = "Both Countries have " + firstCountry.flagDesign + " flag designs" + "<br>";
+      document.getElementById("Hint").innerHTML = "Both Countries have " + firstCountry.flagDesign + " flag designs";
     }
-    else {
-      return;
-    }
-  };
+  }
   function borderEachOther() {
     if(firstCountry.Borders.includes(secondCountry.Name)!=null){
       document.getElementById("Hint1").style.display="block";
       document.getElementById("Hint1").innerHTML = "Both countries border each other";
-    }
-    else{
-      return;
     }
   }
   
@@ -149,14 +164,11 @@ function similarFlagDesign() {
     }
     else if(colors!=null && colors.length>2){
       let text=""
-      for(let i=0; i<colorsLength-1; i++){
+      for(let i=0; i<colors.length-1; i++){
       text += colors[i]+", "
       }
       document.getElementById("Hint2").style.display="block";
-      document.getElementById("Hint2").innerHTML = "Both Countries have " + text + "and " + colors[colorsLength-1] + " in their flags";
-    }
-    else {
-      return;
+      document.getElementById("Hint2").innerHTML = "Both Countries have " + text + "and " + colors[colors.length-1] + " in their flags";
     }
   }
   
@@ -169,9 +181,6 @@ function similarFlagDesign() {
       document.getElementById("Hint3").style.display="block";
       document.getElementById("Hint3").innerHTML = "Both countries are not members of the EU";
     }
-    else {
-      return;
-    }
   }
   
   function nato () {
@@ -181,10 +190,27 @@ function similarFlagDesign() {
     }
     else if(firstCountry.isPartofNato==secondCountry.isPartofNato && firstCountry.isPartofNato=="no"){
       document.getElementById("Hint4").style.display="block";
-      document.getElementById("Hint3").innerHTML = "Both countries are not members of NATO";
-    }
-    else {
-      return;
+      document.getElementById("Hint4").innerHTML = "Both countries are not members of NATO";
     }
   }
+  similarFlagDesign();
+  borderEachOther();
+  similarColors();
+  europeanUnion();
+  nato();
 };
+
+modalCloses.addEventListener("click", modalExit)
+
+function modalExit(){
+  document.getElementById("Hint").style.display="none";
+  document.getElementById("Hint").innerHTML = "";
+  document.getElementById("Hint1").style.display="none";
+  document.getElementById("Hint1").innerHTML = "";
+  document.getElementById("Hint2").style.display="none";
+  document.getElementById("Hint2").innerHTML = "";
+  document.getElementById("Hint3").style.display="none";
+  document.getElementById("Hint3").innerHTML = "";
+  document.getElementById("Hint4").style.display="none";
+  document.getElementById("Hint4").innerHTML = "";
+}
