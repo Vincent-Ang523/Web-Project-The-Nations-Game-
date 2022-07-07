@@ -15,7 +15,6 @@ let fifthGuess = document.getElementById("Guess4");
 let firstCountry = countries[Math.floor(Math.random()*countries.length)]; //chooses random object from the countries list
 let secondCountry = ""; //when the user inputs a country, the country's value will be registered in this variable
 let countryPick = firstCountry.Name;
-console.log(countryPick)
 let flag = "Flag of Countries/" + countryPick + ".png";
 let map = "Map of Countries/" + countryPick + ".png";
 let today = new Date();
@@ -141,7 +140,7 @@ function fourthHint(){
 function Hints(){
   let colors = firstCountry.flagColors.filter(element => secondCountry.flagColors.includes(element)); //finds the colors that are present in both the first country's flag colors array and the second country's
   function similarFlagDesign() {
-    if(firstCountry.flagDesign==secondCountry.flagDesign){
+    if(firstCountry.flagDesign==secondCountry.flagDesign && firstCountry.flagDesign!=""){
       document.getElementById("Hint").style.display="block";
       document.getElementById("Hint").innerHTML = "Both Countries have " + firstCountry.flagDesign + " flag designs";
     }

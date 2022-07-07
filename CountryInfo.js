@@ -1,3 +1,15 @@
+const Afghanistan={
+  Name: "Afghanistan",
+  Language:['Persian','Pashto'],
+  flagDesign:"",
+  flagColors:['White','Black','Red','Green'],
+  Borders:['Pakistan', 'Iran', 'Turkmenistan', 'Tajikistan','Uzbekistan','China'],
+  isPartOfTheEU: "no",
+  lettersUsed:['A','F','G','H','A','N','I','S','T','A','N'],
+  isPartofNato: "no",
+  Region: "Central Asia",
+  Continent: "Asia"
+}
 const Albania={
   Name: "Albania",
   Language:['Albanian'],
@@ -7,18 +19,20 @@ const Albania={
   isPartOfTheEU: "no",
   lettersUsed:['A','L','B','A','N','I', 'A'],
   isPartofNato: "yes",
-  Region: "Southeastern Europe"
+  Region: "Southeastern Europe",
+  Continent: "Europe"
 }
 const Andorra={
   Name: "Andorra",
   Language:['Catalan'],
-  flagDesign:"tricolor with emblem",
+  flagDesign:"",
   flagColors:['Blue','Yellow','Red','Brown'],
   Borders:['Spain', 'France'],
   isPartOfTheEU: "no",
   lettersUsed:['A','N','D','O','R','R','A'],
   isPartofNato: "no",
-  Region: "Southern Europe"
+  Region: "Southern Europe",
+  Continent: "Europe"
 }
 const Austria={
   Name: "Austria",
@@ -29,18 +43,20 @@ const Austria={
   isPartOfTheEU: "yes",
   lettersUsed:['A','U','S','T','R','I','A'],
   isPartofNato: "no",
-  Region: "Central Europe"
+  Region: "Central Europe", 
+  Continent: "Europe"
 }
 const Azerbaijan={
   Name: "Azerbaijan",
   Language:['Azerbaijani'],
-  flagDesign:"tricolor with emblem",
+  flagDesign:"",
   flagColors:['Blue','Red','Green','White'],
   Borders:['Russia', 'Georgia', 'Armenia','Iran'],
   isPartOfTheEU: "no",
   lettersUsed:['A','Z','E','R','B','A','I','J','A','N'],
   isPartofNato: "no",
-  Region: "Western Asia"
+  Region: "Western Asia", 
+  Continent: "Asia"
 }
 const Belarus={
   Name: "Belarus",
@@ -51,7 +67,8 @@ const Belarus={
   isPartOfTheEU: "no",
   lettersUsed:['B','E','L','A','R','U','S'],
   isPartofNato: "no",
-  Region: "Eastern Europe"
+  Region: "Eastern Europe",
+  Continent: "Europe"
 }
 const Belgium={
   Name: "Belgium",
@@ -62,7 +79,8 @@ const Belgium={
   isPartOfTheEU: "yes",
   lettersUsed:['B','E','L','G','I','U','M'],
   isPartofNato: "yes",
-  Region: "Western Europe"
+  Region: "Western Europe",
+  Continent: "Europe"
 }
 const Bosnia={
   Name: "Bosnia and Herzegovina",
@@ -73,7 +91,8 @@ const Bosnia={
   isPartOfTheEU: "no",
   lettersUsed:['B','O','S','N','I','A','A','N','D','H','E','R','Z','E','G','O','V','I','N','A'],
   isPartofNato: "no",
-  Region: "Southeastern Europe"
+  Region: "Southeastern Europe",
+  Continent: "Europe"
 }
 const Bulgaria={
   Name: "Bulgaria",
@@ -84,18 +103,20 @@ const Bulgaria={
   isPartOfTheEU: "yes",
   lettersUsed:['B','U','L','G','A','R','I','A'],
   isPartofNato: "yes",
-  Region: "Southeastern Europe"
+  Region: "Southeastern Europe",
+  Continent: "Europe"
 }
 const Croatia={
   Name: "Croatia",
   Language:['Serbo-Croatian'],
-  flagDesign:"tricolor with emblem",
+  flagDesign:"",
   flagColors:['White','Blue','Red','Yellow'],
   Borders:['Bosnia and Herzegovina', 'Serbia', 'Hungary', 'Slovenia','Montenegro'],
   isPartOfTheEU: "yes",
   lettersUsed:['C','R','O','A','T','I','A'],
   isPartofNato: "yes",
-  Region: "Southeastern Europe"
+  Region: "Southeastern Europe",
+  Continent: "Europe"
 }
 const Czechia={
   Name: "Czech Republic",
@@ -106,7 +127,8 @@ const Czechia={
   isPartOfTheEU: "yes",
   lettersUsed:['C','Z','E','C','H','R','E','P','U','B','L','I','C'],
   isPartofNato: "yes",
-  Region: "Central Europe"
+  Region: "Central Europe",
+  Continent: "Europe"
 }
 const Denmark={
   Name: "Denmark",
@@ -117,7 +139,8 @@ const Denmark={
   isPartOfTheEU: "yes",
   lettersUsed:['D','E','N','M','A','R','K'],
   isPartofNato: "yes",
-  Region: "Northern Europe"
+  Region: "Northern Europe",
+  Continent: "Europe"
 }
 const Estonia={
   Name: "Estonia",
@@ -128,7 +151,8 @@ const Estonia={
   isPartOfTheEU: "yes",
   lettersUsed:['E','S','T','O','N','I','A'],
   isPartofNato: "yes",
-  Region: "Northern Europe"
+  Region: "Northern Europe",
+  Continent: "Europe"
 }
 const Finland={
   Name: "Finland",
@@ -139,7 +163,8 @@ const Finland={
   isPartOfTheEU: "yes",
   lettersUsed:['F','I','N','L','A','N','D'],
   isPartofNato: "no",
-  Region: "Northern Europe"
+  Region: "Northern Europe",
+  Continent: "Europe"
 }
 const France={
   Name: "France",
@@ -150,7 +175,8 @@ const France={
   isPartOfTheEU: "yes",
   lettersUsed:['F','R','A','N','C','E'],
   isPartofNato: "yes",
-  Region: "Western Europe"
+  Region: "Western Europe",
+  Continent: "Europe"
 }
 const Germany={
   Name: "Germany",
@@ -161,7 +187,8 @@ const Germany={
   isPartOfTheEU: "yes",
   lettersUsed:['G','E','R','M','A','N','Y'],
   isPartofNato: "yes",
-  Region: "Central Europe"
+  Region: "Central Europe",
+  Continent: "Europe"
 }
 const Georgia={
   Name: "Georgia",
@@ -172,7 +199,8 @@ const Georgia={
   isPartOfTheEU: "no",
   lettersUsed:['G','E','O','R','G','I','A'],
   isPartofNato: "no",
-  Region: "Western Asia"
+  Region: "Western Asia",
+  Continent: "Asia"
 }
 const Greece={
   Name: "Greece",
@@ -183,7 +211,8 @@ const Greece={
   isPartOfTheEU: "yes",
   lettersUsed:['G','R','E','E','C','E'],
   isPartofNato: "yes",
-  Region: "Southeastern Europe"
+  Region: "Southeastern Europe",
+  Continent: "Europe"
 }
 const Hungary={
   Name: "Hungary",
@@ -194,7 +223,8 @@ const Hungary={
   isPartOfTheEU: "yes",
   lettersUsed:['H','U','N','G','A','R','Y'],
   isPartofNato: "yes",
-  Region: "Central Europe"
+  Region: "Central Europe",
+  Continent: "Europe"
 }
 const Iceland={
   Name: "Iceland",
@@ -205,7 +235,8 @@ const Iceland={
   isPartOfTheEU: "no",
   lettersUsed:['I','C','E','L','A','N','D'],
   isPartofNato: "yes",
-  Region: "Northern Europe"
+  Region: "Northern Europe",
+  Continent: "Europe"
 }
 const Ireland={
   Name: "Ireland",
@@ -216,7 +247,8 @@ const Ireland={
   isPartOfTheEU: "yes",
   lettersUsed:['I','R','E','L','A','N','D'],
   isPartofNato: "no",
-  Region: "Western Europe"
+  Region: "Western Europe",
+  Continent: "Europe"
 }
 const Italy={
   Name: "Italy",
@@ -227,7 +259,8 @@ const Italy={
   isPartOfTheEU: "yes",
   lettersUsed:['I','T','A','L','Y'],
   isPartofNato: "yes",
-  Region: "Southern Europe"
+  Region: "Southern Europe",
+  Continent: "Europe"
 }
 const Latvia={
   Name: "Latvia",
@@ -238,7 +271,8 @@ const Latvia={
   isPartOfTheEU: "yes",
   lettersUsed:['L','A','T','V','I','A'],
   isPartofNato: "yes",
-  Region: "Northern Europe"
+  Region: "Northern Europe",
+  Continent: "Europe"
 }
 const Liechtenstein={
   Name: "Liechtenstein",
@@ -249,7 +283,8 @@ const Liechtenstein={
   isPartOfTheEU: "no",
   lettersUsed:['L','I','E','C','H','T','E','N','S','T','E','I','N'],
   isPartofNato: "no",
-  Region: "Western Europe"
+  Region: "Western Europe",
+  Continent: "Europe"
 }
 const Lithuania={
   Name: "Lithuania",
@@ -260,7 +295,8 @@ const Lithuania={
   isPartOfTheEU: "yes",
   lettersUsed:['L','I','T','H','U','A','N','I','A'],
   isPartofNato: "yes",
-  Region: "Northern Europe"
+  Region: "Northern Europe",
+  Continent: "Europe"
 }
 const Luxembourg={
   Name: "Luxembourg",
@@ -271,7 +307,8 @@ const Luxembourg={
   isPartOfTheEU: "yes",
   lettersUsed:['L','U','X','E','M','B','O','U','R','G'],
   isPartofNato: "yes",
-  Region: "Western Europe"
+  Region: "Western Europe",
+  Continent: "Europe"
 }
 const Malta={
   Name: "Malta",
@@ -282,18 +319,20 @@ const Malta={
   isPartOfTheEU: "yes",
   lettersUsed:['M','A','L','T','A'],
   isPartofNato: "no",
-  Region: "Southern Europe"
+  Region: "Southern Europe",
+  Continent: "Europe"
 }
 const Moldova={
   Name: "Moldova",
   Language:['Romanian'],
-  flagDesign:"tricolor with emblem",
+  flagDesign:"",
   flagColors:['Yello','Red','Blue','Green','Brown'],
   Borders:['Ukraine', 'Romania'],
   isPartOfTheEU: "no",
   lettersUsed:['M','O','L','D','O','V','A'],
   isPartofNato: "no",
-  Region: "Eastern Europe"
+  Region: "Eastern Europe",
+  Continent: "Europe"
 }
 const Monaco={
   Name: "Monaco",
@@ -304,7 +343,8 @@ const Monaco={
   isPartOfTheEU: "no",
   lettersUsed:['M','O','N','A','C','O'],
   isPartofNato: "no",
-  Region: "Western Europe"
+  Region: "Western Europe",
+  Continent: "Europe"
 }
 const Montenegro={
   Name: "Montenegro",
@@ -315,7 +355,8 @@ const Montenegro={
   isPartOfTheEU: "no",
   lettersUsed:['M','O','N','T','E','N','E','G','R','O'],
   isPartofNato: "yes",
-  Region: "Central Europe"
+  Region: "Central Europe",
+  Continent: "Europe"
 }
 const Netherlands={
   Name: "The Netherlands",
@@ -326,7 +367,8 @@ const Netherlands={
   isPartOfTheEU: "yes",
   lettersUsed:['N','E','T','H','E','R','L','A','N','D','S'],
   isPartofNato: "yes",
-  Region: "Western Europe"
+  Region: "Western Europe",
+  Continent: "Europe"
 }
 const Macedonia={
   Name: "North Macedonia",
@@ -337,7 +379,8 @@ const Macedonia={
   isPartOfTheEU: "no",
   lettersUsed:['N','O','R','T','H','M','A','C','E','D','O','N','I','A'],
   isPartofNato: "yes",
-  Region: "Southeastern Europe"
+  Region: "Southeastern Europe",
+  Continent: "Europe"
 }
 const Norway={
   Name: "Norway",
@@ -348,7 +391,8 @@ const Norway={
   isPartOfTheEU: "no",
   lettersUsed:['N','O','R','W','A','Y'],
   isPartofNato: "yes",
-  Region: "Northern Europe"
+  Region: "Northern Europe",
+  Continent: "Europe"
 }
 const Poland={
   Name: "Poland",
@@ -359,7 +403,8 @@ const Poland={
   isPartOfTheEU: "yes",
   lettersUsed:['P','O','L','A','N','D'],
   isPartofNato: "yes",
-  Region: "Central Europe"
+  Region: "Central Europe",
+  Continent: "Europe"
 }
 const Portugal={
   Name: "Portugal",
@@ -370,7 +415,8 @@ const Portugal={
   isPartOfTheEU: "yes",
   lettersUsed:['P','O','R','T','U','G','A','L'],
   isPartofNato: "yes",
-  Region: "Southern Europe"
+  Region: "Southern Europe",
+  Continent: "Europe"
 }
 const Romania={
   Name: "Romania",
@@ -381,7 +427,8 @@ const Romania={
   isPartOfTheEU: "yes",
   lettersUsed:['R','O','M','A','N','I','A'],
   isPartofNato: "yes",
-  Region: "Southeastern Europe"
+  Region: "Southeastern Europe",
+  Continent: "Europe"
 }
 const Russia={
   Name: "Russia",
@@ -392,7 +439,8 @@ const Russia={
   isPartOfTheEU: "no",
   lettersUsed:['R','U','S','S','I','A'],
   isPartofNato: "no",
-  Region: "Eastern Europe"
+  Region: "Eastern Europe",
+  Continent: "Europe"
 }
 const Marino={
   Name: "San Marino",
@@ -403,51 +451,56 @@ const Marino={
   isPartOfTheEU: "no",
   lettersUsed:['S','A','N','M','A','R','I','N','O'],
   isPartofNato: "no",
-  Region: "Southern Europe"
+  Region: "Southern Europe",
+  Continent: "Europe"
 }
 const Serbia={
   Name: "Serbia",
   Language:['Serbo-Croatian'],
-  flagDesign:"tricolor with emblem",
+  flagDesign:"",
   flagColors:['White','Red','Blue','Yellow'],
   Borders:['Romania', 'Hungary', 'Bosnia and Herzegovina','Montenegro','Croatia','Albania','North Macedonia','Bulgaria'],
   isPartOfTheEU: "no",
   lettersUsed:['S','E','R','B','I','A'],
   isPartofNato: "no",
-  Region: "Southeastern Europe"
+  Region: "Southeastern Europe",
+  Continent: "Europe"
 }
 const Slovakia={
   Name: "Slovakia",
   Language:['Slovak'],
-  flagDesign:"tricolor with emblem",
+  flagDesign:"",
   flagColors:['White','Red','Blue'],
   Borders:['Czech Republic', 'Poland', 'Ukraine','Austria','Hungary'],
   isPartOfTheEU: "yes",
   lettersUsed:['S','L','O','V','A','K','I','A'],
   isPartofNato: "yes",
-  Region: "Central Europe"
+  Region: "Central Europe",
+  Continent: "Europe"
 }
 const Slovenia={
   Name: "Slovenia",
   Language:['Slovene'],
-  flagDesign:"tricolor with emblem",
+  flagDesign:"",
   flagColors:['White','Red','Blue','Yellow'],
   Borders:['Italy', 'Hungary', 'Austria','Croatia'],
   isPartOfTheEU: "yes",
   lettersUsed:['S','L','O','V','E','N','I','A'],
   isPartofNato: "yes",
-  Region: "Southern Europe"
+  Region: "Southern Europe",
+  Continent: "Europe"
 }
 const Spain={
   Name: "Spain",
   Language:['Spanish'],
-  flagDesign:"tricolor with emblem",
+  flagDesign:"",
   flagColors:['White','Red','Green','Yellow','Brown','Blue','Black','Pink'],
   Borders:['Portugal', 'France', 'Andorra'],
   isPartOfTheEU: "yes",
   lettersUsed:['S','P','A','I','N'],
   isPartofNato: "yes",
-  Region: "Southern Europe"
+  Region: "Southern Europe",
+  Continent: "Europe"
 }
 const Sweden={
   Name: "Sweden",
@@ -458,7 +511,8 @@ const Sweden={
   isPartOfTheEU: "yes",
   lettersUsed:['S','W','E','D','E','N'],
   isPartofNato: "no",
-  Region: "Northern Europe"
+  Region: "Northern Europe",
+  Continent: "Europe"
 }
 const Switzerland={
   Name: "Switzerland",
@@ -469,7 +523,8 @@ const Switzerland={
   isPartOfTheEU: "no",
   lettersUsed:['S','W','I','T','Z','E','R','L','A','N','D'],
   isPartofNato: "no",
-  Region: "Western Europe"
+  Region: "Western Europe",
+  Continent: "Europe"
 }
 const Turkey={
   Name: "Turkey",
@@ -480,7 +535,8 @@ const Turkey={
   isPartOfTheEU: "no",
   lettersUsed:['T','U','R','K','E','Y'],
   isPartofNato: "yes",
-  Region: "Western Asia"
+  Region: "Western Asia",
+  Continent: "Europe"
 }
 const Ukraine={
   Name: "Ukraine",
@@ -491,7 +547,8 @@ const Ukraine={
   isPartOfTheEU: "no",
   lettersUsed:['U','K','R','A','I','N','E'],
   isPartofNato: "no",
-  Region: "Eastern Europe"
+  Region: "Eastern Europe",
+  Continent: "Europe"
 }
 const UK={
   Name: "United Kingdom",
@@ -502,7 +559,8 @@ const UK={
   isPartOfTheEU: "no",
   lettersUsed:['U','N','I','T','E','D','K','I','N','G','D','O','M'],
   isPartofNato: "yes",
-  Region: "Western Europe"
+  Region: "Western Europe",
+  Continent: "Europe"
 }
 const Vatican={
   Name: "Vatican City",
@@ -513,7 +571,8 @@ const Vatican={
   isPartOfTheEU: "no",
   lettersUsed:['V','A','T','I','C','A','N','C','I','T','Y'],
   isPartofNato: "no",
-  Region: "Southern Europe"
+  Region: "Southern Europe",
+  Continent: "Europe"
 }
-let countries=[Albania,Andorra,Austria,Azerbaijan,Belarus,Belgium,Bosnia,Bulgaria,Croatia,Czechia,Denmark,Estonia,Finland,France,Germany,Georgia,Greece,Hungary,Iceland,Ireland,Italy,Latvia,Liechtenstein,Lithuania,Luxembourg,Moldova,Monaco,Montenegro,Netherlands,Macedonia,Norway,Poland,Portugal,Romania,Russia,Marino,Serbia,Slovakia,Slovenia,Spain,Sweden,Switzerland,Turkey,Ukraine,UK,Vatican]
+let countries=[Albania,Andorra,Austria,Azerbaijan,Belarus,Belgium,Bosnia,Bulgaria,Croatia,Czechia,Denmark,Estonia,Finland,France,Germany,Georgia,Greece,Hungary,Iceland,Ireland,Italy,Latvia,Liechtenstein,Lithuania,Luxembourg,Malta,Moldova,Monaco,Montenegro,Netherlands,Macedonia,Norway,Poland,Portugal,Romania,Russia,Marino,Serbia,Slovakia,Slovenia,Spain,Sweden,Switzerland,Turkey,Ukraine,UK,Vatican]
 export {countries as default}
