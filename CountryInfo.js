@@ -4,7 +4,9 @@ const Afghanistan={
   flagDesign:"",
   flagColors:['White','Black','Red','Green'],
   Borders:['Pakistan', 'Iran', 'Turkmenistan', 'Tajikistan','Uzbekistan','China'],
+  economicUnions:[],
   lettersUsed:['A','F','G','H','A','N','I','S','T','A','N'],
+  militaryAlliances:[],
   Region: "Central Asia",
   Continent: "Asia"
 }
@@ -14,9 +16,9 @@ const Albania={
   flagDesign:"",
   flagColors:['Black','Red'],
   Borders:['Serbia', 'Greece', 'North Macedonia', 'Montenegro'],
-  isPartOfTheEU: "no",
+  economicUnions:[],
   lettersUsed:['A','L','B','A','N','I', 'A'],
-  isPartofNato: "yes",
+  militaryAlliances:['NATO'],
   Region: "Southeastern Europe",
   Continent: "Europe"
 }
@@ -26,6 +28,7 @@ const Algeria={
   flagDesign:"",
   flagColors:['White','Red','Green'],
   Borders:['Tunisia', 'Morocco', 'Libya', 'Mali','Niger','Mauritania'],
+  economicUnions:[],
   lettersUsed:['A','L','G','E','R','I','A'],
   Region: "North Africa",
   Continent: "Africa"
@@ -36,7 +39,7 @@ const Andorra={
   flagDesign:"",
   flagColors:['Blue','Yellow','Red','Brown'],
   Borders:['Spain', 'France'],
-  isPartOfTheEU: "no",
+  economicUnions:[],
   lettersUsed:['A','N','D','O','R','R','A'],
   isPartofNato: "no",
   Region: "Southern Europe",
@@ -48,6 +51,7 @@ const Angola={
   flagDesign:"",
   flagColors:['Yellow','Black','Red'],
   Borders:['Namibia', 'Democratic Republic of the Congo', 'Republic of Congo', 'Zambia'],
+  economicUnions:[],
   lettersUsed:['A','N','G','O','L','A'],
   Region: "Southern Africa",
   Continent: "Africa"
@@ -58,6 +62,7 @@ const Antigua={
   flagDesign:"",
   flagColors:['Yellow','Black','Red','Blue','White'],
   Borders:[],
+  economicUnions:['CSME'],
   lettersUsed:['A','N','T','I','G','U','A','A','N','D','B','A','R','B','U','D','A'],
   Region: "the Caribbean",
   Continent: "North America"
@@ -68,6 +73,7 @@ const Argentina={
   flagDesign:"",
   flagColors:['Yellow','Blue','White'],
   Borders:['Uruguay', 'Brazil', 'Chile', 'Paraguay','Bolivia'],
+  economicUnions:['Mercosur'],
   lettersUsed:['A','R','G','E','N','T','I','N','A'],
   Region: "",
   Continent: "South America"
@@ -78,6 +84,7 @@ const Armenia={
   flagDesign:"tricolor",
   flagColors:['Yellow','Blue','Red'],
   Borders:['Azerbaijan', 'Georgia', 'Turkey', 'Iran'],
+  economicUnions:['EAEU'],
   lettersUsed:['A','R','M','E','N','I','A'],
   Region: "the Caucasus",
   Continent: "Asia"
@@ -88,6 +95,7 @@ const Australia={
   flagDesign:"",
   flagColors:['White','Blue','Red'],
   Borders:[],
+  economicUnions:[],
   lettersUsed:['A','U','S','T','R','A','L','I','A'],
   Region: "Australasia",
   Continent: "Oceania"
@@ -98,7 +106,7 @@ const Austria={
   flagDesign:"tricolor",
   flagColors:['Red','White'],
   Borders:['Czech Republic', 'Liechtenstein', 'Hungary', 'Slovenia', 'Slovakia', 'Switzerland,', 'Italy', 'Germany'],
-  isPartOfTheEU: "yes",
+  economicUnions:['EU'],
   lettersUsed:['A','U','S','T','R','I','A'],
   isPartofNato: "no",
   Region: "Central Europe", 
@@ -110,6 +118,7 @@ const Azerbaijan={
   flagDesign:"",
   flagColors:['Blue','Red','Green','White'],
   Borders:['Russia', 'Georgia', 'Armenia','Iran'],
+  economicUnions:[],
   isPartOfTheEU: "no",
   lettersUsed:['A','Z','E','R','B','A','I','J','A','N'],
   isPartofNato: "no",
@@ -122,6 +131,7 @@ const Bahrain={
   flagDesign:"",
   flagColors:['White','Red'],
   Borders:[],
+  economicUnions:['GCC'],
   lettersUsed:['B','A','H','R','A','I','N'],
   Region: "the Middle East",
   Continent: "Asia"
@@ -132,6 +142,7 @@ const Bangladesh={
   flagDesign:"",
   flagColors:['Green','Red'],
   Borders:['India', 'Myanmar'],
+  economicUnions:[],
   lettersUsed:['B','A','N','G','L','A','D','E','S','H'],
   Region: "South Asia",
   Continent: "Asia"
@@ -142,6 +153,7 @@ const Barbados={
   flagDesign:"",
   flagColors:['Yellow','Black','Blue'],
   Borders:[],
+  economicUnions:['CSME'],
   lettersUsed:['B','A','R','B','A','D','O','S'],
   Region: "the Caribbean",
   Continent: "North America"
@@ -152,7 +164,7 @@ const Belarus={
   flagDesign:"",
   flagColors:['White','Green','Red'],
   Borders:['Russia', 'Ukraine', 'Poland', 'Lithuania', 'Latvia'],
-  isPartOfTheEU: "no",
+  economicUnions:['EAEU'],
   lettersUsed:['B','E','L','A','R','U','S'],
   isPartofNato: "no",
   Region: "Eastern Europe",
@@ -164,7 +176,7 @@ const Belgium={
   flagDesign:"tricolor",
   flagColors:['Black','Yellow','Red'],
   Borders:['France', 'The Netherlands', 'Luxembourg', 'Germany'],
-  isPartOfTheEU: "yes",
+  economicUnions:['EU'],
   lettersUsed:['B','E','L','G','I','U','M'],
   isPartofNato: "yes",
   Region: "Western Europe",
@@ -176,6 +188,7 @@ const Belize={
   flagDesign:"",
   flagColors:['Blue','Red','Green','White','Yellow'],
   Borders:['Mexico', 'Guatemala'],
+  economicUnions:['SICA','CSME'],
   lettersUsed:['B','E','L','I','Z','E'],
   Region: "Central America",
   Continent: "North America"
@@ -186,6 +199,7 @@ const Benin={
   flagDesign:"",
   flagColors:['Yellow','Green','Red'],
   Borders:['Togo', 'Burkina Faso', 'Nigeria', 'Niger'],
+  economicUnions:[],
   lettersUsed:['B','E','N','I','N'],
   Region: "West Africa",
   Continent: "Africa"
@@ -196,6 +210,7 @@ const Bhutan={
   flagDesign:"",
   flagColors:['Yellow','Black','Red'],
   Borders:['China', 'India'],
+  economicUnions:[],
   lettersUsed:['B','H','U','T','A','N'],
   Region: "South Asia",
   Continent: "Asia"
@@ -206,6 +221,7 @@ const Bolivia={
   flagDesign:"",
   flagColors:['Yellow','Green','Red','Blue','Black'],
   Borders:['Peru', 'Brazil', 'Chile', 'Argentina','Paraguay'],
+  economicUnions:[],
   lettersUsed:['A','N','G','O','L','A'],
   Region: "",
   Continent: "South America"
@@ -216,6 +232,7 @@ const Bosnia={
   flagDesign:"",
   flagColors:['Blue','Yellow','White'],
   Borders:['Croatia', 'Serbia', 'Montenegro'],
+  economicUnions:[],
   isPartOfTheEU: "no",
   lettersUsed:['B','O','S','N','I','A','A','N','D','H','E','R','Z','E','G','O','V','I','N','A'],
   isPartofNato: "no",
@@ -228,6 +245,7 @@ const Botswana={
   flagDesign:"",
   flagColors:['Yellow','Black','Red'],
   Borders:['Namibia', 'Zimbabwe', 'South Africa', 'Zambia'],
+  economicUnions:[],
   lettersUsed:['B','O','T','S','W','A','N','A'],
   Region: "Southern Africa",
   Continent: "Africa"
@@ -238,6 +256,7 @@ const Brazil={
   flagDesign:"",
   flagColors:['Yellow','Black','Red'],
   Borders:['France', 'Suriname', 'Guyana', 'Venezuela','Colombia','Peru','Bolivia','Paraguay','Argentina','Uruguay'],
+  economicUnions:['Mercosur'],
   lettersUsed:['B','R','A','Z','I','L'],
   Region: "",
   Continent: "South America"
@@ -248,6 +267,7 @@ const Brunei={
   flagDesign:"",
   flagColors:['Yellow','Black','Red','White'],
   Borders:['Malaysia'],
+  economicUnions:[],
   lettersUsed:['B','R','U','N','E','I','D','A','R','U','S','S','A','L','A','M'],
   Region: "Southeast Asia",
   Continent: "Asia"
@@ -258,7 +278,7 @@ const Bulgaria={
   flagDesign:"tricolor",
   flagColors:['White','Green','Red'],
   Borders:['Romania', 'Serbia', 'Greece', 'North Macedonia','Turkey'],
-  isPartOfTheEU: "yes",
+  economicUnions:['EU'],
   lettersUsed:['B','U','L','G','A','R','I','A'],
   isPartofNato: "yes",
   Region: "Southeastern Europe",
@@ -270,6 +290,7 @@ const Burkina={
   flagDesign:"",
   flagColors:['Yellow','Green','Red'],
   Borders:['Mali', 'Niger', 'Benin', 'Togo','Ghana','Ivory Coast'],
+  economicUnions:[],
   lettersUsed:['B','U','R','K','I','N','A','F','A','S','O'],
   Region: "West Africa",
   Continent: "Africa"
@@ -280,6 +301,7 @@ const Burundi={
   flagDesign:"",
   flagColors:['Green','White','Red'],
   Borders:['Rwanda', 'Democratic Republic of the Congo', 'Tanzania'],
+  economicUnions:[],
   lettersUsed:['B','U','R','U','N','D','I'],
   Region: "East Africa",
   Continent: "Africa"
@@ -290,6 +312,7 @@ const Cambodia={
   flagDesign:"",
   flagColors:['White','Blue','Red'],
   Borders:['Laos', 'Thailand', 'Vietnam'],
+  economicUnions:[],
   lettersUsed:['C','A','M','B','O','D','I','A'],
   Region: "Southeast Asia",
   Continent: "Asia"
@@ -300,6 +323,7 @@ const Cameroon={
   flagDesign:"",
   flagColors:['Yellow','Green','Red'],
   Borders:['Nigeria', 'Central African Republic', 'Chad', 'Equatorial Guinea','Republic of Congo','Gabon'],
+  economicUnions:[],
   lettersUsed:['C','A','M','E','R','O','O','N'],
   Region: "Central Africa",
   Continent: "Africa"
@@ -310,6 +334,7 @@ const Canada={
   flagDesign:"",
   flagColors:['White','Red'],
   Borders:['United States of America', 'Denmark'],
+  economicUnions:[],
   lettersUsed:['C','A','N','A','D','A'],
   isPartofNato: "yes",
   Region: "North America",
@@ -321,6 +346,7 @@ const CapeVerde={
   flagDesign:"",
   flagColors:['Yellow','Blue','Red','White'],
   Borders:[],
+  economicUnions:[],
   lettersUsed:['C','A','P','E','V','E','R','D','E'],
   Region: "West Africa",
   Continent: "Africa"
@@ -331,6 +357,7 @@ const CAR={
   flagDesign:"",
   flagColors:['Yellow','Blue','Red','White','Green'],
   Borders:['Chad', 'Democratic Republic of the Congo', 'Republic of Congo', 'Cameroon','Sudan','South Sudan'],
+  economicUnions:[],
   lettersUsed:['C','E','N','T','R','A','L','A','F','R','I','C','A','N','R','E','P','U','B','L','I','C'],
   Region: "Central Africa",
   Continent: "Africa"
@@ -341,6 +368,7 @@ const Chad={
   flagDesign:"tricolor",
   flagColors:['Yellow','Blue','Red'],
   Borders:['Sudan', 'Libya', 'Niger', 'Nigeria','Cameroon','Central African Republic'],
+  economicUnions:[],
   lettersUsed:['C','H','A','D'],
   Region: "Central Africa",
   Continent: "Africa"
@@ -351,6 +379,7 @@ const Chile={
   flagDesign:"",
   flagColors:['Blue','White','Red'],
   Borders:['Argentina', 'Peru', 'Bolivia'],
+  economicUnions:[],
   lettersUsed:['C','H','I','L','E'],
   Region: "",
   Continent: "South America"
@@ -361,6 +390,7 @@ const China={
   flagDesign:"",
   flagColors:['Yellow','Red'],
   Borders:['Russia', 'India', 'Kazakhstan', 'Mongolia','North Korea','Tajikistan','Nepal','Bhutan','Afghanistan','Pakistan','Myanmar','Laos','Vietnam','Kyrgyzstan'],
+  economicUnions:[],
   lettersUsed:['C','H','I','N','A'],
   Region: "East Asia",
   Continent: "Asia"
@@ -371,6 +401,7 @@ const Colombia={
   flagDesign:"tricolor",
   flagColors:['Yellow','Blue','Red'],
   Borders:['Venezuela', 'Ecuador', 'Brazil', 'Peru','Panama'],
+  economicUnions:[],
   lettersUsed:['C','O','L','O','M','B','I','A'],
   Region: "",
   Continent: "South America"
@@ -381,6 +412,7 @@ const Comoros={
   flagDesign:"",
   flagColors:['Yellow','Green','Red','White','Blue'],
   Borders:[],
+  economicUnions:[],
   lettersUsed:['C','O','M','O','R','O','S'],
   Region: "East Africa",
   Continent: "Africa"
@@ -391,6 +423,7 @@ const CostaRica={
   flagDesign:"",
   flagColors:['White','Blue','Red'],
   Borders:['Panama', 'Nicaragua'],
+  economicUnions:['SICA'],
   lettersUsed:['C','O','S','T','A','R','I','C','A'],
   Region: "Central America",
   Continent: "North America"
@@ -401,7 +434,7 @@ const Croatia={
   flagDesign:"",
   flagColors:['White','Blue','Red','Yellow'],
   Borders:['Bosnia and Herzegovina', 'Serbia', 'Hungary', 'Slovenia','Montenegro'],
-  isPartOfTheEU: "yes",
+  economicUnions:['EU'],
   lettersUsed:['C','R','O','A','T','I','A'],
   isPartofNato: "yes",
   Region: "Southeastern Europe",
@@ -413,6 +446,7 @@ const Cuba={
   flagDesign:"",
   flagColors:['White','Blue','Red'],
   Borders:[],
+  economicUnions:[],
   lettersUsed:['C','U','B','A'],
   Region: "the Caribbean",
   Continent: "North America"
@@ -423,7 +457,7 @@ const Cyprus={
   flagDesign:"",
   flagColors:['Brown','Green','White'],
   Borders:[],
-  isPartOfTheEU: "yes",
+  economicUnions:['EU'],
   lettersUsed:['C','Y','P','R','U','S'],
   isPartofNato: "no",
   Region: "",
@@ -435,7 +469,7 @@ const Czechia={
   flagDesign:"",
   flagColors:['Blue','White','Red'],
   Borders:['Poland', 'Slovakia', 'Austria', 'Germany'],
-  isPartOfTheEU: "yes",
+  economicUnions:['EU'],
   lettersUsed:['C','Z','E','C','H','R','E','P','U','B','L','I','C'],
   isPartofNato: "yes",
   Region: "Central Europe",
@@ -447,6 +481,7 @@ const DRC={
   flagDesign:"",
   flagColors:['Yellow','Blue','Red'],
   Borders:['Angola','Zambia','Republic of Congo','Central African Republic','Uganda','South Sudan','Rwanda','Burundi'],
+  economicUnions:[],
   lettersUsed:['D','E','M','O','C','R','A','T','I','C','R','E','P','U','B','L','I','C','O','F','T','H','E','C','O','N','G','O'],
   Region: "Central Africa",
   Continent: "Africa"
@@ -457,7 +492,7 @@ const Denmark={
   flagDesign:"nordic cross",
   flagColors:['White','Red'],
   Borders:['Germany'],
-  isPartOfTheEU: "yes",
+  economicUnions:['EU'],
   lettersUsed:['D','E','N','M','A','R','K'],
   isPartofNato: "yes",
   Region: "Northern Europe",
@@ -469,6 +504,7 @@ const Djibouti={
   flagDesign:"",
   flagColors:['White','Blue','Red','Green'],
   Borders:['Eritrea','Ethiopia','Somalia'],
+  economicUnions:[],
   lettersUsed:['D','J','I','B','O','U','T','I'],
   Region: "the Horn of Africa",
   Continent: "Africa"
@@ -479,6 +515,7 @@ const Dominica={
   flagDesign:"",
   flagColors:['White','Green','Red','Yellow','Black','Brown','Purple'],
   Borders:[],
+  economicUnions:['CSME'],
   lettersUsed:['D','O','M','I','N','I','C','A'],
   Region: "the Caribbean",
   Continent: "North America"
@@ -489,6 +526,7 @@ const DR={
   flagDesign:"",
   flagColors:['White','Blue','Red','Yellow','Green','Black'],
   Borders:['Haiti'],
+  economicUnions:['SICA'],
   lettersUsed:['D','O','M','I','N','I','C','A','N','R','E','P','U','B','L','I','C'],
   Region: "the Caribbean",
   Continent: "North America"
@@ -499,6 +537,7 @@ const Ecuador={
   flagDesign:"",
   flagColors:['White','Blue','Red','Yellow','Brown','Grey','Green'],
   Borders:['Colombia','Peru'],
+  economicUnions:[],
   lettersUsed:['E','C','U','A','D','O','R'],
   Region: "",
   Continent: "South America"
@@ -509,6 +548,7 @@ const Egypt={
   flagDesign:"",
   flagColors:['White','Black','Red','Yellow'],
   Borders:['Libya','Sudan','Israel'],
+  economicUnions:[],
   lettersUsed:['E','G','Y','P','T'],
   Region: "North Africa",
   Continent: "Africa"
@@ -519,6 +559,7 @@ const Salvador={
   flagDesign:"",
   flagColors:['White','Blue','Red','Yellow','Green','Black','Orange'],
   Borders:['Honduras','Guatemala'],
+  economicUnions:['SICA'],
   lettersUsed:['E','L','S','A','L','V','A','D','O','R'],
   Region: "Central America",
   Continent: "North America"
@@ -529,6 +570,7 @@ const EquatorialGuinea={
   flagDesign:"",
   flagColors:['White','Blue','Red','Green','Black','Yellow','Brown'],
   Borders:['Gabon','Cameroon'],
+  economicUnions:[],
   lettersUsed:['E','Q','U','A','T','O','R','I','A','L','G','U','I','N','E','A'],
   Region: "Central Africa",
   Continent: "Africa"
@@ -539,6 +581,7 @@ const Eritrea={
   flagDesign:"",
   flagColors:['Blue','Red','Yellow','Green'],
   Borders:['Sudan','Ethiopia','Djibouti'],
+  economicUnions:[],
   lettersUsed:['E','R','I','T','R','E','A'],
   Region: "the Horn of Africa",
   Continent: "Africa"
@@ -549,7 +592,7 @@ const Estonia={
   flagDesign:"tricolor",
   flagColors:['Black','Blue','White'],
   Borders:['Russia', 'Latvia'],
-  isPartOfTheEU: "yes",
+  economicUnions:['EU'],
   lettersUsed:['E','S','T','O','N','I','A'],
   isPartofNato: "yes",
   Region: "Northern Europe",
@@ -561,6 +604,7 @@ const Eswatini={
   flagDesign:"",
   flagColors:['Blue','Red','Yellow','White','Black','Grey'],
   Borders:['South Africa','Mozambique'],
+  economicUnions:[],
   lettersUsed:['E','S','W','A','T','I','N','I'],
   Region: "Southern Africa",
   Continent: "Africa"
@@ -571,6 +615,7 @@ const Ethiopia={
   flagDesign:"",
   flagColors:['Blue','Red','Yellow','Green'],
   Borders:['Somalia','Eritrea','Djibouti','Sudan','South Sudan','Kenya'],
+  economicUnions:[],
   lettersUsed:['E','T','H','I','O','P','I','A'],
   Region: "the Horn of Africa",
   Continent: "Africa"
@@ -581,6 +626,7 @@ const Fiji={
   flagDesign:"",
   flagColors:['Blue','Red','Yellow','Green','White','Black','Brown'],
   Borders:[],
+  economicUnions:[],
   lettersUsed:['F','I','J','I'],
   Region: "Melanesia",
   Continent: "Oceania"
@@ -591,7 +637,7 @@ const Finland={
   flagDesign:"nordic cross",
   flagColors:['White','Blue'],
   Borders:['Russia', 'Sweden', 'Norway'],
-  isPartOfTheEU: "yes",
+  economicUnions:['EU'],
   lettersUsed:['F','I','N','L','A','N','D'],
   isPartofNato: "no",
   Region: "Northern Europe",
@@ -603,7 +649,7 @@ const France={
   flagDesign:"tricolor",
   flagColors:['Blue','White','Red'],
   Borders:['Spain', 'The Netherlands', 'Belgium', 'Luxembourg', 'Andorra', 'Switzerland,', 'Italy', 'Germany','Brazil','Suriname'],
-  isPartOfTheEU: "yes",
+  economicUnions:['EU'],
   lettersUsed:['F','R','A','N','C','E'],
   isPartofNato: "yes",
   Region: "Western Europe",
@@ -615,6 +661,7 @@ const Gabon={
   flagDesign:"tricolor",
   flagColors:['Blue','Yellow','Green'],
   Borders:['Equatorial Guinea','Republic of Congo','Cameroon'],
+  economicUnions:[],
   lettersUsed:['G','A','B','O','N'],
   Region: "Central Africa",
   Continent: "Africa"
@@ -625,6 +672,7 @@ const Georgia={
   flagDesign:"",
   flagColors:['Red','White'],
   Borders:['Russia', 'Azerbaijan', 'Turkey'],
+  economicUnions:[],
   lettersUsed:['G','E','O','R','G','I','A'],
   Region: "the Caucasus",
   Continent: "Asia"
@@ -635,7 +683,7 @@ const Germany={
   flagDesign:"tricolor",
   flagColors:['Black','Red','Yellow'],
   Borders:['France', 'The Netherlands', 'Belgium', 'Luxembourg', 'Austria', 'Switzerland,', 'Poland', 'Denmark', 'Czech Republic'],
-  isPartOfTheEU: "yes",
+  economicUnions:['EU'],
   lettersUsed:['G','E','R','M','A','N','Y'],
   isPartofNato: "yes",
   Region: "Central Europe",
@@ -647,6 +695,7 @@ const Ghana={
   flagDesign:"",
   flagColors:['Red','Yellow','Green','Black'],
   Borders:['Ivory Coast','Burkina Faso','Togo'],
+  economicUnions:[],
   lettersUsed:['G','H','A','N','A'],
   Region: "West Africa",
   Continent: "Africa"
@@ -657,7 +706,7 @@ const Greece={
   flagDesign:"",
   flagColors:['White','Blue'],
   Borders:['Turkey', 'Bulgaria', 'Albania','North Macedonia'],
-  isPartOfTheEU: "yes",
+  economicUnions:['EU'],
   lettersUsed:['G','R','E','E','C','E'],
   isPartofNato: "yes",
   Region: "Southeastern Europe",
@@ -669,6 +718,7 @@ const Grenada={
   flagDesign:"",
   flagColors:['Red','Yellow','Green'],
   Borders:[],
+  economicUnions:['CSME'],
   lettersUsed:['G','R','E','N','A','D','A'],
   Region: "the Caribbean",
   Continent: "North America"
@@ -679,6 +729,7 @@ const Guatemala={
   flagDesign:"",
   flagColors:['Blue','Yellow','Green','White','Brown'],
   Borders:['Mexico','Honduras','El Salvador'],
+  economicUnions:['SICA'],
   lettersUsed:['G','U','A','T','E','M','A','L','A'],
   Region: "Central America",
   Continent: "North America"
@@ -689,6 +740,7 @@ const GuineaBissau={
   flagDesign:"",
   flagColors:['Red','Yellow','Green','Black'],
   Borders:['Senegal','Guinea'],
+  economicUnions:[],
   lettersUsed:['G','U','I','N','E','A','B','I','S','S','A','U'],
   Region: "West Africa",
   Continent: "Africa"
@@ -699,6 +751,7 @@ const Guinea={
   flagDesign:"tricolor",
   flagColors:['Red','Yellow','Green'],
   Borders:['Guinea-Bissau','Senegal','Mali','Ivory Coast','Sierra Leone','Liberia'],
+  economicUnions:[],
   lettersUsed:['G','U','I','N','E','A'],
   Region: "West Africa",
   Continent: "Africa"
@@ -709,6 +762,7 @@ const Guyana={
   flagDesign:"",
   flagColors:['Red','Yellow','Green','White','Black'],
   Borders:['Brazil','Suriname','Venezuela'],
+  economicUnions:['CSME'],
   lettersUsed:['G','U','Y','A','N','A'],
   Region: "",
   Continent: "South America"
@@ -719,6 +773,7 @@ const Haiti={
   flagDesign:"",
   flagColors:['Blue','Yellow','Green','White','Black','Red'],
   Borders:['Dominican Republic'],
+  economicUnions:[],
   lettersUsed:['H','A','I','T','I'],
   Region: "the Caribbean",
   Continent: "North America"
@@ -729,6 +784,7 @@ const Honduras={
   flagDesign:"",
   flagColors:['Blue','White'],
   Borders:['Guatemala','Nicaragua','El Salvador'],
+  economicUnions:['SICA'],
   lettersUsed:['H','O','N','D','U','R','A','S'],
   Region: "Central America",
   Continent: "North America"
@@ -739,7 +795,7 @@ const Hungary={
   flagDesign:"tricolor",
   flagColors:['White','Red','Green'],
   Borders:['Ukraine', 'Slovakia', 'Austria','Slovenia','Croatia','Serbia','Romania'],
-  isPartOfTheEU: "yes",
+  economicUnions:['EU'],
   lettersUsed:['H','U','N','G','A','R','Y'],
   isPartofNato: "yes",
   Region: "Central Europe",
@@ -751,7 +807,7 @@ const Iceland={
   flagDesign:"nordic cross",
   flagColors:['White','Blue','Red'],
   Borders:[],
-  isPartOfTheEU: "no",
+  economicUnions:[],
   lettersUsed:['I','C','E','L','A','N','D'],
   isPartofNato: "yes",
   Region: "Northern Europe",
@@ -763,6 +819,7 @@ const India={
   flagDesign:"",
   flagColors:['Orange','Blue','Green','White'],
   Borders:['Pakistan','Nepal','Bangladesh','China','Myanmar','Bhutan'],
+  economicUnions:[],
   lettersUsed:['I','N','D','I','A'],
   Region: "South Asia",
   Continent: "Asia"
@@ -773,6 +830,7 @@ const Indonesia={
   flagDesign:"dual color",
   flagColors:['Red','White'],
   Borders:['Malaysia','East Timor','Papua New Guinea'],
+  economicUnions:[],
   lettersUsed:['I','N','D','O','N','E','S','I','A'],
   Region: "Southeast Asia",
   Continent: "Asia"
@@ -783,6 +841,7 @@ const Iran={
   flagDesign:"",
   flagColors:['Red','Green','White'],
   Borders:['Iraq','Afghanistan','Turkmenistan','Pakistan','Turkey','Azerbaijan','Armenia'],
+  economicUnions:[],
   lettersUsed:['I','R','A','N'],
   Region: "Western Asia",
   Continent: "Asia"
@@ -792,7 +851,8 @@ const Iraq={
   Language:['Arabic','Kurdish'],
   flagDesign:"",
   flagColors:['Black','Red','Green','White'],
-  Borders:['Mexico','Honduras','El Salvador'],
+  Borders:['Iran','Syria','Turkey','Kuwait','Saudi Arabia','Jordan'],
+  economicUnions:[],
   lettersUsed:['I','R','A','Q'],
   Region: "Western Asia",
   Continent: "Asia"
@@ -803,7 +863,7 @@ const Ireland={
   flagDesign:"tricolor",
   flagColors:['White','Orange','Green'],
   Borders:['United Kingdom'],
-  isPartOfTheEU: "yes",
+  economicUnions:['EU'],
   lettersUsed:['I','R','E','L','A','N','D'],
   isPartofNato: "no",
   Region: "Western Europe",
@@ -815,6 +875,7 @@ const Israel={
   flagDesign:"",
   flagColors:['Blue','White'],
   Borders:['Jordan','Lebanon','Egypt'],
+  economicUnions:[],
   lettersUsed:['I','S','R','A','E','L'],
   Region: "Western Asia",
   Continent: "Asia"
@@ -825,7 +886,7 @@ const Italy={
   flagDesign:"tricolor",
   flagColors:['White','Red','Green'],
   Borders:['France', 'Switzerland', 'Austria','Slovenia'],
-  isPartOfTheEU: "yes",
+  economicUnions:['EU'],
   lettersUsed:['I','T','A','L','Y'],
   isPartofNato: "yes",
   Region: "Southern Europe",
@@ -837,6 +898,7 @@ const IvoryCoast={
   flagDesign:"tricolor",
   flagColors:['Orange','Green','White'],
   Borders:['Ghana','Liberia','Mali','Guinea','Burkina Faso'],
+  economicUnions:[],
   lettersUsed:['I','V','O','R','Y','C','O','A','S','T'],
   Region: "West Africa",
   Continent: "Africa"
@@ -847,6 +909,7 @@ const Jamaica={
   flagDesign:"",
   flagColors:['Black','Yellow','Green'],
   Borders:[],
+  economicUnions:['CSME'],
   lettersUsed:['J','A','M','A','I','C','A'],
   Region: "the Caribbean",
   Continent: "North America"
@@ -857,6 +920,7 @@ const Japan={
   flagDesign:"",
   flagColors:['White','Red'],
   Borders:[],
+  economicUnions:[],
   lettersUsed:['J','A','P','A','N'],
   Region: "East Asia",
   Continent: "Asia"
@@ -867,6 +931,7 @@ const Jordan={
   flagDesign:"",
   flagColors:['Red','White','Green','Black'],
   Borders:['Israel','Syria','Saudi Arabia','Iraq'],
+  economicUnions:[],
   lettersUsed:['J','O','R','D','A','N'],
   Region: "Western Asia",
   Continent: "Asia"
@@ -877,6 +942,7 @@ const Kazakhstan={
   flagDesign:"",
   flagColors:['Blue','Yellow'],
   Borders:['Russia','Uzbekistan','China','Kyrgyzstan','Turkmenistan'],
+  economicUnions:['EAEU'],
   lettersUsed:['K','A','Z','A','K','H','S','T','A','N'],
   Region: "Central Asia",
   Continent: "Asia"
@@ -887,6 +953,7 @@ const Kenya={
   flagDesign:"",
   flagColors:['Red','Black','Green','White'],
   Borders:['Ethiopia','Tanzania','Somalia','Uganda','South Sudan'],
+  economicUnions:[],
   lettersUsed:['K','E','N','Y','A'],
   Region: "East Africa",
   Continent: "Africa"
@@ -897,6 +964,7 @@ const Kiribati={
   flagDesign:"",
   flagColors:['Blue','Yellow','Red','White','Black'],
   Borders:[],
+  economicUnions:[],
   lettersUsed:['K','I','R','I','B','A','T','I'],
   Region: "Micronesia",
   Continent: "Oceania"
@@ -907,6 +975,7 @@ const Kuwait={
   flagDesign:"",
   flagColors:['Green','Yellow','Red','White','Black'],
   Borders:['Iraq','Saudi Arabia'],
+  economicUnions:['GCC'],
   lettersUsed:['K','U','W','A','I','T'],
   Region: "Western Asia",
   Continent: "Asia"
@@ -917,6 +986,7 @@ const Kyrgyzstan={
   flagDesign:"",
   flagColors:['Yellow','Red'],
   Borders:['Kazakhstan','China','Uzbekistan','Tajikistan'],
+  economicUnions:['EAEU'],
   lettersUsed:['K','Y','R','G','Y','Z','S','T','A','N'],
   Region: "Central Asia",
   Continent: "Asia"
@@ -927,6 +997,7 @@ const Laos={
   flagDesign:"",
   flagColors:['Blue','Red','White'],
   Borders:['Thailand','Vietnam','Cambodia','Myanmar'],
+  economicUnions:[],
   lettersUsed:['L','A','O','S'],
   Region: "Southeast Asia",
   Continent: "Asia"
@@ -937,7 +1008,7 @@ const Latvia={
   flagDesign:"tricolor",
   flagColors:['White','Red'],
   Borders:['Estonia', 'Lithuania', 'Russia','Belarus'],
-  isPartOfTheEU: "yes",
+  economicUnions:['EU'],
   lettersUsed:['L','A','T','V','I','A'],
   isPartofNato: "yes",
   Region: "Northern Europe",
@@ -949,6 +1020,7 @@ const Lebanon={
   flagDesign:"",
   flagColors:['Green','Red','White'],
   Borders:['Israel','Syria'],
+  economicUnions:[],
   lettersUsed:['L','E','B','A','N','O','N'],
   Region: "Western Asia",
   Continent: "Asia"
@@ -959,6 +1031,7 @@ const Lesotho={
   flagDesign:"",
   flagColors:['Green','Blue','White','Black'],
   Borders:['South Africa'],
+  economicUnions:[],
   lettersUsed:['L','E','S','O','T','H','O'],
   Region: "Southern Africa",
   Continent: "Africa"
@@ -969,6 +1042,7 @@ const Liberia={
   flagDesign:"",
   flagColors:['Blue','White','Red'],
   Borders:['Sierra Leone','Guinea','Ivory Coast'],
+  economicUnions:[],
   lettersUsed:['L','I','B','E','R','I','A'],
   Region: "West Africa",
   Continent: "Africa"
@@ -979,6 +1053,7 @@ const Libya={
   flagDesign:"",
   flagColors:['Green','White','Red','Black'],
   Borders:['Egypt','Tunisia','Algeria','Chad','Sudan','Niger'],
+  economicUnions:[],
   lettersUsed:['L','I','B','Y','A'],
   Region: "North Africa",
   Continent: "Africa"
@@ -989,7 +1064,7 @@ const Liechtenstein={
   flagDesign:"",
   flagColors:['Blue','Red','Yellow','Black'],
   Borders:['Switzerland','Austria'],
-  isPartOfTheEU: "no",
+  economicUnions:[],
   lettersUsed:['L','I','E','C','H','T','E','N','S','T','E','I','N'],
   isPartofNato: "no",
   Region: "Western Europe",
@@ -1001,7 +1076,7 @@ const Lithuania={
   flagDesign:"tricolor",
   flagColors:['Yellow','Red','Green'],
   Borders:['Belarus', 'Russia', 'Poland','Latvia'],
-  isPartOfTheEU: "yes",
+  economicUnions:['EU'],
   lettersUsed:['L','I','T','H','U','A','N','I','A'],
   isPartofNato: "yes",
   Region: "Northern Europe",
@@ -1013,7 +1088,7 @@ const Luxembourg={
   flagDesign:"tricolor",
   flagColors:['White','Red','Blue'],
   Borders:['France', 'Belgium', 'Germany'],
-  isPartOfTheEU: "yes",
+  economicUnions:['EU'],
   lettersUsed:['L','U','X','E','M','B','O','U','R','G'],
   isPartofNato: "yes",
   Region: "Western Europe",
@@ -1025,6 +1100,7 @@ const Madagascar={
   flagDesign:"",
   flagColors:['Green','Red','White'],
   Borders:[],
+  economicUnions:[],
   lettersUsed:['M','A','D','A','G','A','S','C','A','R'],
   Region: "East Africa",
   Continent: "Africa"
@@ -1035,6 +1111,7 @@ const Malawi={
   flagDesign:"",
   flagColors:['Green','Red','Black'],
   Borders:['Zambia','Mozambique','Tanzania'],
+  economicUnions:[],
   lettersUsed:['M','A','L','A','W','I'],
   Region: "Southern Africa",
   Continent: "Africa"
@@ -1045,6 +1122,7 @@ const Malaysia={
   flagDesign:"",
   flagColors:['Blue','Yellow','Red','White'],
   Borders:['Thailand','Indonesia','Singapore','Brunei Darussalam'],
+  economicUnions:[],
   lettersUsed:['M','A','L','A','Y','S','I','A'],
   Region: "Southeast Asia",
   Continent: "Asia"
@@ -1055,6 +1133,7 @@ const Maldives={
   flagDesign:"",
   flagColors:['Red','White','Green'],
   Borders:[],
+  economicUnions:[],
   lettersUsed:['M','A','L','D','I','V','E','S'],
   Region: "South Asia",
   Continent: "Asia"
@@ -1065,6 +1144,7 @@ const Mali={
   flagDesign:"tricolor",
   flagColors:['Green','Yellow','Red'],
   Borders:['Mauritania','Algeria','Niger','Burkina Faso','Senegal','Guinea','Ivory Coast'],
+  economicUnions:[],
   lettersUsed:['M','A','L','I'],
   Region: "West Africa",
   Continent: "Africa"
@@ -1075,7 +1155,7 @@ const Malta={
   flagDesign:"",
   flagColors:['White','Red','Black'],
   Borders:[],
-  isPartOfTheEU: "yes",
+  economicUnions:['EU'],
   lettersUsed:['M','A','L','T','A'],
   isPartofNato: "no",
   Region: "Southern Europe",
@@ -1087,6 +1167,7 @@ const Mauritania={
   flagDesign:"",
   flagColors:['Green','Yellow','Red'],
   Borders:['Morocco','Mali','Senegal'],
+  economicUnions:[],
   lettersUsed:['M','A','U','R','I','T','A','N','I','A'],
   Region: "North Africa",
   Continent: "Africa"
@@ -1097,6 +1178,7 @@ const Mauritius={
   flagDesign:"",
   flagColors:['Green','Yellow','Red','Blue'],
   Borders:[],
+  economicUnions:[],
   lettersUsed:['M','A','U','R','I','T','I','U','S'],
   Region: "East Africa",
   Continent: "Africa"
@@ -1107,6 +1189,7 @@ const Mexico={
   flagDesign:"",
   flagColors:['Green','Yellow','Red','White','Brown','Black','Pink'],
   Borders:['United States of America','Guatemala','Belize'],
+  economicUnions:[],
   lettersUsed:['M','E','X','I','C','O'],
   Region: "",
   Continent: "North America"
@@ -1117,7 +1200,7 @@ const Moldova={
   flagDesign:"",
   flagColors:['Yellow','Red','Blue','Green','Brown'],
   Borders:['Ukraine', 'Romania'],
-  isPartOfTheEU: "no",
+  economicUnions:[],
   lettersUsed:['M','O','L','D','O','V','A'],
   isPartofNato: "no",
   Region: "Eastern Europe",
@@ -1129,7 +1212,7 @@ const Monaco={
   flagDesign:"dual color",
   flagColors:['White','Red'],
   Borders:['France'],
-  isPartOfTheEU: "no",
+  economicUnions:[],
   lettersUsed:['M','O','N','A','C','O'],
   isPartofNato: "no",
   Region: "Western Europe",
@@ -1141,6 +1224,7 @@ const Mongolia={
   flagDesign:"",
   flagColors:['Blue','Yellow','Red'],
   Borders:['Russia','China'],
+  economicUnions:[],
   lettersUsed:['M','O','N','G','O','L','I','A'],
   Region: "East Asia",
   Continent: "Asia"
@@ -1151,7 +1235,7 @@ const Montenegro={
   flagDesign:"",
   flagColors:['Green','Red','Blue','Yellow'],
   Borders:['Bosnia and Herzegovina', 'Albania','Croatia','Serbia'],
-  isPartOfTheEU: "no",
+  economicUnions:[],
   lettersUsed:['M','O','N','T','E','N','E','G','R','O'],
   isPartofNato: "yes",
   Region: "Central Europe",
@@ -1163,6 +1247,7 @@ const Morocco={
   flagDesign:"",
   flagColors:['Green','Red'],
   Borders:['Mauritania','Algeria'],
+  economicUnions:[],
   lettersUsed:['M','O','R','O','C','C','O'],
   Region: "North Africa",
   Continent: "Africa"
@@ -1173,6 +1258,7 @@ const Mozambique={
   flagDesign:"",
   flagColors:['Green','Red','Yellow','Black','White'],
   Borders:['Zimbabwe','Tanzania','Zambia','South Africa','Eswatini'],
+  economicUnions:[],
   lettersUsed:['M','O','Z','A','M','B','I','Q','U','E'],
   Region: "Southern Africa",
   Continent: "Africa"
@@ -1183,6 +1269,7 @@ const Myanmar={
   flagDesign:"",
   flagColors:['Green','Red','Yellow','White'],
   Borders:['Thailand','India','China','Bangladesh','Laos'],
+  economicUnions:[],
   lettersUsed:['M','Y','A','N','M','A','R'],
   Region: "Southeast Asia",
   Continent: "Asia"
@@ -1193,6 +1280,7 @@ const Namibia={
   flagDesign:"",
   flagColors:['Green','Red','White','Yellow','Blue'],
   Borders:['Angola','South Africa','Botswana','Zambia'],
+  economicUnions:[],
   lettersUsed:['N','A','M','I','B','I','A'],
   Region: "Southern Africa",
   Continent: "Africa"
@@ -1203,6 +1291,7 @@ const Nauru={
   flagDesign:"",
   flagColors:['Blue','White','Yellow'],
   Borders:[],
+  economicUnions:[],
   lettersUsed:['N','A','U','R','U'],
   Region: "Melanesia",
   Continent: "Oceania"
@@ -1213,6 +1302,7 @@ const Nepal={
   flagDesign:"",
   flagColors:['Blue','Red','White'],
   Borders:['India','China'],
+  economicUnions:[],
   lettersUsed:['N','E','P','A','L'],
   Region: "South Asia",
   Continent: "Asia"
@@ -1223,6 +1313,7 @@ const Zealand={
   flagDesign:"",
   flagColors:['Blue','Red','White'],
   Borders:[],
+  economicUnions:[],
   lettersUsed:['N','E','W','Z','E','A','L','A','N','D'],
   Region: "Australasia",
   Continent: "Oceania"
@@ -1233,6 +1324,7 @@ const Nicaragua={
   flagDesign:"",
   flagColors:['Green','Red','Blue','White','Yellow','Purple','Black'],
   Borders:['Honduras','Costa Rica'],
+  economicUnions:['SICA'],
   lettersUsed:['N','I','C','A','R','A','G','U','A'],
   Region: "Central America",
   Continent: "North America"
@@ -1243,6 +1335,7 @@ const Niger={
   flagDesign:"",
   flagColors:['Orange','White','Green'],
   Borders:['Nigeria','Chad','Algeria','Burkina Faso','Benin'],
+  economicUnions:[],
   lettersUsed:['N','I','G','E','R'],
   Region: "West Africa",
   Continent: "Africa"
@@ -1253,6 +1346,7 @@ const Nigeria={
   flagDesign:"tricolor",
   flagColors:['Green','White'],
   Borders:['Cameroon','Niger','Benin','Chad'],
+  economicUnions:[],
   lettersUsed:['N','I','G','E','R','I','A'],
   Region: "West Africa",
   Continent: "Africa"
@@ -1263,6 +1357,7 @@ const DPRK={
   flagDesign:"",
   flagColors:['Blue','Red','White'],
   Borders:['China','South Korea','Russia'],
+  economicUnions:[],
   lettersUsed:['N','O','R','T','H','K','O','R','E','A'],
   Region: "East Asia",
   Continent: "Asia"
@@ -1273,7 +1368,7 @@ const Netherlands={
   flagDesign:"tricolor",
   flagColors:['White','Red','Blue'],
   Borders:['France', 'Belgium', 'Germany'],
-  isPartOfTheEU: "yes",
+  economicUnions:['EU'],
   lettersUsed:['N','E','T','H','E','R','L','A','N','D','S'],
   isPartofNato: "yes",
   Region: "Western Europe",
@@ -1285,7 +1380,7 @@ const Macedonia={
   flagDesign:"",
   flagColors:['Yellow','Red'],
   Borders:['Albania', 'Greece', 'Bulgaria','Serbia'],
-  isPartOfTheEU: "no",
+  economicUnions:[],
   lettersUsed:['N','O','R','T','H','M','A','C','E','D','O','N','I','A'],
   isPartofNato: "yes",
   Region: "Southeastern Europe",
@@ -1297,7 +1392,7 @@ const Norway={
   flagDesign:"nordic cross",
   flagColors:['White','Red','Blue'],
   Borders:['Finland', 'Sweden', 'Russia'],
-  isPartOfTheEU: "no",
+  economicUnions:[],
   lettersUsed:['N','O','R','W','A','Y'],
   isPartofNato: "yes",
   Region: "Northern Europe",
@@ -1309,6 +1404,7 @@ const Oman={
   flagDesign:"",
   flagColors:['Green','Red','White'],
   Borders:['Saudi Arabia','United Arab Emirates','Yemen'],
+  economicUnions:['GCC'],
   lettersUsed:['O','M','A','N'],
   Region: "Western Asia",
   Continent: "Asia"
@@ -1319,6 +1415,7 @@ const Pakistan={
   flagDesign:"",
   flagColors:['Green','White'],
   Borders:['India','Afghanistan','China','Iran'],
+  economicUnions:[],
   lettersUsed:['P','A','K','I','S','T','A','N'],
   Region: "South Asia",
   Continent: "Asia"
@@ -1329,6 +1426,7 @@ const Palau={
   flagDesign:"",
   flagColors:['Blue','Yellow'],
   Borders:[],
+  economicUnions:[],
   lettersUsed:['P','A','L','A','U'],
   Region: "Western Asia",
   Continent: "Micronesia"
@@ -1339,6 +1437,7 @@ const Panama={
   flagDesign:"",
   flagColors:['Blue','Red','White'],
   Borders:['Costa Rica','Colombia'],
+  economicUnions:['SICA'],
   lettersUsed:['P','A','N','A','M','A'],
   Region: "Central America",
   Continent: "North America"
@@ -1349,6 +1448,7 @@ const Papua={
   flagDesign:"",
   flagColors:['Black','Red','White','Yellow'],
   Borders:['Indonesia'],
+  economicUnions:[],
   lettersUsed:['P','A','P','U','A','N','E','W','G','U','I','N','E','A'],
   Region: "Melanesia",
   Continent: "Oceania"
@@ -1359,6 +1459,7 @@ const Paraguay={
   flagDesign:"",
   flagColors:['Blue','Red','White','Black','Green','Yellow'],
   Borders:['Brazil','Argentina','Bolivia'],
+  economicUnions:['Mercosur'],
   lettersUsed:['P','A','R','A','G','U','A','Y'],
   Region: "",
   Continent: "South America"
@@ -1369,6 +1470,7 @@ const Peru={
   flagDesign:"tricolor",
   flagColors:['Red','White'],
   Borders:['Brazil','Ecuador','Colombia','Bolivia','Chile'],
+  economicUnions:[],
   lettersUsed:['P','E','R','U'],
   Region: "",
   Continent: "South America"
@@ -1379,6 +1481,7 @@ const Philippines={
   flagDesign:"",
   flagColors:['Yellow','Red','White','Blue'],
   Borders:[],
+  economicUnions:[],
   lettersUsed:['P','H','I','L','I','P','P','I','N','E','S'],
   Region: "Southeast Asia",
   Continent: "Asia"
@@ -1389,7 +1492,7 @@ const Poland={
   flagDesign:"dual color",
   flagColors:['White','Red'],
   Borders:['Ukraine', 'Slovakia', 'Czechia','Belarus','Lithuania','Russia'],
-  isPartOfTheEU: "yes",
+  economicUnions:['EU'],
   lettersUsed:['P','O','L','A','N','D'],
   isPartofNato: "yes",
   Region: "Central Europe",
@@ -1401,7 +1504,7 @@ const Portugal={
   flagDesign:"",
   flagColors:['Blue','Red','Green','Yellow'],
   Borders:['Spain'],
-  isPartOfTheEU: "yes",
+  economicUnions:['EU'],
   lettersUsed:['P','O','R','T','U','G','A','L'],
   isPartofNato: "yes",
   Region: "Southern Europe",
@@ -1413,6 +1516,7 @@ const Qatar={
   flagDesign:"",
   flagColors:['Purple','White'],
   Borders:['Saudi Arabia'],
+  economicUnions:['GCC'],
   lettersUsed:['Q','A','T','A','R'],
   Region: "Western Asia",
   Continent: "Asia"
@@ -1423,6 +1527,7 @@ const RCongo={
   flagDesign:"",
   flagColors:['Red','Green','Yellow'],
   Borders:['Democratic Republic of the Congo','Gabon','Angola','Cameroon','Central African Republic'],
+  economicUnions:[],
   lettersUsed:['R','E','P','U','B','L','I','C','O','F','C','O','N','G','O'],
   Region: "Central Africa",
   Continent: "Africa"
@@ -1433,7 +1538,7 @@ const Romania={
   flagDesign:"tricolor",
   flagColors:['Blue','Red','Yellow'],
   Borders:['Ukraine', 'Moldova', 'Bulgaria','Hungary','Serbia'],
-  isPartOfTheEU: "yes",
+  economicUnions:['EU'],
   lettersUsed:['R','O','M','A','N','I','A'],
   isPartofNato: "yes",
   Region: "Southeastern Europe",
@@ -1445,7 +1550,7 @@ const Russia={
   flagDesign:"tricolor",
   flagColors:['White','Blue','Red'],
   Borders:['Belarus', 'Poland', 'Ukraine', 'Finland', 'Estonia', 'Latvia,', 'Lithuania', 'Kazakhstan', 'Azerbaijan', 'Georgia'],
-  isPartOfTheEU: "no",
+  economicUnions:['EAEU'],
   lettersUsed:['R','U','S','S','I','A'],
   isPartofNato: "no",
   Region: "Eastern Europe",
@@ -1457,6 +1562,7 @@ const Kitts={
   flagDesign:"",
   flagColors:['Green','Red','Yellow','Black','White'],
   Borders:[],
+  economicUnions:['CSME'],
   lettersUsed:['S','A','I','N','T','K','I','T','T','S','A','N','D','N','E','V','I','S'],
   Region: "the Caribbean",
   Continent: "North America"
@@ -1467,6 +1573,7 @@ const Lucia={
   flagDesign:"",
   flagColors:['Blue','White','Yellow','Black'],
   Borders:[],
+  economicUnions:['CSME'],
   lettersUsed:['S','A','I','N','T','L','U','C','I','A'],
   Region: "the Caribbean",
   Continent: "North America"
@@ -1477,6 +1584,7 @@ const Vincent={
   flagDesign:"",
   flagColors:['Green','Yellow','Blue'],
   Borders:[],
+  economicUnions:['CSME'],
   lettersUsed:['S','A','I','N','T','V','I','N','C','E','N','T','A','N','D','T','H','E','G','R','E','N','A','D','I','N','E','S'],
   Region: "the Caribbean",
   Continent: "North America"
@@ -1487,6 +1595,7 @@ const Samoa={
   flagDesign:"",
   flagColors:['Red','White','Blue'],
   Borders:[],
+  economicUnions:[],
   lettersUsed:['S','A','M','O','A'],
   Region: "Polynesia",
   Continent: "Oceania"
@@ -1497,7 +1606,7 @@ const Marino={
   flagDesign:"",
   flagColors:['White','Blue','Green','Yellow'],
   Borders:['Italy'],
-  isPartOfTheEU: "no",
+  economicUnions:[],
   lettersUsed:['S','A','N','M','A','R','I','N','O'],
   isPartofNato: "no",
   Region: "Southern Europe",
@@ -1509,6 +1618,7 @@ const Tome={
   flagDesign:"",
   flagColors:['Red','Yellow','Green','Black'],
   Borders:[],
+  economicUnions:[],
   lettersUsed:['S','A','O','T','O','M','E','A','N','D','P','R','I','N','C','I','P','E'],
   Region: "Central Africa",
   Continent: "Africa"
@@ -1519,6 +1629,7 @@ const Saudi={
   flagDesign:"",
   flagColors:['Green','White'],
   Borders:['Iraq','Yemen','Oman','Jordan','United Arab Emirates','Qatar','Kuwait'],
+  economicUnions:['GCC'],
   lettersUsed:['S','A','U','D','I','A','R','A','B','I','A'],
   Region: "Western Asia",
   Continent: "Asia"
@@ -1529,6 +1640,7 @@ const Senegal={
   flagDesign:"",
   flagColors:['Red','Green','Yellow'],
   Borders:['Mauritania','The Gambia','Guinea-Bissau','Guinea','Mali'],
+  economicUnions:[],
   lettersUsed:['S','E','N','E','G','A','L'],
   Region: "West Africa",
   Continent: "Africa"
@@ -1539,7 +1651,7 @@ const Serbia={
   flagDesign:"",
   flagColors:['White','Red','Blue','Yellow'],
   Borders:['Romania', 'Hungary', 'Bosnia and Herzegovina','Montenegro','Croatia','Albania','North Macedonia','Bulgaria'],
-  isPartOfTheEU: "no",
+  economicUnions:[],
   lettersUsed:['S','E','R','B','I','A'],
   isPartofNato: "no",
   Region: "Southeastern Europe",
@@ -1551,6 +1663,7 @@ const Seychelles={
   flagDesign:"",
   flagColors:['Red','White','Green','Blue','Yellow'],
   Borders:[],
+  economicUnions:[],
   lettersUsed:['S','E','Y','C','H','L','L','E','S'],
   Region: "East Africa",
   Continent: "Africa"
@@ -1561,6 +1674,7 @@ const Sierra={
   flagDesign:"tricolor",
   flagColors:['Green','White','Blue'],
   Borders:['Guinea','Liberia'],
+  economicUnions:[],
   lettersUsed:['S','I','E','R','R','A','L','E','O','N','E'],
   Region: "West Africa",
   Continent: "Africa"
@@ -1571,6 +1685,7 @@ const Singapore={
   flagDesign:"",
   flagColors:['Red','White'],
   Borders:['Malaysia'],
+  economicUnions:[],
   lettersUsed:['S','I','N','G','A','P','O','R','E'],
   Region: "Southeast Asia",
   Continent: "Asia"
@@ -1581,7 +1696,7 @@ const Slovakia={
   flagDesign:"",
   flagColors:['White','Red','Blue'],
   Borders:['Czech Republic', 'Poland', 'Ukraine','Austria','Hungary'],
-  isPartOfTheEU: "yes",
+  economicUnions:['EU'],
   lettersUsed:['S','L','O','V','A','K','I','A'],
   isPartofNato: "yes",
   Region: "Central Europe",
@@ -1593,7 +1708,7 @@ const Slovenia={
   flagDesign:"",
   flagColors:['White','Red','Blue','Yellow'],
   Borders:['Italy', 'Hungary', 'Austria','Croatia'],
-  isPartOfTheEU: "yes",
+  economicUnions:['EU'],
   lettersUsed:['S','L','O','V','E','N','I','A'],
   isPartofNato: "yes",
   Region: "Southern Europe",
@@ -1605,6 +1720,7 @@ const Solomon={
   flagDesign:"",
   flagColors:['Blue','White','Green','Yellow'],
   Borders:[],
+  economicUnions:[],
   lettersUsed:['S','O','L','O','M','O','N','I','S','L','A','N','D','S'],
   Region: "Melanesia",
   Continent: "Oceania"
@@ -1615,6 +1731,7 @@ const Somalia={
   flagDesign:"",
   flagColors:['Blue','White'],
   Borders:['Ethiopia','Kenya','Djibouti'],
+  economicUnions:[],
   lettersUsed:['S','O','M','A','L','I','A'],
   Region: "Horn of Africa",
   Continent: "Africa"
@@ -1625,6 +1742,7 @@ const SouthAfrica={
   flagDesign:"tricolor",
   flagColors:['Red','White','Green','Black','Yellow','Blue'],
   Borders:['Namibia','Botswana','Zimbabwe','Lesotho','Eswatini','Mozambique'],
+  economicUnions:[],
   lettersUsed:['S','O','U','T','H','A','F','R','I','C','A'],
   Region: "Southern Africa",
   Continent: "Africa"
@@ -1635,6 +1753,7 @@ const ROK={
   flagDesign:"",
   flagColors:['Red','White','Blue','Black'],
   Borders:['North Korea'],
+  economicUnions:[],
   lettersUsed:['S','O','U','T','H','K','O','R','E','A'],
   Region: "East Asia",
   Continent: "Asia"
@@ -1645,6 +1764,7 @@ const SouthSudan={
   flagDesign:"",
   flagColors:['Red','White','Black','Green','Blue','Yellow'],
   Borders:['Sudan','Ethiopia','Uganda','Central African Republic','Democratic Republic of the Congo','Kenya'],
+  economicUnions:[],
   lettersUsed:['S','O','U','T','H','S','U','D','A','N'],
   Region: "Central Africa",
   Continent: "Africa"
@@ -1655,7 +1775,7 @@ const Spain={
   flagDesign:"",
   flagColors:['White','Red','Green','Yellow','Brown','Blue','Black','Pink'],
   Borders:['Portugal', 'France', 'Andorra'],
-  isPartOfTheEU: "yes",
+  economicUnions:['EU'],
   lettersUsed:['S','P','A','I','N'],
   isPartofNato: "yes",
   Region: "Southern Europe",
@@ -1667,6 +1787,7 @@ const SriLanka={
   flagDesign:"",
   flagColors:['Red','Orange','Green','Yellow','Black'],
   Borders:[],
+  economicUnions:[],
   lettersUsed:['S','R','I','L','A','N','K','A'],
   Region: "South Asia",
   Continent: "Asia"
@@ -1677,6 +1798,7 @@ const Sudan={
   flagDesign:"",
   flagColors:['Red','White','Green','Black'],
   Borders:['Egypt','South Sudan','Eritrea','Chad','Central African Republic'],
+  economicUnions:[],
   lettersUsed:['S','U','D','A','N'],
   Region: "North Africa",
   Continent: "Africa"
@@ -1687,6 +1809,7 @@ const Suriname={
   flagDesign:"",
   flagColors:['Red','White','Yellow','Green'],
   Borders:['France','Guyana','Brazil'],
+  economicUnions:['CSME'],
   lettersUsed:['S','U','R','I','N','A','M','E'],
   Region: "",
   Continent: "South America"
@@ -1697,7 +1820,7 @@ const Sweden={
   flagDesign:"nordic cross",
   flagColors:['Blue','Yellow'],
   Borders:['Norway', 'Finland'],
-  isPartOfTheEU: "yes",
+  economicUnions:['EU'],
   lettersUsed:['S','W','E','D','E','N'],
   isPartofNato: "no",
   Region: "Northern Europe",
@@ -1709,7 +1832,7 @@ const Switzerland={
   flagDesign:"",
   flagColors:['White','Red'],
   Borders:['France', 'Germany', 'Austria','Liechtenstein','Italy'],
-  isPartOfTheEU: "no",
+  economicUnions:[],
   lettersUsed:['S','W','I','T','Z','E','R','L','A','N','D'],
   isPartofNato: "no",
   Region: "Western Europe",
@@ -1721,6 +1844,7 @@ const Syria={
   flagDesign:"",
   flagColors:['Red','White','Black','Green'],
   Borders:['Iraq','Turkey','Jordan','Lebanon','Israel'],
+  economicUnions:[],
   lettersUsed:['S','Y','R','I','A'],
   Region: "Western Asia",
   Continent: "Asia"
@@ -1731,6 +1855,7 @@ const Tajikistan={
   flagDesign:"",
   flagColors:['Red','White','Green','Yellow'],
   Borders:['Uzbekistan','Afghanistan','Kyrgyzstan','China'],
+  economicUnions:[],
   lettersUsed:['T','A','J','I','K','I','S','T','A','N'],
   Region: "Central Asia",
   Continent: "Asia"
@@ -1741,6 +1866,7 @@ const Tanzania={
   flagDesign:"",
   flagColors:['Green','Blue','Black','Yellow'],
   Borders:['Kenya','Rwanda','Burundi','Mozambique','Zambia','Democratic Republic of the Congo'],
+  economicUnions:[],
   lettersUsed:['T','A','N','Z','A','N','I','A'],
   Region: "East Africa",
   Continent: "Africa"
@@ -1751,6 +1877,7 @@ const Thailand={
   flagDesign:"",
   flagColors:['Red','White','Blue'],
   Borders:['Myanmar','Laos','Cambodia','Malaysia'],
+  economicUnions:[],
   lettersUsed:['T','H','A','I','L','A','N','D'],
   Region: "Southeast Asia",
   Continent: "Asia"
@@ -1761,6 +1888,7 @@ const Bahamas={
   flagDesign:"",
   flagColors:['Black','Blue','Yellow'],
   Borders:[],
+  economicUnions:[],
   lettersUsed:['T','H','E','B','A','H','A','M','A','S'],
   Region: "the Caribbean",
   Continent: "North America"
@@ -1771,6 +1899,7 @@ const Gambia={
   flagDesign:"",
   flagColors:['Red','White','Green','Blue'],
   Borders:['Senegal'],
+  economicUnions:[],
   lettersUsed:['T','H','E','G','A','M','B','I','A'],
   Region: "West Africa",
   Continent: "Africa"
@@ -1781,6 +1910,7 @@ const Togo={
   flagDesign:"",
   flagColors:['Red','White','Green','Yellow'],
   Borders:['Ghana','Benin','Burkina Faso'],
+  economicUnions:[],
   lettersUsed:['T','O','G','O'],
   Region: "West Africa",
   Continent: "Africa"
@@ -1791,6 +1921,7 @@ const Tonga={
   flagDesign:"",
   flagColors:['Red','White'],
   Borders:[],
+  economicUnions:[],
   lettersUsed:['T','O','N','G','A'],
   Region: "Polynesia",
   Continent: "Oceania"
@@ -1801,6 +1932,7 @@ const Trinidad={
   flagDesign:"",
   flagColors:['Red','White','Black'],
   Borders:[],
+  economicUnions:['CSME'],
   lettersUsed:['T','R','I','N','I','D','A','D','A','N','D','T','O','B','A','G','O'],
   Region: "the Caribbean",
   Continent: "North America"
@@ -1811,6 +1943,7 @@ const Tunisia={
   flagDesign:"",
   flagColors:['Red','White'],
   Borders:['Algeria','Libya'],
+  economicUnions:[],
   lettersUsed:['T','U','N','I','S','I','A'],
   Region: "North Africa",
   Continent: "Africa"
@@ -1821,7 +1954,7 @@ const Turkey={
   flagDesign:"",
   flagColors:['White','Red'],
   Borders:['Bulgaria', 'Greece', 'Georgia'],
-  isPartOfTheEU: "no",
+  economicUnions:[],
   lettersUsed:['T','U','R','K','E','Y'],
   isPartofNato: "yes",
   Region: "Western Asia",
@@ -1833,6 +1966,7 @@ const Turkmenistan={
   flagDesign:"",
   flagColors:['Red','White','Green','Yellow'],
   Borders:['Uzbekistan','Iran','Afghanistan','Kazakhstan'],
+  economicUnions:[],
   lettersUsed:['T','U','R','K','M','E','N','I','S','T','A','N'],
   Region: "Central Asia",
   Continent: "Asia"
@@ -1843,6 +1977,7 @@ const Uganda={
   flagDesign:"",
   flagColors:['Red','Yellow','Black','White','Grey'],
   Borders:['Kenya','South Sudan','Democratic Republic of the Congo','Tanzania'],
+  economicUnions:[],
   lettersUsed:['U','G','A','N','D','A'],
   Region: "East Africa",
   Continent: "Africa"
@@ -1853,7 +1988,7 @@ const Ukraine={
   flagDesign:"dual color",
   flagColors:['Blue','Yellow'],
   Borders:['Russia', 'Slovakia', 'Poland','Belarus','Moldova','Hungary','Romania'],
-  isPartOfTheEU: "no",
+  economicUnions:[],
   lettersUsed:['U','K','R','A','I','N','E'],
   isPartofNato: "no",
   Region: "Eastern Europe",
@@ -1865,6 +2000,7 @@ const UAE={
   flagDesign:"",
   flagColors:['Red','White','Green','Black'],
   Borders:['Oman','Saudi Arabia'],
+  economicUnions:['GCC'],
   lettersUsed:['U','N','I','T','E','D','A','R','A','B','E','M','I','R','A','T','E','S'],
   Region: "Western Asia",
   Continent: "Asia"
@@ -1875,7 +2011,7 @@ const UK={
   flagDesign:"",
   flagColors:['White','Red','Blue'],
   Borders:['Ireland'],
-  isPartOfTheEU: "no",
+  economicUnions:[],
   lettersUsed:['U','N','I','T','E','D','K','I','N','G','D','O','M'],
   isPartofNato: "yes",
   Region: "Western Europe",
@@ -1887,6 +2023,7 @@ const USA={
   flagDesign:"",
   flagColors:['White','Red','Blue'],
   Borders:['Canada','Mexico'],
+  economicUnions:[],
   lettersUsed:['U','N','I','T','E','D','S','T','A','T','E','S','O','F','A','M','E','R','I','C','A'],
   isPartofNato: "yes",
   Region: "",
@@ -1898,6 +2035,7 @@ const Uruguay={
   flagDesign:"",
   flagColors:['Blue','White','Yellow','Brown'],
   Borders:['Brazil','Argentina'],
+  economicUnions:['Mercosur'],
   lettersUsed:['U','R','U','G','U','A','Y'],
   Region: "",
   Continent: "South America"
@@ -1908,6 +2046,7 @@ const Uzbekistan={
   flagDesign:"",
   flagColors:['Blue','White','Red','Green'],
   Borders:['Kazakhstan','Kyrgyzstan','Tajikistan','Afghanistan','Turkmenistan'],
+  economicUnions:[],
   lettersUsed:['U','Z','B','E','K','I','S','T','A','N'],
   Region: "Central Asia",
   Continent: "Asia"
@@ -1918,6 +2057,7 @@ const Vanuatu={
   flagDesign:"",
   flagColors:['Red','Green','Black','Yellow'],
   Borders:[],
+  economicUnions:[],
   lettersUsed:['V','A','N','U','A','T','U'],
   Region: "Melanesia",
   Continent: "Oceania"
@@ -1928,7 +2068,7 @@ const Vatican={
   flagDesign:"",
   flagColors:['White','Red','Yellow','Grey'],
   Borders:['Italy'],
-  isPartOfTheEU: "no",
+  economicUnions:[],
   lettersUsed:['V','A','T','I','C','A','N','C','I','T','Y'],
   isPartofNato: "no",
   Region: "Southern Europe",
@@ -1940,6 +2080,7 @@ const Venezuela={
   flagDesign:"",
   flagColors:['Blue','White','Yellow','Red'],
   Borders:['Brazil','Colombia','Guyana'],
+  economicUnions:[],
   lettersUsed:['V','E','N','E','Z','U','E','L','A'],
   Region: "",
   Continent: "South America"
@@ -1950,6 +2091,7 @@ const Vietnam={
   flagDesign:"",
   flagColors:['Red','Yellow'],
   Borders:['Laos','Cambodia','China'],
+  economicUnions:[],
   lettersUsed:['V','I','E','T','N','A','M'],
   Region: "Southeast Asia",
   Continent: "Asia"
@@ -1960,6 +2102,7 @@ const Yemen={
   flagDesign:"tricolor",
   flagColors:['Black','White','Red'],
   Borders:['Oman','Saudi Arabia'],
+  economicUnions:[],
   lettersUsed:['Y','E','M','E','N'],
   Region: "Western Asia",
   Continent: "Asia"
@@ -1970,6 +2113,7 @@ const Zambia={
   flagDesign:"",
   flagColors:['Green','Black','Red','Brown'],
   Borders:['Democratic Republic of the Congo','Angola','Malawi','Mozambique','Zimbabwe','Namibia','Tanzania','Botswana'],
+  economicUnions:[],
   lettersUsed:['Z','A','M','B','I','A'],
   Region: "Southern Africa",
   Continent: "Africa"
@@ -1980,6 +2124,7 @@ const Zimbabwe={
   flagDesign:"",
   flagColors:['Green','White','Yellow','Red','Black'],
   Borders:['Mozambique','Botswana','Zambia','South Africa'],
+  economicUnions:[],
   lettersUsed:['Z','I','M','B','A','B','W','E'],
   Region: "Southern Africa",
   Continent: "Africa"
