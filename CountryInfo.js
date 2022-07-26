@@ -791,7 +791,7 @@ const Guatemala={
   Continent: "North America"
 }
 const GuineaBissau={
-  Name: "Guinea-Bissau",
+  Name: "Guinea Bissau",
   Language:['Portuguese'],
   flagDesign:"",
   flagColors:['Red','Yellow','Green','Black'],
