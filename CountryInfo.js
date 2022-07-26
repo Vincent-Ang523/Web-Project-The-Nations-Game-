@@ -30,6 +30,7 @@ const Algeria={
   Borders:['Tunisia', 'Morocco', 'Libya', 'Mali','Niger','Mauritania'],
   economicUnions:[],
   lettersUsed:['A','L','G','E','R','I','A'],
+  militaryAlliances:[],
   Region: "North Africa",
   Continent: "Africa"
 }
@@ -41,7 +42,7 @@ const Andorra={
   Borders:['Spain', 'France'],
   economicUnions:[],
   lettersUsed:['A','N','D','O','R','R','A'],
-  isPartofNato: "no",
+  militaryAlliances:[],
   Region: "Southern Europe",
   Continent: "Europe"
 }
@@ -53,6 +54,7 @@ const Angola={
   Borders:['Namibia', 'Democratic Republic of the Congo', 'Republic of Congo', 'Zambia'],
   economicUnions:[],
   lettersUsed:['A','N','G','O','L','A'],
+  militaryAlliances:[],
   Region: "Southern Africa",
   Continent: "Africa"
 }
@@ -64,6 +66,7 @@ const Antigua={
   Borders:[],
   economicUnions:['CSME'],
   lettersUsed:['A','N','T','I','G','U','A','A','N','D','B','A','R','B','U','D','A'],
+  militaryAlliances:[],
   Region: "the Caribbean",
   Continent: "North America"
 }
@@ -75,6 +78,7 @@ const Argentina={
   Borders:['Uruguay', 'Brazil', 'Chile', 'Paraguay','Bolivia'],
   economicUnions:['Mercosur'],
   lettersUsed:['A','R','G','E','N','T','I','N','A'],
+  militaryAlliances:['Rio Pact'],
   Region: "",
   Continent: "South America"
 }
@@ -86,6 +90,7 @@ const Armenia={
   Borders:['Azerbaijan', 'Georgia', 'Turkey', 'Iran'],
   economicUnions:['EAEU'],
   lettersUsed:['A','R','M','E','N','I','A'],
+  militaryAlliances:['CSTO'],
   Region: "the Caucasus",
   Continent: "Asia"
 }
@@ -97,6 +102,7 @@ const Australia={
   Borders:[],
   economicUnions:[],
   lettersUsed:['A','U','S','T','R','A','L','I','A'],
+  militaryAlliances:[],
   Region: "Australasia",
   Continent: "Oceania"
 }
@@ -108,7 +114,7 @@ const Austria={
   Borders:['Czech Republic', 'Liechtenstein', 'Hungary', 'Slovenia', 'Slovakia', 'Switzerland,', 'Italy', 'Germany'],
   economicUnions:['EU'],
   lettersUsed:['A','U','S','T','R','I','A'],
-  isPartofNato: "no",
+  militaryAlliances:[],
   Region: "Central Europe", 
   Continent: "Europe"
 }
@@ -119,9 +125,8 @@ const Azerbaijan={
   flagColors:['Blue','Red','Green','White'],
   Borders:['Russia', 'Georgia', 'Armenia','Iran'],
   economicUnions:[],
-  isPartOfTheEU: "no",
   lettersUsed:['A','Z','E','R','B','A','I','J','A','N'],
-  isPartofNato: "no",
+  militaryAlliances:[],
   Region: "the Caucasus", 
   Continent: "Asia"
 }
@@ -133,6 +138,7 @@ const Bahrain={
   Borders:[],
   economicUnions:['GCC'],
   lettersUsed:['B','A','H','R','A','I','N'],
+  militaryAlliances:[],
   Region: "the Middle East",
   Continent: "Asia"
 }
@@ -144,6 +150,7 @@ const Bangladesh={
   Borders:['India', 'Myanmar'],
   economicUnions:[],
   lettersUsed:['B','A','N','G','L','A','D','E','S','H'],
+  militaryAlliances:[],
   Region: "South Asia",
   Continent: "Asia"
 }
@@ -155,6 +162,7 @@ const Barbados={
   Borders:[],
   economicUnions:['CSME'],
   lettersUsed:['B','A','R','B','A','D','O','S'],
+  militaryAlliances:[],
   Region: "the Caribbean",
   Continent: "North America"
 }
@@ -166,7 +174,7 @@ const Belarus={
   Borders:['Russia', 'Ukraine', 'Poland', 'Lithuania', 'Latvia'],
   economicUnions:['EAEU'],
   lettersUsed:['B','E','L','A','R','U','S'],
-  isPartofNato: "no",
+  militaryAlliances:['CSTO'],
   Region: "Eastern Europe",
   Continent: "Europe"
 }
@@ -178,7 +186,7 @@ const Belgium={
   Borders:['France', 'The Netherlands', 'Luxembourg', 'Germany'],
   economicUnions:['EU'],
   lettersUsed:['B','E','L','G','I','U','M'],
-  isPartofNato: "yes",
+  militaryAlliances:['NATO'],
   Region: "Western Europe",
   Continent: "Europe"
 }
@@ -190,6 +198,7 @@ const Belize={
   Borders:['Mexico', 'Guatemala'],
   economicUnions:['SICA','CSME'],
   lettersUsed:['B','E','L','I','Z','E'],
+  militaryAlliances:[],
   Region: "Central America",
   Continent: "North America"
 }
@@ -201,6 +210,7 @@ const Benin={
   Borders:['Togo', 'Burkina Faso', 'Nigeria', 'Niger'],
   economicUnions:[],
   lettersUsed:['B','E','N','I','N'],
+  militaryAlliances:[],
   Region: "West Africa",
   Continent: "Africa"
 }
@@ -212,6 +222,7 @@ const Bhutan={
   Borders:['China', 'India'],
   economicUnions:[],
   lettersUsed:['B','H','U','T','A','N'],
+  militaryAlliances:[],
   Region: "South Asia",
   Continent: "Asia"
 }
@@ -222,7 +233,8 @@ const Bolivia={
   flagColors:['Yellow','Green','Red','Blue','Black'],
   Borders:['Peru', 'Brazil', 'Chile', 'Argentina','Paraguay'],
   economicUnions:[],
-  lettersUsed:['A','N','G','O','L','A'],
+  lettersUsed:['B','O','L','I','V','I','A'],
+  militaryAlliances:[],
   Region: "",
   Continent: "South America"
 }
@@ -233,9 +245,8 @@ const Bosnia={
   flagColors:['Blue','Yellow','White'],
   Borders:['Croatia', 'Serbia', 'Montenegro'],
   economicUnions:[],
-  isPartOfTheEU: "no",
   lettersUsed:['B','O','S','N','I','A','A','N','D','H','E','R','Z','E','G','O','V','I','N','A'],
-  isPartofNato: "no",
+  militaryAlliances:[],
   Region: "Southeastern Europe",
   Continent: "Europe"
 }
@@ -247,6 +258,7 @@ const Botswana={
   Borders:['Namibia', 'Zimbabwe', 'South Africa', 'Zambia'],
   economicUnions:[],
   lettersUsed:['B','O','T','S','W','A','N','A'],
+  militaryAlliances:[],
   Region: "Southern Africa",
   Continent: "Africa"
 }
@@ -258,6 +270,7 @@ const Brazil={
   Borders:['France', 'Suriname', 'Guyana', 'Venezuela','Colombia','Peru','Bolivia','Paraguay','Argentina','Uruguay'],
   economicUnions:['Mercosur'],
   lettersUsed:['B','R','A','Z','I','L'],
+  militaryAlliances:['Rio Pact'],
   Region: "",
   Continent: "South America"
 }
@@ -269,6 +282,7 @@ const Brunei={
   Borders:['Malaysia'],
   economicUnions:[],
   lettersUsed:['B','R','U','N','E','I','D','A','R','U','S','S','A','L','A','M'],
+  militaryAlliances:[],
   Region: "Southeast Asia",
   Continent: "Asia"
 }
@@ -280,7 +294,7 @@ const Bulgaria={
   Borders:['Romania', 'Serbia', 'Greece', 'North Macedonia','Turkey'],
   economicUnions:['EU'],
   lettersUsed:['B','U','L','G','A','R','I','A'],
-  isPartofNato: "yes",
+  militaryAlliances:['NATO'],
   Region: "Southeastern Europe",
   Continent: "Europe"
 }
@@ -292,6 +306,7 @@ const Burkina={
   Borders:['Mali', 'Niger', 'Benin', 'Togo','Ghana','Ivory Coast'],
   economicUnions:[],
   lettersUsed:['B','U','R','K','I','N','A','F','A','S','O'],
+  militaryAlliances:[],
   Region: "West Africa",
   Continent: "Africa"
 }
@@ -303,6 +318,7 @@ const Burundi={
   Borders:['Rwanda', 'Democratic Republic of the Congo', 'Tanzania'],
   economicUnions:[],
   lettersUsed:['B','U','R','U','N','D','I'],
+  militaryAlliances:[],
   Region: "East Africa",
   Continent: "Africa"
 }
@@ -314,6 +330,7 @@ const Cambodia={
   Borders:['Laos', 'Thailand', 'Vietnam'],
   economicUnions:[],
   lettersUsed:['C','A','M','B','O','D','I','A'],
+  militaryAlliances:[],
   Region: "Southeast Asia",
   Continent: "Asia"
 }
@@ -325,6 +342,7 @@ const Cameroon={
   Borders:['Nigeria', 'Central African Republic', 'Chad', 'Equatorial Guinea','Republic of Congo','Gabon'],
   economicUnions:[],
   lettersUsed:['C','A','M','E','R','O','O','N'],
+  militaryAlliances:[],
   Region: "Central Africa",
   Continent: "Africa"
 }
@@ -336,7 +354,7 @@ const Canada={
   Borders:['United States of America', 'Denmark'],
   economicUnions:[],
   lettersUsed:['C','A','N','A','D','A'],
-  isPartofNato: "yes",
+  militaryAlliances:['NATO'],
   Region: "North America",
   Continent: "North America"
 }
@@ -348,6 +366,7 @@ const CapeVerde={
   Borders:[],
   economicUnions:[],
   lettersUsed:['C','A','P','E','V','E','R','D','E'],
+  militaryAlliances:[],
   Region: "West Africa",
   Continent: "Africa"
 }
@@ -359,6 +378,7 @@ const CAR={
   Borders:['Chad', 'Democratic Republic of the Congo', 'Republic of Congo', 'Cameroon','Sudan','South Sudan'],
   economicUnions:[],
   lettersUsed:['C','E','N','T','R','A','L','A','F','R','I','C','A','N','R','E','P','U','B','L','I','C'],
+  militaryAlliances:[],
   Region: "Central Africa",
   Continent: "Africa"
 }
@@ -370,6 +390,7 @@ const Chad={
   Borders:['Sudan', 'Libya', 'Niger', 'Nigeria','Cameroon','Central African Republic'],
   economicUnions:[],
   lettersUsed:['C','H','A','D'],
+  militaryAlliances:[],
   Region: "Central Africa",
   Continent: "Africa"
 }
@@ -381,6 +402,7 @@ const Chile={
   Borders:['Argentina', 'Peru', 'Bolivia'],
   economicUnions:[],
   lettersUsed:['C','H','I','L','E'],
+  militaryAlliances:['Rio Pact'],
   Region: "",
   Continent: "South America"
 }
@@ -392,6 +414,7 @@ const China={
   Borders:['Russia', 'India', 'Kazakhstan', 'Mongolia','North Korea','Tajikistan','Nepal','Bhutan','Afghanistan','Pakistan','Myanmar','Laos','Vietnam','Kyrgyzstan'],
   economicUnions:[],
   lettersUsed:['C','H','I','N','A'],
+  militaryAlliances:[],
   Region: "East Asia",
   Continent: "Asia"
 }
@@ -403,6 +426,7 @@ const Colombia={
   Borders:['Venezuela', 'Ecuador', 'Brazil', 'Peru','Panama'],
   economicUnions:[],
   lettersUsed:['C','O','L','O','M','B','I','A'],
+  militaryAlliances:['Rio Pact'],
   Region: "",
   Continent: "South America"
 }
@@ -414,6 +438,7 @@ const Comoros={
   Borders:[],
   economicUnions:[],
   lettersUsed:['C','O','M','O','R','O','S'],
+  militaryAlliances:[],
   Region: "East Africa",
   Continent: "Africa"
 }
@@ -425,6 +450,7 @@ const CostaRica={
   Borders:['Panama', 'Nicaragua'],
   economicUnions:['SICA'],
   lettersUsed:['C','O','S','T','A','R','I','C','A'],
+  militaryAlliances:['Rio Pact'],
   Region: "Central America",
   Continent: "North America"
 }
@@ -436,7 +462,7 @@ const Croatia={
   Borders:['Bosnia and Herzegovina', 'Serbia', 'Hungary', 'Slovenia','Montenegro'],
   economicUnions:['EU'],
   lettersUsed:['C','R','O','A','T','I','A'],
-  isPartofNato: "yes",
+  militaryAlliances:['NATO'],
   Region: "Southeastern Europe",
   Continent: "Europe"
 }
@@ -448,6 +474,7 @@ const Cuba={
   Borders:[],
   economicUnions:[],
   lettersUsed:['C','U','B','A'],
+  militaryAlliances:[],
   Region: "the Caribbean",
   Continent: "North America"
 }
@@ -459,7 +486,7 @@ const Cyprus={
   Borders:[],
   economicUnions:['EU'],
   lettersUsed:['C','Y','P','R','U','S'],
-  isPartofNato: "no",
+  militaryAlliances:[],
   Region: "",
   Continent: "Asia"
 }
@@ -471,7 +498,7 @@ const Czechia={
   Borders:['Poland', 'Slovakia', 'Austria', 'Germany'],
   economicUnions:['EU'],
   lettersUsed:['C','Z','E','C','H','R','E','P','U','B','L','I','C'],
-  isPartofNato: "yes",
+  militaryAlliances:['NATO'],
   Region: "Central Europe",
   Continent: "Europe"
 }
@@ -483,6 +510,7 @@ const DRC={
   Borders:['Angola','Zambia','Republic of Congo','Central African Republic','Uganda','South Sudan','Rwanda','Burundi'],
   economicUnions:[],
   lettersUsed:['D','E','M','O','C','R','A','T','I','C','R','E','P','U','B','L','I','C','O','F','T','H','E','C','O','N','G','O'],
+  militaryAlliances:[],
   Region: "Central Africa",
   Continent: "Africa"
 }
@@ -494,7 +522,7 @@ const Denmark={
   Borders:['Germany'],
   economicUnions:['EU'],
   lettersUsed:['D','E','N','M','A','R','K'],
-  isPartofNato: "yes",
+  militaryAlliances:['NATO'],
   Region: "Northern Europe",
   Continent: "Europe"
 }
@@ -506,6 +534,7 @@ const Djibouti={
   Borders:['Eritrea','Ethiopia','Somalia'],
   economicUnions:[],
   lettersUsed:['D','J','I','B','O','U','T','I'],
+  militaryAlliances:[],
   Region: "the Horn of Africa",
   Continent: "Africa"
 }
@@ -517,6 +546,7 @@ const Dominica={
   Borders:[],
   economicUnions:['CSME'],
   lettersUsed:['D','O','M','I','N','I','C','A'],
+  militaryAlliances:[],
   Region: "the Caribbean",
   Continent: "North America"
 }
@@ -528,8 +558,21 @@ const DR={
   Borders:['Haiti'],
   economicUnions:['SICA'],
   lettersUsed:['D','O','M','I','N','I','C','A','N','R','E','P','U','B','L','I','C'],
+  militaryAlliances:['Rio Pact'],
   Region: "the Caribbean",
   Continent: "North America"
+}
+const EastTimor={
+  Name: "East Timor",
+  Language:['Portuguese','Tetum'],
+  flagDesign:"",
+  flagColors:['Red','Yellow','Black','White'],
+  Borders:['Indonesia'],
+  economicUnions:[],
+  lettersUsed:['E','A','S','T','T','I','M','O','R'],
+  militaryAlliances:[],
+  Region: "Southeast Asia",
+  Continent: "Asia"
 }
 const Ecuador={
   Name: "Ecuador",
@@ -539,6 +582,7 @@ const Ecuador={
   Borders:['Colombia','Peru'],
   economicUnions:[],
   lettersUsed:['E','C','U','A','D','O','R'],
+  militaryAlliances:[],
   Region: "",
   Continent: "South America"
 }
@@ -550,6 +594,7 @@ const Egypt={
   Borders:['Libya','Sudan','Israel'],
   economicUnions:[],
   lettersUsed:['E','G','Y','P','T'],
+  militaryAlliances:[],
   Region: "North Africa",
   Continent: "Africa"
 }
@@ -561,6 +606,7 @@ const Salvador={
   Borders:['Honduras','Guatemala'],
   economicUnions:['SICA'],
   lettersUsed:['E','L','S','A','L','V','A','D','O','R'],
+  militaryAlliances:['Rio Pact'],
   Region: "Central America",
   Continent: "North America"
 }
@@ -572,6 +618,7 @@ const EquatorialGuinea={
   Borders:['Gabon','Cameroon'],
   economicUnions:[],
   lettersUsed:['E','Q','U','A','T','O','R','I','A','L','G','U','I','N','E','A'],
+  militaryAlliances:[],
   Region: "Central Africa",
   Continent: "Africa"
 }
@@ -583,6 +630,7 @@ const Eritrea={
   Borders:['Sudan','Ethiopia','Djibouti'],
   economicUnions:[],
   lettersUsed:['E','R','I','T','R','E','A'],
+  militaryAlliances:[],
   Region: "the Horn of Africa",
   Continent: "Africa"
 }
@@ -594,7 +642,7 @@ const Estonia={
   Borders:['Russia', 'Latvia'],
   economicUnions:['EU'],
   lettersUsed:['E','S','T','O','N','I','A'],
-  isPartofNato: "yes",
+  militaryAlliances:['NATO'],
   Region: "Northern Europe",
   Continent: "Europe"
 }
@@ -606,6 +654,7 @@ const Eswatini={
   Borders:['South Africa','Mozambique'],
   economicUnions:[],
   lettersUsed:['E','S','W','A','T','I','N','I'],
+  militaryAlliances:[],
   Region: "Southern Africa",
   Continent: "Africa"
 }
@@ -617,6 +666,7 @@ const Ethiopia={
   Borders:['Somalia','Eritrea','Djibouti','Sudan','South Sudan','Kenya'],
   economicUnions:[],
   lettersUsed:['E','T','H','I','O','P','I','A'],
+  militaryAlliances:[],
   Region: "the Horn of Africa",
   Continent: "Africa"
 }
@@ -628,6 +678,7 @@ const Fiji={
   Borders:[],
   economicUnions:[],
   lettersUsed:['F','I','J','I'],
+  militaryAlliances:[],
   Region: "Melanesia",
   Continent: "Oceania"
 }
@@ -639,7 +690,7 @@ const Finland={
   Borders:['Russia', 'Sweden', 'Norway'],
   economicUnions:['EU'],
   lettersUsed:['F','I','N','L','A','N','D'],
-  isPartofNato: "no",
+  militaryAlliances:[],
   Region: "Northern Europe",
   Continent: "Europe"
 }
@@ -651,7 +702,7 @@ const France={
   Borders:['Spain', 'The Netherlands', 'Belgium', 'Luxembourg', 'Andorra', 'Switzerland,', 'Italy', 'Germany','Brazil','Suriname'],
   economicUnions:['EU'],
   lettersUsed:['F','R','A','N','C','E'],
-  isPartofNato: "yes",
+  militaryAlliances:['NATO'],
   Region: "Western Europe",
   Continent: "Europe"
 }
@@ -663,6 +714,7 @@ const Gabon={
   Borders:['Equatorial Guinea','Republic of Congo','Cameroon'],
   economicUnions:[],
   lettersUsed:['G','A','B','O','N'],
+  militaryAlliances:[],
   Region: "Central Africa",
   Continent: "Africa"
 }
@@ -674,6 +726,7 @@ const Georgia={
   Borders:['Russia', 'Azerbaijan', 'Turkey'],
   economicUnions:[],
   lettersUsed:['G','E','O','R','G','I','A'],
+  militaryAlliances:[],
   Region: "the Caucasus",
   Continent: "Asia"
 }
@@ -685,7 +738,7 @@ const Germany={
   Borders:['France', 'The Netherlands', 'Belgium', 'Luxembourg', 'Austria', 'Switzerland,', 'Poland', 'Denmark', 'Czech Republic'],
   economicUnions:['EU'],
   lettersUsed:['G','E','R','M','A','N','Y'],
-  isPartofNato: "yes",
+  militaryAlliances:['NATO'],
   Region: "Central Europe",
   Continent: "Europe"
 }
@@ -697,6 +750,7 @@ const Ghana={
   Borders:['Ivory Coast','Burkina Faso','Togo'],
   economicUnions:[],
   lettersUsed:['G','H','A','N','A'],
+  militaryAlliances:[],
   Region: "West Africa",
   Continent: "Africa"
 }
@@ -708,7 +762,7 @@ const Greece={
   Borders:['Turkey', 'Bulgaria', 'Albania','North Macedonia'],
   economicUnions:['EU'],
   lettersUsed:['G','R','E','E','C','E'],
-  isPartofNato: "yes",
+  militaryAlliances:['NATO'],
   Region: "Southeastern Europe",
   Continent: "Europe"
 }
@@ -720,6 +774,7 @@ const Grenada={
   Borders:[],
   economicUnions:['CSME'],
   lettersUsed:['G','R','E','N','A','D','A'],
+  militaryAlliances:[],
   Region: "the Caribbean",
   Continent: "North America"
 }
@@ -731,6 +786,7 @@ const Guatemala={
   Borders:['Mexico','Honduras','El Salvador'],
   economicUnions:['SICA'],
   lettersUsed:['G','U','A','T','E','M','A','L','A'],
+  militaryAlliances:['Rio Pact'],
   Region: "Central America",
   Continent: "North America"
 }
@@ -742,6 +798,7 @@ const GuineaBissau={
   Borders:['Senegal','Guinea'],
   economicUnions:[],
   lettersUsed:['G','U','I','N','E','A','B','I','S','S','A','U'],
+  militaryAlliances:[],
   Region: "West Africa",
   Continent: "Africa"
 }
@@ -753,6 +810,7 @@ const Guinea={
   Borders:['Guinea-Bissau','Senegal','Mali','Ivory Coast','Sierra Leone','Liberia'],
   economicUnions:[],
   lettersUsed:['G','U','I','N','E','A'],
+  militaryAlliances:[],
   Region: "West Africa",
   Continent: "Africa"
 }
@@ -764,6 +822,7 @@ const Guyana={
   Borders:['Brazil','Suriname','Venezuela'],
   economicUnions:['CSME'],
   lettersUsed:['G','U','Y','A','N','A'],
+  militaryAlliances:[],
   Region: "",
   Continent: "South America"
 }
@@ -775,6 +834,7 @@ const Haiti={
   Borders:['Dominican Republic'],
   economicUnions:[],
   lettersUsed:['H','A','I','T','I'],
+  militaryAlliances:['Rio Pact'],
   Region: "the Caribbean",
   Continent: "North America"
 }
@@ -786,6 +846,7 @@ const Honduras={
   Borders:['Guatemala','Nicaragua','El Salvador'],
   economicUnions:['SICA'],
   lettersUsed:['H','O','N','D','U','R','A','S'],
+  militaryAlliances:['Rio Pact'],
   Region: "Central America",
   Continent: "North America"
 }
@@ -797,7 +858,7 @@ const Hungary={
   Borders:['Ukraine', 'Slovakia', 'Austria','Slovenia','Croatia','Serbia','Romania'],
   economicUnions:['EU'],
   lettersUsed:['H','U','N','G','A','R','Y'],
-  isPartofNato: "yes",
+  militaryAlliances:['NATO'],
   Region: "Central Europe",
   Continent: "Europe"
 }
@@ -809,7 +870,7 @@ const Iceland={
   Borders:[],
   economicUnions:[],
   lettersUsed:['I','C','E','L','A','N','D'],
-  isPartofNato: "yes",
+  militaryAlliances:['NATO'],
   Region: "Northern Europe",
   Continent: "Europe"
 }
@@ -821,6 +882,7 @@ const India={
   Borders:['Pakistan','Nepal','Bangladesh','China','Myanmar','Bhutan'],
   economicUnions:[],
   lettersUsed:['I','N','D','I','A'],
+  militaryAlliances:[],
   Region: "South Asia",
   Continent: "Asia"
 }
@@ -832,6 +894,7 @@ const Indonesia={
   Borders:['Malaysia','East Timor','Papua New Guinea'],
   economicUnions:[],
   lettersUsed:['I','N','D','O','N','E','S','I','A'],
+  militaryAlliances:[],
   Region: "Southeast Asia",
   Continent: "Asia"
 }
@@ -843,6 +906,7 @@ const Iran={
   Borders:['Iraq','Afghanistan','Turkmenistan','Pakistan','Turkey','Azerbaijan','Armenia'],
   economicUnions:[],
   lettersUsed:['I','R','A','N'],
+  militaryAlliances:[],
   Region: "Western Asia",
   Continent: "Asia"
 }
@@ -854,6 +918,7 @@ const Iraq={
   Borders:['Iran','Syria','Turkey','Kuwait','Saudi Arabia','Jordan'],
   economicUnions:[],
   lettersUsed:['I','R','A','Q'],
+  militaryAlliances:[],
   Region: "Western Asia",
   Continent: "Asia"
 }
@@ -865,7 +930,7 @@ const Ireland={
   Borders:['United Kingdom'],
   economicUnions:['EU'],
   lettersUsed:['I','R','E','L','A','N','D'],
-  isPartofNato: "no",
+  militaryAlliances:[],
   Region: "Western Europe",
   Continent: "Europe"
 }
@@ -877,6 +942,7 @@ const Israel={
   Borders:['Jordan','Lebanon','Egypt'],
   economicUnions:[],
   lettersUsed:['I','S','R','A','E','L'],
+  militaryAlliances:[],
   Region: "Western Asia",
   Continent: "Asia"
 }
@@ -888,7 +954,7 @@ const Italy={
   Borders:['France', 'Switzerland', 'Austria','Slovenia'],
   economicUnions:['EU'],
   lettersUsed:['I','T','A','L','Y'],
-  isPartofNato: "yes",
+  militaryAlliances:['NATO'],
   Region: "Southern Europe",
   Continent: "Europe"
 }
@@ -900,6 +966,7 @@ const IvoryCoast={
   Borders:['Ghana','Liberia','Mali','Guinea','Burkina Faso'],
   economicUnions:[],
   lettersUsed:['I','V','O','R','Y','C','O','A','S','T'],
+  militaryAlliances:[],
   Region: "West Africa",
   Continent: "Africa"
 }
@@ -911,6 +978,7 @@ const Jamaica={
   Borders:[],
   economicUnions:['CSME'],
   lettersUsed:['J','A','M','A','I','C','A'],
+  militaryAlliances:[],
   Region: "the Caribbean",
   Continent: "North America"
 }
@@ -922,6 +990,7 @@ const Japan={
   Borders:[],
   economicUnions:[],
   lettersUsed:['J','A','P','A','N'],
+  militaryAlliances:[],
   Region: "East Asia",
   Continent: "Asia"
 }
@@ -933,6 +1002,7 @@ const Jordan={
   Borders:['Israel','Syria','Saudi Arabia','Iraq'],
   economicUnions:[],
   lettersUsed:['J','O','R','D','A','N'],
+  militaryAlliances:[],
   Region: "Western Asia",
   Continent: "Asia"
 }
@@ -944,6 +1014,7 @@ const Kazakhstan={
   Borders:['Russia','Uzbekistan','China','Kyrgyzstan','Turkmenistan'],
   economicUnions:['EAEU'],
   lettersUsed:['K','A','Z','A','K','H','S','T','A','N'],
+  militaryAlliances:['CSTO'],
   Region: "Central Asia",
   Continent: "Asia"
 }
@@ -955,6 +1026,7 @@ const Kenya={
   Borders:['Ethiopia','Tanzania','Somalia','Uganda','South Sudan'],
   economicUnions:[],
   lettersUsed:['K','E','N','Y','A'],
+  militaryAlliances:[],
   Region: "East Africa",
   Continent: "Africa"
 }
@@ -966,6 +1038,7 @@ const Kiribati={
   Borders:[],
   economicUnions:[],
   lettersUsed:['K','I','R','I','B','A','T','I'],
+  militaryAlliances:[],
   Region: "Micronesia",
   Continent: "Oceania"
 }
@@ -977,6 +1050,7 @@ const Kuwait={
   Borders:['Iraq','Saudi Arabia'],
   economicUnions:['GCC'],
   lettersUsed:['K','U','W','A','I','T'],
+  militaryAlliances:[],
   Region: "Western Asia",
   Continent: "Asia"
 }
@@ -988,6 +1062,7 @@ const Kyrgyzstan={
   Borders:['Kazakhstan','China','Uzbekistan','Tajikistan'],
   economicUnions:['EAEU'],
   lettersUsed:['K','Y','R','G','Y','Z','S','T','A','N'],
+  militaryAlliances:['CSTO'],
   Region: "Central Asia",
   Continent: "Asia"
 }
@@ -999,6 +1074,7 @@ const Laos={
   Borders:['Thailand','Vietnam','Cambodia','Myanmar'],
   economicUnions:[],
   lettersUsed:['L','A','O','S'],
+  militaryAlliances:[],
   Region: "Southeast Asia",
   Continent: "Asia"
 }
@@ -1010,7 +1086,7 @@ const Latvia={
   Borders:['Estonia', 'Lithuania', 'Russia','Belarus'],
   economicUnions:['EU'],
   lettersUsed:['L','A','T','V','I','A'],
-  isPartofNato: "yes",
+  militaryAlliances:['NATO'],
   Region: "Northern Europe",
   Continent: "Europe"
 }
@@ -1022,6 +1098,7 @@ const Lebanon={
   Borders:['Israel','Syria'],
   economicUnions:[],
   lettersUsed:['L','E','B','A','N','O','N'],
+  militaryAlliances:[],
   Region: "Western Asia",
   Continent: "Asia"
 }
@@ -1033,6 +1110,7 @@ const Lesotho={
   Borders:['South Africa'],
   economicUnions:[],
   lettersUsed:['L','E','S','O','T','H','O'],
+  militaryAlliances:[],
   Region: "Southern Africa",
   Continent: "Africa"
 }
@@ -1044,6 +1122,7 @@ const Liberia={
   Borders:['Sierra Leone','Guinea','Ivory Coast'],
   economicUnions:[],
   lettersUsed:['L','I','B','E','R','I','A'],
+  militaryAlliances:[],
   Region: "West Africa",
   Continent: "Africa"
 }
@@ -1055,6 +1134,7 @@ const Libya={
   Borders:['Egypt','Tunisia','Algeria','Chad','Sudan','Niger'],
   economicUnions:[],
   lettersUsed:['L','I','B','Y','A'],
+  militaryAlliances:[],
   Region: "North Africa",
   Continent: "Africa"
 }
@@ -1066,7 +1146,7 @@ const Liechtenstein={
   Borders:['Switzerland','Austria'],
   economicUnions:[],
   lettersUsed:['L','I','E','C','H','T','E','N','S','T','E','I','N'],
-  isPartofNato: "no",
+  militaryAlliances:[],
   Region: "Western Europe",
   Continent: "Europe"
 }
@@ -1078,7 +1158,7 @@ const Lithuania={
   Borders:['Belarus', 'Russia', 'Poland','Latvia'],
   economicUnions:['EU'],
   lettersUsed:['L','I','T','H','U','A','N','I','A'],
-  isPartofNato: "yes",
+  militaryAlliances:['NATO'],
   Region: "Northern Europe",
   Continent: "Europe"
 }
@@ -1090,7 +1170,7 @@ const Luxembourg={
   Borders:['France', 'Belgium', 'Germany'],
   economicUnions:['EU'],
   lettersUsed:['L','U','X','E','M','B','O','U','R','G'],
-  isPartofNato: "yes",
+  militaryAlliances:['NATO'],
   Region: "Western Europe",
   Continent: "Europe"
 }
@@ -1102,6 +1182,7 @@ const Madagascar={
   Borders:[],
   economicUnions:[],
   lettersUsed:['M','A','D','A','G','A','S','C','A','R'],
+  militaryAlliances:[],
   Region: "East Africa",
   Continent: "Africa"
 }
@@ -1113,6 +1194,7 @@ const Malawi={
   Borders:['Zambia','Mozambique','Tanzania'],
   economicUnions:[],
   lettersUsed:['M','A','L','A','W','I'],
+  militaryAlliances:[],
   Region: "Southern Africa",
   Continent: "Africa"
 }
@@ -1124,6 +1206,7 @@ const Malaysia={
   Borders:['Thailand','Indonesia','Singapore','Brunei Darussalam'],
   economicUnions:[],
   lettersUsed:['M','A','L','A','Y','S','I','A'],
+  militaryAlliances:[],
   Region: "Southeast Asia",
   Continent: "Asia"
 }
@@ -1135,6 +1218,7 @@ const Maldives={
   Borders:[],
   economicUnions:[],
   lettersUsed:['M','A','L','D','I','V','E','S'],
+  militaryAlliances:[],
   Region: "South Asia",
   Continent: "Asia"
 }
@@ -1146,6 +1230,7 @@ const Mali={
   Borders:['Mauritania','Algeria','Niger','Burkina Faso','Senegal','Guinea','Ivory Coast'],
   economicUnions:[],
   lettersUsed:['M','A','L','I'],
+  militaryAlliances:[],
   Region: "West Africa",
   Continent: "Africa"
 }
@@ -1157,7 +1242,7 @@ const Malta={
   Borders:[],
   economicUnions:['EU'],
   lettersUsed:['M','A','L','T','A'],
-  isPartofNato: "no",
+  militaryAlliances:[],
   Region: "Southern Europe",
   Continent: "Europe"
 }
@@ -1169,6 +1254,7 @@ const Mauritania={
   Borders:['Morocco','Mali','Senegal'],
   economicUnions:[],
   lettersUsed:['M','A','U','R','I','T','A','N','I','A'],
+  militaryAlliances:[],
   Region: "North Africa",
   Continent: "Africa"
 }
@@ -1180,6 +1266,7 @@ const Mauritius={
   Borders:[],
   economicUnions:[],
   lettersUsed:['M','A','U','R','I','T','I','U','S'],
+  militaryAlliances:[],
   Region: "East Africa",
   Continent: "Africa"
 }
@@ -1191,6 +1278,7 @@ const Mexico={
   Borders:['United States of America','Guatemala','Belize'],
   economicUnions:[],
   lettersUsed:['M','E','X','I','C','O'],
+  militaryAlliances:[],
   Region: "",
   Continent: "North America"
 }
@@ -1202,7 +1290,7 @@ const Moldova={
   Borders:['Ukraine', 'Romania'],
   economicUnions:[],
   lettersUsed:['M','O','L','D','O','V','A'],
-  isPartofNato: "no",
+  militaryAlliances:[],
   Region: "Eastern Europe",
   Continent: "Europe"
 }
@@ -1214,7 +1302,7 @@ const Monaco={
   Borders:['France'],
   economicUnions:[],
   lettersUsed:['M','O','N','A','C','O'],
-  isPartofNato: "no",
+  militaryAlliances:[],
   Region: "Western Europe",
   Continent: "Europe"
 }
@@ -1226,6 +1314,7 @@ const Mongolia={
   Borders:['Russia','China'],
   economicUnions:[],
   lettersUsed:['M','O','N','G','O','L','I','A'],
+  militaryAlliances:[],
   Region: "East Asia",
   Continent: "Asia"
 }
@@ -1237,7 +1326,7 @@ const Montenegro={
   Borders:['Bosnia and Herzegovina', 'Albania','Croatia','Serbia'],
   economicUnions:[],
   lettersUsed:['M','O','N','T','E','N','E','G','R','O'],
-  isPartofNato: "yes",
+  militaryAlliances:['NATO'],
   Region: "Central Europe",
   Continent: "Europe"
 }
@@ -1249,6 +1338,7 @@ const Morocco={
   Borders:['Mauritania','Algeria'],
   economicUnions:[],
   lettersUsed:['M','O','R','O','C','C','O'],
+  militaryAlliances:[],
   Region: "North Africa",
   Continent: "Africa"
 }
@@ -1260,6 +1350,7 @@ const Mozambique={
   Borders:['Zimbabwe','Tanzania','Zambia','South Africa','Eswatini'],
   economicUnions:[],
   lettersUsed:['M','O','Z','A','M','B','I','Q','U','E'],
+  militaryAlliances:[],
   Region: "Southern Africa",
   Continent: "Africa"
 }
@@ -1271,6 +1362,7 @@ const Myanmar={
   Borders:['Thailand','India','China','Bangladesh','Laos'],
   economicUnions:[],
   lettersUsed:['M','Y','A','N','M','A','R'],
+  militaryAlliances:[],
   Region: "Southeast Asia",
   Continent: "Asia"
 }
@@ -1282,6 +1374,7 @@ const Namibia={
   Borders:['Angola','South Africa','Botswana','Zambia'],
   economicUnions:[],
   lettersUsed:['N','A','M','I','B','I','A'],
+  militaryAlliances:[],
   Region: "Southern Africa",
   Continent: "Africa"
 }
@@ -1293,6 +1386,7 @@ const Nauru={
   Borders:[],
   economicUnions:[],
   lettersUsed:['N','A','U','R','U'],
+  militaryAlliances:[],
   Region: "Melanesia",
   Continent: "Oceania"
 }
@@ -1304,6 +1398,7 @@ const Nepal={
   Borders:['India','China'],
   economicUnions:[],
   lettersUsed:['N','E','P','A','L'],
+  militaryAlliances:[],
   Region: "South Asia",
   Continent: "Asia"
 }
@@ -1315,6 +1410,7 @@ const Zealand={
   Borders:[],
   economicUnions:[],
   lettersUsed:['N','E','W','Z','E','A','L','A','N','D'],
+  militaryAlliances:[],
   Region: "Australasia",
   Continent: "Oceania"
 }
@@ -1326,6 +1422,7 @@ const Nicaragua={
   Borders:['Honduras','Costa Rica'],
   economicUnions:['SICA'],
   lettersUsed:['N','I','C','A','R','A','G','U','A'],
+  militaryAlliances:[],
   Region: "Central America",
   Continent: "North America"
 }
@@ -1337,6 +1434,7 @@ const Niger={
   Borders:['Nigeria','Chad','Algeria','Burkina Faso','Benin'],
   economicUnions:[],
   lettersUsed:['N','I','G','E','R'],
+  militaryAlliances:[],
   Region: "West Africa",
   Continent: "Africa"
 }
@@ -1348,6 +1446,7 @@ const Nigeria={
   Borders:['Cameroon','Niger','Benin','Chad'],
   economicUnions:[],
   lettersUsed:['N','I','G','E','R','I','A'],
+  militaryAlliances:[],
   Region: "West Africa",
   Continent: "Africa"
 }
@@ -1359,6 +1458,7 @@ const DPRK={
   Borders:['China','South Korea','Russia'],
   economicUnions:[],
   lettersUsed:['N','O','R','T','H','K','O','R','E','A'],
+  militaryAlliances:[],
   Region: "East Asia",
   Continent: "Asia"
 }
@@ -1370,7 +1470,7 @@ const Netherlands={
   Borders:['France', 'Belgium', 'Germany'],
   economicUnions:['EU'],
   lettersUsed:['N','E','T','H','E','R','L','A','N','D','S'],
-  isPartofNato: "yes",
+  militaryAlliances:['NATO'],
   Region: "Western Europe",
   Continent: "Europe"
 }
@@ -1382,7 +1482,7 @@ const Macedonia={
   Borders:['Albania', 'Greece', 'Bulgaria','Serbia'],
   economicUnions:[],
   lettersUsed:['N','O','R','T','H','M','A','C','E','D','O','N','I','A'],
-  isPartofNato: "yes",
+  militaryAlliances:['NATO'],
   Region: "Southeastern Europe",
   Continent: "Europe"
 }
@@ -1394,7 +1494,7 @@ const Norway={
   Borders:['Finland', 'Sweden', 'Russia'],
   economicUnions:[],
   lettersUsed:['N','O','R','W','A','Y'],
-  isPartofNato: "yes",
+  militaryAlliances:['NATO'],
   Region: "Northern Europe",
   Continent: "Europe"
 }
@@ -1406,6 +1506,7 @@ const Oman={
   Borders:['Saudi Arabia','United Arab Emirates','Yemen'],
   economicUnions:['GCC'],
   lettersUsed:['O','M','A','N'],
+  militaryAlliances:[],
   Region: "Western Asia",
   Continent: "Asia"
 }
@@ -1417,6 +1518,7 @@ const Pakistan={
   Borders:['India','Afghanistan','China','Iran'],
   economicUnions:[],
   lettersUsed:['P','A','K','I','S','T','A','N'],
+  militaryAlliances:[],
   Region: "South Asia",
   Continent: "Asia"
 }
@@ -1428,6 +1530,7 @@ const Palau={
   Borders:[],
   economicUnions:[],
   lettersUsed:['P','A','L','A','U'],
+  militaryAlliances:[],
   Region: "Western Asia",
   Continent: "Micronesia"
 }
@@ -1439,6 +1542,7 @@ const Panama={
   Borders:['Costa Rica','Colombia'],
   economicUnions:['SICA'],
   lettersUsed:['P','A','N','A','M','A'],
+  militaryAlliances:['Rio Pact'],
   Region: "Central America",
   Continent: "North America"
 }
@@ -1450,6 +1554,7 @@ const Papua={
   Borders:['Indonesia'],
   economicUnions:[],
   lettersUsed:['P','A','P','U','A','N','E','W','G','U','I','N','E','A'],
+  militaryAlliances:[],
   Region: "Melanesia",
   Continent: "Oceania"
 }
@@ -1461,6 +1566,7 @@ const Paraguay={
   Borders:['Brazil','Argentina','Bolivia'],
   economicUnions:['Mercosur'],
   lettersUsed:['P','A','R','A','G','U','A','Y'],
+  militaryAlliances:['Rio Pact'],
   Region: "",
   Continent: "South America"
 }
@@ -1472,6 +1578,7 @@ const Peru={
   Borders:['Brazil','Ecuador','Colombia','Bolivia','Chile'],
   economicUnions:[],
   lettersUsed:['P','E','R','U'],
+  militaryAlliances:['Rio Pact'],
   Region: "",
   Continent: "South America"
 }
@@ -1483,6 +1590,7 @@ const Philippines={
   Borders:[],
   economicUnions:[],
   lettersUsed:['P','H','I','L','I','P','P','I','N','E','S'],
+  militaryAlliances:[],
   Region: "Southeast Asia",
   Continent: "Asia"
 }
@@ -1494,7 +1602,7 @@ const Poland={
   Borders:['Ukraine', 'Slovakia', 'Czechia','Belarus','Lithuania','Russia'],
   economicUnions:['EU'],
   lettersUsed:['P','O','L','A','N','D'],
-  isPartofNato: "yes",
+  militaryAlliances:['NATO'],
   Region: "Central Europe",
   Continent: "Europe"
 }
@@ -1506,7 +1614,7 @@ const Portugal={
   Borders:['Spain'],
   economicUnions:['EU'],
   lettersUsed:['P','O','R','T','U','G','A','L'],
-  isPartofNato: "yes",
+  militaryAlliances:['NATO'],
   Region: "Southern Europe",
   Continent: "Europe"
 }
@@ -1518,6 +1626,7 @@ const Qatar={
   Borders:['Saudi Arabia'],
   economicUnions:['GCC'],
   lettersUsed:['Q','A','T','A','R'],
+  militaryAlliances:[],
   Region: "Western Asia",
   Continent: "Asia"
 }
@@ -1529,6 +1638,7 @@ const RCongo={
   Borders:['Democratic Republic of the Congo','Gabon','Angola','Cameroon','Central African Republic'],
   economicUnions:[],
   lettersUsed:['R','E','P','U','B','L','I','C','O','F','C','O','N','G','O'],
+  militaryAlliances:[],
   Region: "Central Africa",
   Continent: "Africa"
 }
@@ -1540,7 +1650,7 @@ const Romania={
   Borders:['Ukraine', 'Moldova', 'Bulgaria','Hungary','Serbia'],
   economicUnions:['EU'],
   lettersUsed:['R','O','M','A','N','I','A'],
-  isPartofNato: "yes",
+  militaryAlliances:['NATO'],
   Region: "Southeastern Europe",
   Continent: "Europe"
 }
@@ -1552,7 +1662,7 @@ const Russia={
   Borders:['Belarus', 'Poland', 'Ukraine', 'Finland', 'Estonia', 'Latvia,', 'Lithuania', 'Kazakhstan', 'Azerbaijan', 'Georgia'],
   economicUnions:['EAEU'],
   lettersUsed:['R','U','S','S','I','A'],
-  isPartofNato: "no",
+  militaryAlliances:['CSTO'],
   Region: "Eastern Europe",
   Continent: "Europe"
 }
@@ -1564,6 +1674,7 @@ const Kitts={
   Borders:[],
   economicUnions:['CSME'],
   lettersUsed:['S','A','I','N','T','K','I','T','T','S','A','N','D','N','E','V','I','S'],
+  militaryAlliances:[],
   Region: "the Caribbean",
   Continent: "North America"
 }
@@ -1575,6 +1686,7 @@ const Lucia={
   Borders:[],
   economicUnions:['CSME'],
   lettersUsed:['S','A','I','N','T','L','U','C','I','A'],
+  militaryAlliances:[],
   Region: "the Caribbean",
   Continent: "North America"
 }
@@ -1586,6 +1698,7 @@ const Vincent={
   Borders:[],
   economicUnions:['CSME'],
   lettersUsed:['S','A','I','N','T','V','I','N','C','E','N','T','A','N','D','T','H','E','G','R','E','N','A','D','I','N','E','S'],
+  militaryAlliances:[],
   Region: "the Caribbean",
   Continent: "North America"
 }
@@ -1597,6 +1710,7 @@ const Samoa={
   Borders:[],
   economicUnions:[],
   lettersUsed:['S','A','M','O','A'],
+  militaryAlliances:[],
   Region: "Polynesia",
   Continent: "Oceania"
 }
@@ -1608,7 +1722,7 @@ const Marino={
   Borders:['Italy'],
   economicUnions:[],
   lettersUsed:['S','A','N','M','A','R','I','N','O'],
-  isPartofNato: "no",
+  militaryAlliances:[],
   Region: "Southern Europe",
   Continent: "Europe"
 }
@@ -1620,6 +1734,7 @@ const Tome={
   Borders:[],
   economicUnions:[],
   lettersUsed:['S','A','O','T','O','M','E','A','N','D','P','R','I','N','C','I','P','E'],
+  militaryAlliances:[],
   Region: "Central Africa",
   Continent: "Africa"
 }
@@ -1631,6 +1746,7 @@ const Saudi={
   Borders:['Iraq','Yemen','Oman','Jordan','United Arab Emirates','Qatar','Kuwait'],
   economicUnions:['GCC'],
   lettersUsed:['S','A','U','D','I','A','R','A','B','I','A'],
+  militaryAlliances:[],
   Region: "Western Asia",
   Continent: "Asia"
 }
@@ -1642,6 +1758,7 @@ const Senegal={
   Borders:['Mauritania','The Gambia','Guinea-Bissau','Guinea','Mali'],
   economicUnions:[],
   lettersUsed:['S','E','N','E','G','A','L'],
+  militaryAlliances:[],
   Region: "West Africa",
   Continent: "Africa"
 }
@@ -1653,7 +1770,7 @@ const Serbia={
   Borders:['Romania', 'Hungary', 'Bosnia and Herzegovina','Montenegro','Croatia','Albania','North Macedonia','Bulgaria'],
   economicUnions:[],
   lettersUsed:['S','E','R','B','I','A'],
-  isPartofNato: "no",
+  militaryAlliances:[],
   Region: "Southeastern Europe",
   Continent: "Europe"
 }
@@ -1665,6 +1782,7 @@ const Seychelles={
   Borders:[],
   economicUnions:[],
   lettersUsed:['S','E','Y','C','H','L','L','E','S'],
+  militaryAlliances:[],
   Region: "East Africa",
   Continent: "Africa"
 }
@@ -1676,6 +1794,7 @@ const Sierra={
   Borders:['Guinea','Liberia'],
   economicUnions:[],
   lettersUsed:['S','I','E','R','R','A','L','E','O','N','E'],
+  militaryAlliances:[],
   Region: "West Africa",
   Continent: "Africa"
 }
@@ -1687,6 +1806,7 @@ const Singapore={
   Borders:['Malaysia'],
   economicUnions:[],
   lettersUsed:['S','I','N','G','A','P','O','R','E'],
+  militaryAlliances:[],
   Region: "Southeast Asia",
   Continent: "Asia"
 }
@@ -1698,7 +1818,7 @@ const Slovakia={
   Borders:['Czech Republic', 'Poland', 'Ukraine','Austria','Hungary'],
   economicUnions:['EU'],
   lettersUsed:['S','L','O','V','A','K','I','A'],
-  isPartofNato: "yes",
+  militaryAlliances:['NATO'],
   Region: "Central Europe",
   Continent: "Europe"
 }
@@ -1710,7 +1830,7 @@ const Slovenia={
   Borders:['Italy', 'Hungary', 'Austria','Croatia'],
   economicUnions:['EU'],
   lettersUsed:['S','L','O','V','E','N','I','A'],
-  isPartofNato: "yes",
+  militaryAlliances:['NATO'],
   Region: "Southern Europe",
   Continent: "Europe"
 }
@@ -1722,6 +1842,7 @@ const Solomon={
   Borders:[],
   economicUnions:[],
   lettersUsed:['S','O','L','O','M','O','N','I','S','L','A','N','D','S'],
+  militaryAlliances:[],
   Region: "Melanesia",
   Continent: "Oceania"
 }
@@ -1733,6 +1854,7 @@ const Somalia={
   Borders:['Ethiopia','Kenya','Djibouti'],
   economicUnions:[],
   lettersUsed:['S','O','M','A','L','I','A'],
+  militaryAlliances:[],
   Region: "Horn of Africa",
   Continent: "Africa"
 }
@@ -1744,6 +1866,7 @@ const SouthAfrica={
   Borders:['Namibia','Botswana','Zimbabwe','Lesotho','Eswatini','Mozambique'],
   economicUnions:[],
   lettersUsed:['S','O','U','T','H','A','F','R','I','C','A'],
+  militaryAlliances:[],
   Region: "Southern Africa",
   Continent: "Africa"
 }
@@ -1755,6 +1878,7 @@ const ROK={
   Borders:['North Korea'],
   economicUnions:[],
   lettersUsed:['S','O','U','T','H','K','O','R','E','A'],
+  militaryAlliances:[],
   Region: "East Asia",
   Continent: "Asia"
 }
@@ -1766,6 +1890,7 @@ const SouthSudan={
   Borders:['Sudan','Ethiopia','Uganda','Central African Republic','Democratic Republic of the Congo','Kenya'],
   economicUnions:[],
   lettersUsed:['S','O','U','T','H','S','U','D','A','N'],
+  militaryAlliances:[],
   Region: "Central Africa",
   Continent: "Africa"
 }
@@ -1777,7 +1902,7 @@ const Spain={
   Borders:['Portugal', 'France', 'Andorra'],
   economicUnions:['EU'],
   lettersUsed:['S','P','A','I','N'],
-  isPartofNato: "yes",
+  militaryAlliances:['NATO'],
   Region: "Southern Europe",
   Continent: "Europe"
 }
@@ -1789,6 +1914,7 @@ const SriLanka={
   Borders:[],
   economicUnions:[],
   lettersUsed:['S','R','I','L','A','N','K','A'],
+  militaryAlliances:[],
   Region: "South Asia",
   Continent: "Asia"
 }
@@ -1800,6 +1926,7 @@ const Sudan={
   Borders:['Egypt','South Sudan','Eritrea','Chad','Central African Republic'],
   economicUnions:[],
   lettersUsed:['S','U','D','A','N'],
+  militaryAlliances:[],
   Region: "North Africa",
   Continent: "Africa"
 }
@@ -1811,6 +1938,7 @@ const Suriname={
   Borders:['France','Guyana','Brazil'],
   economicUnions:['CSME'],
   lettersUsed:['S','U','R','I','N','A','M','E'],
+  militaryAlliances:[],
   Region: "",
   Continent: "South America"
 }
@@ -1822,7 +1950,7 @@ const Sweden={
   Borders:['Norway', 'Finland'],
   economicUnions:['EU'],
   lettersUsed:['S','W','E','D','E','N'],
-  isPartofNato: "no",
+  militaryAlliances:[],
   Region: "Northern Europe",
   Continent: "Europe"
 }
@@ -1834,7 +1962,7 @@ const Switzerland={
   Borders:['France', 'Germany', 'Austria','Liechtenstein','Italy'],
   economicUnions:[],
   lettersUsed:['S','W','I','T','Z','E','R','L','A','N','D'],
-  isPartofNato: "no",
+  militaryAlliances:[],
   Region: "Western Europe",
   Continent: "Europe"
 }
@@ -1846,6 +1974,7 @@ const Syria={
   Borders:['Iraq','Turkey','Jordan','Lebanon','Israel'],
   economicUnions:[],
   lettersUsed:['S','Y','R','I','A'],
+  militaryAlliances:[],
   Region: "Western Asia",
   Continent: "Asia"
 }
@@ -1857,6 +1986,7 @@ const Tajikistan={
   Borders:['Uzbekistan','Afghanistan','Kyrgyzstan','China'],
   economicUnions:[],
   lettersUsed:['T','A','J','I','K','I','S','T','A','N'],
+  militaryAlliances:['CSTO'],
   Region: "Central Asia",
   Continent: "Asia"
 }
@@ -1868,6 +1998,7 @@ const Tanzania={
   Borders:['Kenya','Rwanda','Burundi','Mozambique','Zambia','Democratic Republic of the Congo'],
   economicUnions:[],
   lettersUsed:['T','A','N','Z','A','N','I','A'],
+  militaryAlliances:[],
   Region: "East Africa",
   Continent: "Africa"
 }
@@ -1879,6 +2010,7 @@ const Thailand={
   Borders:['Myanmar','Laos','Cambodia','Malaysia'],
   economicUnions:[],
   lettersUsed:['T','H','A','I','L','A','N','D'],
+  militaryAlliances:[],
   Region: "Southeast Asia",
   Continent: "Asia"
 }
@@ -1890,6 +2022,7 @@ const Bahamas={
   Borders:[],
   economicUnions:[],
   lettersUsed:['T','H','E','B','A','H','A','M','A','S'],
+  militaryAlliances:[],
   Region: "the Caribbean",
   Continent: "North America"
 }
@@ -1901,6 +2034,7 @@ const Gambia={
   Borders:['Senegal'],
   economicUnions:[],
   lettersUsed:['T','H','E','G','A','M','B','I','A'],
+  militaryAlliances:[],
   Region: "West Africa",
   Continent: "Africa"
 }
@@ -1912,6 +2046,7 @@ const Togo={
   Borders:['Ghana','Benin','Burkina Faso'],
   economicUnions:[],
   lettersUsed:['T','O','G','O'],
+  militaryAlliances:[],
   Region: "West Africa",
   Continent: "Africa"
 }
@@ -1923,6 +2058,7 @@ const Tonga={
   Borders:[],
   economicUnions:[],
   lettersUsed:['T','O','N','G','A'],
+  militaryAlliances:[],
   Region: "Polynesia",
   Continent: "Oceania"
 }
@@ -1934,6 +2070,7 @@ const Trinidad={
   Borders:[],
   economicUnions:['CSME'],
   lettersUsed:['T','R','I','N','I','D','A','D','A','N','D','T','O','B','A','G','O'],
+  militaryAlliances:['Rio Pact'],
   Region: "the Caribbean",
   Continent: "North America"
 }
@@ -1945,6 +2082,7 @@ const Tunisia={
   Borders:['Algeria','Libya'],
   economicUnions:[],
   lettersUsed:['T','U','N','I','S','I','A'],
+  militaryAlliances:[],
   Region: "North Africa",
   Continent: "Africa"
 }
@@ -1956,9 +2094,9 @@ const Turkey={
   Borders:['Bulgaria', 'Greece', 'Georgia'],
   economicUnions:[],
   lettersUsed:['T','U','R','K','E','Y'],
-  isPartofNato: "yes",
+  militaryAlliances:['NATO'],
   Region: "Western Asia",
-  Continent: "Europe"
+  Continent: "Asia"
 }
 const Turkmenistan={
   Name: "Turkmenistan",
@@ -1968,6 +2106,7 @@ const Turkmenistan={
   Borders:['Uzbekistan','Iran','Afghanistan','Kazakhstan'],
   economicUnions:[],
   lettersUsed:['T','U','R','K','M','E','N','I','S','T','A','N'],
+  militaryAlliances:[],
   Region: "Central Asia",
   Continent: "Asia"
 }
@@ -1979,6 +2118,7 @@ const Uganda={
   Borders:['Kenya','South Sudan','Democratic Republic of the Congo','Tanzania'],
   economicUnions:[],
   lettersUsed:['U','G','A','N','D','A'],
+  militaryAlliances:[],
   Region: "East Africa",
   Continent: "Africa"
 }
@@ -1990,7 +2130,7 @@ const Ukraine={
   Borders:['Russia', 'Slovakia', 'Poland','Belarus','Moldova','Hungary','Romania'],
   economicUnions:[],
   lettersUsed:['U','K','R','A','I','N','E'],
-  isPartofNato: "no",
+  militaryAlliances:[],
   Region: "Eastern Europe",
   Continent: "Europe"
 }
@@ -2002,6 +2142,7 @@ const UAE={
   Borders:['Oman','Saudi Arabia'],
   economicUnions:['GCC'],
   lettersUsed:['U','N','I','T','E','D','A','R','A','B','E','M','I','R','A','T','E','S'],
+  militaryAlliances:[],
   Region: "Western Asia",
   Continent: "Asia"
 }
@@ -2013,7 +2154,7 @@ const UK={
   Borders:['Ireland'],
   economicUnions:[],
   lettersUsed:['U','N','I','T','E','D','K','I','N','G','D','O','M'],
-  isPartofNato: "yes",
+  militaryAlliances:['NATO'],
   Region: "Western Europe",
   Continent: "Europe"
 }
@@ -2025,7 +2166,7 @@ const USA={
   Borders:['Canada','Mexico'],
   economicUnions:[],
   lettersUsed:['U','N','I','T','E','D','S','T','A','T','E','S','O','F','A','M','E','R','I','C','A'],
-  isPartofNato: "yes",
+  militaryAlliances:['NATO','Rio Pact'],
   Region: "",
   Continent: "North America"
 }
@@ -2037,6 +2178,7 @@ const Uruguay={
   Borders:['Brazil','Argentina'],
   economicUnions:['Mercosur'],
   lettersUsed:['U','R','U','G','U','A','Y'],
+  militaryAlliances:['Rio Pact'],
   Region: "",
   Continent: "South America"
 }
@@ -2048,6 +2190,7 @@ const Uzbekistan={
   Borders:['Kazakhstan','Kyrgyzstan','Tajikistan','Afghanistan','Turkmenistan'],
   economicUnions:[],
   lettersUsed:['U','Z','B','E','K','I','S','T','A','N'],
+  militaryAlliances:[],
   Region: "Central Asia",
   Continent: "Asia"
 }
@@ -2059,6 +2202,7 @@ const Vanuatu={
   Borders:[],
   economicUnions:[],
   lettersUsed:['V','A','N','U','A','T','U'],
+  militaryAlliances:[],
   Region: "Melanesia",
   Continent: "Oceania"
 }
@@ -2070,7 +2214,7 @@ const Vatican={
   Borders:['Italy'],
   economicUnions:[],
   lettersUsed:['V','A','T','I','C','A','N','C','I','T','Y'],
-  isPartofNato: "no",
+  militaryAlliances:[],
   Region: "Southern Europe",
   Continent: "Europe"
 }
@@ -2082,6 +2226,7 @@ const Venezuela={
   Borders:['Brazil','Colombia','Guyana'],
   economicUnions:[],
   lettersUsed:['V','E','N','E','Z','U','E','L','A'],
+  militaryAlliances:['Rio Pact'],
   Region: "",
   Continent: "South America"
 }
@@ -2093,6 +2238,7 @@ const Vietnam={
   Borders:['Laos','Cambodia','China'],
   economicUnions:[],
   lettersUsed:['V','I','E','T','N','A','M'],
+  militaryAlliances:[],
   Region: "Southeast Asia",
   Continent: "Asia"
 }
@@ -2104,6 +2250,7 @@ const Yemen={
   Borders:['Oman','Saudi Arabia'],
   economicUnions:[],
   lettersUsed:['Y','E','M','E','N'],
+  militaryAlliances:[],
   Region: "Western Asia",
   Continent: "Asia"
 }
@@ -2115,6 +2262,7 @@ const Zambia={
   Borders:['Democratic Republic of the Congo','Angola','Malawi','Mozambique','Zimbabwe','Namibia','Tanzania','Botswana'],
   economicUnions:[],
   lettersUsed:['Z','A','M','B','I','A'],
+  militaryAlliances:[],
   Region: "Southern Africa",
   Continent: "Africa"
 }
@@ -2126,8 +2274,9 @@ const Zimbabwe={
   Borders:['Mozambique','Botswana','Zambia','South Africa'],
   economicUnions:[],
   lettersUsed:['Z','I','M','B','A','B','W','E'],
+  militaryAlliances:[],
   Region: "Southern Africa",
   Continent: "Africa"
 }
-let countries=[Afghanistan,Albania,Algeria,Andorra,Angola,Antigua,Argentina,Armenia,Australia,Austria,Azerbaijan,Bahrain,Bangladesh,Barbados,Belarus,Belgium,Belize,Benin,Bhutan,Bolivia,Bosnia,Botswana,Brazil,Brunei,Bulgaria,Burkina,Burundi,Cambodia,Cameroon,Canada,CapeVerde,CAR,Chad,Chile,China,Colombia,Comoros,CostaRica,Croatia,Cuba,Cyprus,Czechia,DRC,Denmark,Djibouti,Dominica,DR,Ecuador,Egypt,Salvador,EquatorialGuinea,Eritrea,Estonia,Eswatini,Ethiopia,Fiji,Finland,France,Gabon,Georgia,Germany,Ghana,Greece,Grenada,Guatemala,GuineaBissau,Guinea,Guyana,Haiti,Honduras,Hungary,Iceland,India,Indonesia,Iran,Iraq,Ireland,Israel,Italy,IvoryCoast,Jamaica,Japan,Jordan,Kazakhstan,Kenya,Kiribati,Kuwait,Kyrgyzstan,Laos,Latvia,Lebanon,Lesotho,Liberia,Libya,Liechtenstein,Lithuania,Luxembourg,Madagascar,Malawi,Malaysia,Maldives,Mali,Malta,Mauritania,Mauritius,Mexico,Moldova,Monaco,Mongolia,Montenegro,Morocco,Mozambique,Myanmar,Namibia,Nauru,Nepal,Zealand,Nicaragua,Niger,Nigeria,DPRK,Macedonia,Netherlands,Norway,Oman,Pakistan,Palau,Panama,Papua,Paraguay,Peru,Philippines,Poland,Portugal,Qatar,RCongo,Romania,Russia,Kitts,Lucia,Vincent,Samoa,Marino,Tome,Saudi,Senegal,Serbia,Seychelles,Sierra,Singapore,Slovakia,Slovenia,Solomon,Somalia,SouthAfrica,ROK,SouthSudan,Spain,SriLanka,Sudan,Suriname,Sweden,Switzerland,Syria,Tajikistan,Tanzania,Thailand,Bahamas,Gambia,Togo,Tonga,Trinidad,Tunisia,Turkey,Turkmenistan,Uganda,Ukraine,UAE,UK,USA,Uruguay,Uzbekistan,Vanuatu,Vatican,Venezuela,Vietnam,Yemen,Zambia,Zimbabwe]
+let countries=[Afghanistan,Albania,Algeria,Andorra,Angola,Antigua,Argentina,Armenia,Australia,Austria,Azerbaijan,Bahrain,Bangladesh,Barbados,Belarus,Belgium,Belize,Benin,Bhutan,Bolivia,Bosnia,Botswana,Brazil,Brunei,Bulgaria,Burkina,Burundi,Cambodia,Cameroon,Canada,CapeVerde,CAR,Chad,Chile,China,Colombia,Comoros,CostaRica,Croatia,Cuba,Cyprus,Czechia,DRC,Denmark,Djibouti,Dominica,DR,Ecuador,Egypt,Salvador,EastTimor,EquatorialGuinea,Eritrea,Estonia,Eswatini,Ethiopia,Fiji,Finland,France,Gabon,Georgia,Germany,Ghana,Greece,Grenada,Guatemala,GuineaBissau,Guinea,Guyana,Haiti,Honduras,Hungary,Iceland,India,Indonesia,Iran,Iraq,Ireland,Israel,Italy,IvoryCoast,Jamaica,Japan,Jordan,Kazakhstan,Kenya,Kiribati,Kuwait,Kyrgyzstan,Laos,Latvia,Lebanon,Lesotho,Liberia,Libya,Liechtenstein,Lithuania,Luxembourg,Madagascar,Malawi,Malaysia,Maldives,Mali,Malta,Mauritania,Mauritius,Mexico,Moldova,Monaco,Mongolia,Montenegro,Morocco,Mozambique,Myanmar,Namibia,Nauru,Nepal,Zealand,Nicaragua,Niger,Nigeria,DPRK,Macedonia,Netherlands,Norway,Oman,Pakistan,Palau,Panama,Papua,Paraguay,Peru,Philippines,Poland,Portugal,Qatar,RCongo,Romania,Russia,Kitts,Lucia,Vincent,Samoa,Marino,Tome,Saudi,Senegal,Serbia,Seychelles,Sierra,Singapore,Slovakia,Slovenia,Solomon,Somalia,SouthAfrica,ROK,SouthSudan,Spain,SriLanka,Sudan,Suriname,Sweden,Switzerland,Syria,Tajikistan,Tanzania,Thailand,Bahamas,Gambia,Togo,Tonga,Trinidad,Tunisia,Turkey,Turkmenistan,Uganda,Ukraine,UAE,UK,USA,Uruguay,Uzbekistan,Vanuatu,Vatican,Venezuela,Vietnam,Yemen,Zambia,Zimbabwe]
 export {countries as default}
