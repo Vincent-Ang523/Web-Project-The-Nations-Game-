@@ -15,6 +15,7 @@ let fifthGuess = document.getElementById("Guess4");
 let firstCountry = countries[Math.floor(Math.random()*countries.length)]; //chooses random object from the countries list
 let secondCountry = ""; //when the user inputs a country, the country's value will be registered in this variable
 let countryPick = firstCountry.Name;
+console.log(countryPick);
 let flag = "Flag of Countries/" + countryPick + ".png";
 let map = "Map of Countries/" + countryPick + ".png";
 let today = new Date();
@@ -139,10 +140,11 @@ function fourthHint(){
 }
 function Hints(){
   let colors = firstCountry.flagColors.filter(element => secondCountry.flagColors.includes(element)); //finds the colors that are present in both the first country's flag colors array and the second country's
+  let languages = firstCountry.Language.filter(element => secondCountry.Language.includes(element)); //finds the languages that are present in both the first country's offical languages array and the second country's
   function similarFlagDesign() {
     if(firstCountry.flagDesign==secondCountry.flagDesign && firstCountry.flagDesign!=""){
       document.getElementById("Hint").style.display="block";
-      document.getElementById("Hint").innerHTML = "Both Countries have " + firstCountry.flagDesign + " flag designs";
+      document.getElementById("Hint").innerHTML = "Both countries have " + firstCountry.flagDesign + " flag designs";
     }
     else{
       return;
@@ -161,11 +163,11 @@ function Hints(){
   function similarColors() {
     if(colors!=null && colors.length==1){
       document.getElementById("Hint2").style.display="block";
-      document.getElementById("Hint2").innerHTML = "Both Countries have " + colors + " in their flags";
+      document.getElementById("Hint2").innerHTML = "Both countries have " + colors + " in their flags";
     }
     else if(colors!=null && colors.length==2){
       document.getElementById("Hint2").style.display="block";
-      document.getElementById("Hint2").innerHTML = "Both Countries have " + colors[0] + " and "+ colors[1] + " in their flags";
+      document.getElementById("Hint2").innerHTML = "Both countries have " + colors[0] + " and "+ colors[1] + " in their flags";
     }
     else if(colors!=null && colors.length>2){
       let text=""
@@ -173,7 +175,7 @@ function Hints(){
       text += colors[i]+", "
       }
       document.getElementById("Hint2").style.display="block";
-      document.getElementById("Hint2").innerHTML = "Both Countries have " + text + "and " + colors[colors.length-1] + " in their flags";
+      document.getElementById("Hint2").innerHTML = "Both countries have " + text + "and " + colors[colors.length-1] + " in their flags";
     }
     else{
       return;
@@ -181,7 +183,7 @@ function Hints(){
   }
   
   function economicUnion() {
-    if(firstCountry.economicUnions==secondCountry.economicUnions){
+    if(firstCountry.economicUnions==secondCountry.economicUnions && firstCountry.economicUnions!=""){
       document.getElementById("Hint3").style.display="block";
       document.getElementById("Hint3").innerHTML = "Both countries are members of the "+firstCountry.economicUnions;
     }
@@ -191,7 +193,7 @@ function Hints(){
   }
   
   function militaryAlliance() {
-    if(firstCountry.militaryAlliances==secondCountry.militaryAlliances){
+    if(firstCountry.militaryAlliances==secondCountry.militaryAlliances && firstCountry.militaryAlliances!=null){
       document.getElementById("Hint4").style.display="block";
       document.getElementById("Hint4").innerHTML =  "Both countries are members of "+firstCountry.militaryAlliances;
     }
@@ -200,7 +202,7 @@ function Hints(){
     }
   }
   function region(){
-    if(firstCountry.Region==secondCountry.Region){
+    if(firstCountry.Region==secondCountry.Region && firstCountry.Region!=null){
       document.getElementById("Hint5").style.display="block";
       document.getElementById("Hint5").innerHTML =  "Both countries are in "+firstCountry.Region;
     }
@@ -217,6 +219,27 @@ function Hints(){
       return;
     }
   }
+  function commonLanguages() {
+    if(languages!=null && languages.length==1){
+      document.getElementById("Hint7").style.display="block";
+      document.getElementById("Hint7").innerHTML = "Both countries speak " + languages;
+    }
+    else if(languages!=null && languages.length==2){
+      document.getElementById("Hint7").style.display="block";
+      document.getElementById("Hint7").innerHTML = "Both countries speak " + languages[0] + " and "+ languages[1];
+    }
+    else if(languages!=null && languages.length>2){
+      let text=""
+      for(let i=0; i<languages.length-1; i++){
+      text += languages[i]+", "
+      }
+      document.getElementById("Hint7").style.display="block";
+      document.getElementById("Hint7").innerHTML = "Both countries speak " + text + "and " + languages[languages.length-1];
+    }
+    else{
+      return;
+    }
+  }
   similarFlagDesign();
   borderEachOther();
   similarColors();
@@ -224,6 +247,7 @@ function Hints(){
   militaryAlliance();
   region();
   continent();
+  commonLanguages();
 };
 
 modalClose.addEventListener("click", modalExit)
