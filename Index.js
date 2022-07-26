@@ -180,28 +180,38 @@ function Hints(){
     }
   }
   
-  function europeanUnion() {
-    if(firstCountry.isPartOfTheEU==secondCountry.isPartOfTheEU && firstCountry.isPartOfTheEU=="yes"){
+  function economicUnion() {
+    if(firstCountry.economicUnions==secondCountry.economicUnions){
       document.getElementById("Hint3").style.display="block";
-      document.getElementById("Hint3").innerHTML = "Both countries are members of the EU";
-    }
-    else if(firstCountry.isPartOfTheEU==secondCountry.isPartOfTheEU && firstCountry.isPartOfTheEU=="no"){
-      document.getElementById("Hint3").style.display="block";
-      document.getElementById("Hint3").innerHTML = "Both countries are not members of the EU";
+      document.getElementById("Hint3").innerHTML = "Both countries are members of the "+firstCountry.economicUnions;
     }
     else {
       return;
     }
   }
   
-  function nato () {
-    if(firstCountry.isPartofNato==secondCountry.isPartofNato && firstCountry.isPartofNato=="yes"){
+  function militaryAlliance() {
+    if(firstCountry.militaryAlliances==secondCountry.militaryAlliances){
       document.getElementById("Hint4").style.display="block";
-      document.getElementById("Hint4").innerHTML =  "Both countries are members of NATO";
+      document.getElementById("Hint4").innerHTML =  "Both countries are members of "+firstCountry.militaryAlliances;
     }
-    else if(firstCountry.isPartofNato==secondCountry.isPartofNato && firstCountry.isPartofNato=="no"){
-      document.getElementById("Hint4").style.display="block";
-      document.getElementById("Hint4").innerHTML = "Both countries are not members of NATO";
+    else {
+      return;
+    }
+  }
+  function region(){
+    if(firstCountry.Region==secondCountry.Region){
+      document.getElementById("Hint5").style.display="block";
+      document.getElementById("Hint5").innerHTML =  "Both countries are in "+firstCountry.Region;
+    }
+    else {
+      return;
+    }
+  }
+  function continent(){
+    if(firstCountry.Continent==secondCountry.Continent){
+      document.getElementById("Hint6").style.display="block";
+      document.getElementById("Hint6").innerHTML =  "Both countries are in "+firstCountry.Continent;
     }
     else {
       return;
@@ -210,8 +220,10 @@ function Hints(){
   similarFlagDesign();
   borderEachOther();
   similarColors();
-  europeanUnion();
-  nato();
+  economicUnion();
+  militaryAlliance();
+  region();
+  continent();
 };
 
 modalClose.addEventListener("click", modalExit)
