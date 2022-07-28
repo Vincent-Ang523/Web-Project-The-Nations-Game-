@@ -1666,6 +1666,18 @@ const Russia={
   Region: "Eastern Europe",
   Continent: "Europe"
 }
+const Rwanda={
+  Name: "Rwanda",
+  Language:['English','Kinyarwanda','French','Swahili'],
+  flagDesign:"",
+  flagColors:['Green','Blue','Yellow'],
+  Borders:['Burundi','Tanzania','Uganda','Democratic Republic of the Congo'],
+  economicUnions:[],
+  lettersUsed:['R','W','A','N','D','A'],
+  militaryAlliances:[],
+  Region: "East Africa",
+  Continent: "Africa"
+}
 const Kitts={
   Name: "Saint Kitts and Nevis",
   Language:['English'],
@@ -2278,5 +2290,5 @@ const Zimbabwe={
   Region: "Southern Africa",
   Continent: "Africa"
 }
-let countries=[Afghanistan,Albania,Algeria,Andorra,Angola,Antigua,Argentina,Armenia,Australia,Austria,Azerbaijan,Bahrain,Bangladesh,Barbados,Belarus,Belgium,Belize,Benin,Bhutan,Bolivia,Bosnia,Botswana,Brazil,Brunei,Bulgaria,Burkina,Burundi,Cambodia,Cameroon,Canada,CapeVerde,CAR,Chad,Chile,China,Colombia,Comoros,CostaRica,Croatia,Cuba,Cyprus,Czechia,DRC,Denmark,Djibouti,Dominica,DR,Ecuador,Egypt,Salvador,EastTimor,EquatorialGuinea,Eritrea,Estonia,Eswatini,Ethiopia,Fiji,Finland,France,Gabon,Georgia,Germany,Ghana,Greece,Grenada,Guatemala,GuineaBissau,Guinea,Guyana,Haiti,Honduras,Hungary,Iceland,India,Indonesia,Iran,Iraq,Ireland,Israel,Italy,IvoryCoast,Jamaica,Japan,Jordan,Kazakhstan,Kenya,Kiribati,Kuwait,Kyrgyzstan,Laos,Latvia,Lebanon,Lesotho,Liberia,Libya,Liechtenstein,Lithuania,Luxembourg,Madagascar,Malawi,Malaysia,Maldives,Mali,Malta,Mauritania,Mauritius,Mexico,Moldova,Monaco,Mongolia,Montenegro,Morocco,Mozambique,Myanmar,Namibia,Nauru,Nepal,Zealand,Nicaragua,Niger,Nigeria,DPRK,Macedonia,Netherlands,Norway,Oman,Pakistan,Palau,Panama,Papua,Paraguay,Peru,Philippines,Poland,Portugal,Qatar,RCongo,Romania,Russia,Kitts,Lucia,Vincent,Samoa,Marino,Tome,Saudi,Senegal,Serbia,Seychelles,Sierra,Singapore,Slovakia,Slovenia,Solomon,Somalia,SouthAfrica,ROK,SouthSudan,Spain,SriLanka,Sudan,Suriname,Sweden,Switzerland,Syria,Tajikistan,Tanzania,Thailand,Bahamas,Gambia,Togo,Tonga,Trinidad,Tunisia,Turkey,Turkmenistan,Uganda,Ukraine,UAE,UK,USA,Uruguay,Uzbekistan,Vanuatu,Vatican,Venezuela,Vietnam,Yemen,Zambia,Zimbabwe]
+let countries=[Afghanistan,Albania,Algeria,Andorra,Angola,Antigua,Argentina,Armenia,Australia,Austria,Azerbaijan,Bahrain,Bangladesh,Barbados,Belarus,Belgium,Belize,Benin,Bhutan,Bolivia,Bosnia,Botswana,Brazil,Brunei,Bulgaria,Burkina,Burundi,Cambodia,Cameroon,Canada,CapeVerde,CAR,Chad,Chile,China,Colombia,Comoros,CostaRica,Croatia,Cuba,Cyprus,Czechia,DRC,Denmark,Djibouti,Dominica,DR,Ecuador,Egypt,Salvador,EastTimor,EquatorialGuinea,Eritrea,Estonia,Eswatini,Ethiopia,Fiji,Finland,France,Gabon,Georgia,Germany,Ghana,Greece,Grenada,Guatemala,GuineaBissau,Guinea,Guyana,Haiti,Honduras,Hungary,Iceland,India,Indonesia,Iran,Iraq,Ireland,Israel,Italy,IvoryCoast,Jamaica,Japan,Jordan,Kazakhstan,Kenya,Kiribati,Kuwait,Kyrgyzstan,Laos,Latvia,Lebanon,Lesotho,Liberia,Libya,Liechtenstein,Lithuania,Luxembourg,Madagascar,Malawi,Malaysia,Maldives,Mali,Malta,Mauritania,Mauritius,Mexico,Moldova,Monaco,Mongolia,Montenegro,Morocco,Mozambique,Myanmar,Namibia,Nauru,Nepal,Zealand,Nicaragua,Niger,Nigeria,DPRK,Macedonia,Netherlands,Norway,Oman,Pakistan,Palau,Panama,Papua,Paraguay,Peru,Philippines,Poland,Portugal,Qatar,RCongo,Romania,Russia,Rwanda,Kitts,Lucia,Vincent,Samoa,Marino,Tome,Saudi,Senegal,Serbia,Seychelles,Sierra,Singapore,Slovakia,Slovenia,Solomon,Somalia,SouthAfrica,ROK,SouthSudan,Spain,SriLanka,Sudan,Suriname,Sweden,Switzerland,Syria,Tajikistan,Tanzania,Thailand,Bahamas,Gambia,Togo,Tonga,Trinidad,Tunisia,Turkey,Turkmenistan,Uganda,Ukraine,UAE,UK,USA,Uruguay,Uzbekistan,Vanuatu,Vatican,Venezuela,Vietnam,Yemen,Zambia,Zimbabwe]
 export {countries as default}

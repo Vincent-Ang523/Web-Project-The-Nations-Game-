@@ -12,7 +12,8 @@ let secondGuess = document.getElementById("Guess1");
 let thirdGuess = document.getElementById("Guess2");
 let fourthGuess = document.getElementById("Guess3");
 let fifthGuess = document.getElementById("Guess4");
-let firstCountry = countries[Math.floor(Math.random()*countries.length)]; //chooses random object from the countries list
+let firstCountry = countries[0];
+//let firstCountry = countries[Math.floor(Math.random()*countries.length)]; //chooses random object from the countries list
 let secondCountry = ""; //when the user inputs a country, the country's value will be registered in this variable
 let countryPick = firstCountry.Name;
 console.log(countryPick);
@@ -23,6 +24,7 @@ let dd = String(today.getDate()).padStart(2, '0');
 let mm = String(today.getMonth() + 1).padStart(2, '0'); 
 let yyyy = today.getFullYear();
 today = yyyy + '/' + mm + '/' + dd;
+let warning = document.getElementById("warning");
 document.getElementById("userInputs").addEventListener('keypress', event=> {
 if (event.keyCode === 13) {
 event.preventDefault();
@@ -47,30 +49,58 @@ function guessInput(){
     firstGuess.disabled=false;
     inputCheck();
     }
-    else if (firstGuess.value!="" && secondGuess.value=="" && thirdGuess.value=="" && fourthGuess.value=="" && fifthGuess.value==""){
+    else if (firstGuess.value!="" && secondGuess.value=="" && thirdGuess.value=="" && fourthGuess.value=="" && fifthGuess.value=="" && input.value!=firstGuess.value){
     secondGuess.innerText=input.value;
     secondGuess.value=input.value;
     secondGuess.disabled=false;
+    warning.style.display="none";
     inputCheck();
     }
-    else if (firstGuess.value!="" && secondGuess.value!="" && thirdGuess.value=="" && fourthGuess.value=="" && fifthGuess.value==""){
+    else if (firstGuess.value!="" && secondGuess.value=="" && thirdGuess.value=="" && fourthGuess.value=="" && fifthGuess.value=="" && input.value==firstGuess.value){
+      warning.style.display="block";
+      input.value="";
+      }
+    else if (firstGuess.value!="" && secondGuess.value!="" && thirdGuess.value=="" && fourthGuess.value=="" && fifthGuess.value=="" && input.value!=secondGuess.value){
     thirdGuess.innerText=input.value;
     thirdGuess.value=input.value;
     thirdGuess.disabled=false;
+    warning.style.display="none";
     inputCheck();
     }
-    else if (firstGuess.value!="" && secondGuess.value!="" && thirdGuess.value!="" && fourthGuess.value=="" && fifthGuess.value==""){
+    else if (firstGuess.value!="" && secondGuess.value!="" && thirdGuess.value=="" && fourthGuess.value=="" && fifthGuess.value=="" && input.value==secondGuess.value){
+      warning.style.display="block";
+      input.value="";
+      }
+    else if (firstGuess.value!="" && secondGuess.value!="" && thirdGuess.value!="" && fourthGuess.value=="" && fifthGuess.value=="" && input.value!=thirdGuess.value){
     fourthGuess.innerText=input.value;
     fourthGuess.value=input.value;
     fourthGuess.disabled=false;
+    warning.style.display="none";
     inputCheck();
     }
-    else if (firstGuess.value!="" && secondGuess.value!="" && thirdGuess.value!="" && fourthGuess.value!="" && fifthGuess.value=="" && input.value==countryPick){
+    else if (firstGuess.value!="" && secondGuess.value!="" && thirdGuess.value!="" && fourthGuess.value=="" && fifthGuess.value=="" && input.value==thirdGuess.value){
+      warning.style.display="block";
+      input.value="";
+      }
+    else if (firstGuess.value!="" && secondGuess.value!="" && thirdGuess.value!="" && fourthGuess.value!="" && fifthGuess.value=="" && input.value!=fourthGuess.value){
     fifthGuess.innerText=input.value;
+    fifthGuess.value=input.value;
+    fifthGuess.disabled=false;
+    warning.style.display="none";
     inputCheck();
     }
-    else if (firstGuess.value!="" && secondGuess.value!="" && thirdGuess.value!="" && fourthGuess.value!="" && fifthGuess.value=="" && input.value!=countryPick){
-    fifthGuess.innerText=input.value;
+    else if (firstGuess.value!="" && secondGuess.value!="" && thirdGuess.value!="" && fourthGuess.value!="" && fifthGuess.value=="" && input.value==fourthGuess.value){
+      warning.style.display="block";
+      input.value="";
+      }
+    else if (firstGuess.value!="" && secondGuess.value!="" && thirdGuess.value!="" && fourthGuess.value!="" && fifthGuess.value!="" && input.value==countryPick && input.value!=fifthGuess.value){
+      inputCheck();
+      }
+    else if (firstGuess.value!="" && secondGuess.value!="" && thirdGuess.value!="" && fourthGuess.value!="" && fifthGuess.value!="" && input.value==countryPick && input.value==fifthGuess.value){
+      warning.style.display="block";
+      input.value="";
+      }
+    else if (firstGuess.value!="" && secondGuess.value!="" && thirdGuess.value!="" && fourthGuess.value!="" && fifthGuess.value!="" && input.value!=countryPick && input.value!=fifthGuess.value){
     alert("It is " + countryPick + "!");
     input.disabled="true";
     document.getElementById("Flags").src= flag;
@@ -83,7 +113,12 @@ function guessInput(){
     secondGuess.disabled=true;
     thirdGuess.disabled=true;
     fourthGuess.disabled=true;
+    fifthGuess.disabled=true;
     }
+    else if (firstGuess.value!="" && secondGuess.value!="" && thirdGuess.value!="" && fourthGuess.value!="" && fifthGuess.value!="" && input.value!=countryPick && input.value==fifthGuess.value){
+      warning.style.display="block";
+      input.value="";
+      }
 };
 function inputCheck(){
     if(input.value==countryPick){
@@ -99,6 +134,7 @@ function inputCheck(){
         secondGuess.disabled=true;
         thirdGuess.disabled=true;
         fourthGuess.disabled=true;
+        fifthGuess.disabled=true;
         localStorage.setItem("GuessTime", today);
         console.log(localStorage.getItem("GuessTime"));
     }
@@ -116,12 +152,14 @@ window.addEventListener("load", function() {
   secondGuess.disabled=true;
   thirdGuess.disabled=true;
   fourthGuess.disabled=true;
+  fifthGuess.disabled=true;
   input.value="";
 }); //Uses add event listener to prevent reference error
 firstGuess.addEventListener("click", firstHint);
 secondGuess.addEventListener("click", secondHint);
 thirdGuess.addEventListener("click", thirdHint);
 fourthGuess.addEventListener("click", fourthHint);
+fifthGuess.addEventListener("click", fifthHint);
 function firstHint(){
   secondCountry = countries.find(x => x.Name == firstGuess.value);
   Hints()
@@ -136,6 +174,10 @@ function thirdHint(){
 }
 function fourthHint(){
   secondCountry = countries.find(x => x.Name == fourthGuess.value);
+  Hints()
+}
+function fifthHint(){
+  secondCountry = countries.find(x => x.Name == fifthGuess.value);
   Hints()
 }
 function Hints(){
@@ -211,7 +253,7 @@ function Hints(){
     }
   }
   function continent(){
-    if(firstCountry.Continent==secondCountry.Continent){
+    if(firstCountry.Continent==secondCountry.Continent && firstCountry.Region!=secondCountry.Region){
       document.getElementById("Hint6").style.display="block";
       document.getElementById("Hint6").innerHTML =  "Both countries are in "+firstCountry.Continent;
     }
@@ -264,4 +306,10 @@ function modalExit(){
   document.getElementById("Hint3").innerHTML = "";
   document.getElementById("Hint4").style.display="none";
   document.getElementById("Hint4").innerHTML = "";
+  document.getElementById("Hint5").style.display="none";
+  document.getElementById("Hint5").innerHTML = "";
+  document.getElementById("Hint6").style.display="none";
+  document.getElementById("Hint6").innerHTML = "";
+  document.getElementById("Hint7").style.display="none";
+  document.getElementById("Hint7").innerHTML = "";
 }
