@@ -487,7 +487,7 @@ const Cyprus={
   economicUnions:['EU'],
   lettersUsed:['C','Y','P','R','U','S'],
   militaryAlliances:[],
-  Region: "",
+  Region: "Western Asia",
   Continent: "Asia"
 }
 const Czechia={

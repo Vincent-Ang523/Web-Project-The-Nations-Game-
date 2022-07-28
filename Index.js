@@ -49,76 +49,88 @@ function guessInput(){
     firstGuess.disabled=false;
     inputCheck();
     }
-    else if (firstGuess.value!="" && secondGuess.value=="" && thirdGuess.value=="" && fourthGuess.value=="" && fifthGuess.value=="" && input.value!=firstGuess.value){
+    else if (firstGuess.value!="" && secondGuess.value=="" && thirdGuess.value=="" && fourthGuess.value=="" && fifthGuess.value==""){
+      if(input.value!=firstGuess.value){
     secondGuess.innerText=input.value;
     secondGuess.value=input.value;
     secondGuess.disabled=false;
     warning.style.display="none";
     inputCheck();
-    }
-    else if (firstGuess.value!="" && secondGuess.value=="" && thirdGuess.value=="" && fourthGuess.value=="" && fifthGuess.value=="" && input.value==firstGuess.value){
+      }
+      else if(input.value==firstGuess.value){
       warning.style.display="block";
       input.value="";
       }
-    else if (firstGuess.value!="" && secondGuess.value!="" && thirdGuess.value=="" && fourthGuess.value=="" && fifthGuess.value=="" && input.value!=secondGuess.value){
-    thirdGuess.innerText=input.value;
-    thirdGuess.value=input.value;
-    thirdGuess.disabled=false;
-    warning.style.display="none";
-    inputCheck();
     }
-    else if (firstGuess.value!="" && secondGuess.value!="" && thirdGuess.value=="" && fourthGuess.value=="" && fifthGuess.value=="" && input.value==secondGuess.value){
-      warning.style.display="block";
-      input.value="";
-      }
-    else if (firstGuess.value!="" && secondGuess.value!="" && thirdGuess.value!="" && fourthGuess.value=="" && fifthGuess.value=="" && input.value!=thirdGuess.value){
-    fourthGuess.innerText=input.value;
-    fourthGuess.value=input.value;
-    fourthGuess.disabled=false;
-    warning.style.display="none";
-    inputCheck();
-    }
-    else if (firstGuess.value!="" && secondGuess.value!="" && thirdGuess.value!="" && fourthGuess.value=="" && fifthGuess.value=="" && input.value==thirdGuess.value){
-      warning.style.display="block";
-      input.value="";
-      }
-    else if (firstGuess.value!="" && secondGuess.value!="" && thirdGuess.value!="" && fourthGuess.value!="" && fifthGuess.value=="" && input.value!=fourthGuess.value){
-    fifthGuess.innerText=input.value;
-    fifthGuess.value=input.value;
-    fifthGuess.disabled=false;
-    warning.style.display="none";
-    inputCheck();
-    }
-    else if (firstGuess.value!="" && secondGuess.value!="" && thirdGuess.value!="" && fourthGuess.value!="" && fifthGuess.value=="" && input.value==fourthGuess.value){
-      warning.style.display="block";
-      input.value="";
-      }
-    else if (firstGuess.value!="" && secondGuess.value!="" && thirdGuess.value!="" && fourthGuess.value!="" && fifthGuess.value!="" && input.value==countryPick && input.value!=fifthGuess.value){
+    else if (firstGuess.value!="" && secondGuess.value!="" && thirdGuess.value=="" && fourthGuess.value=="" && fifthGuess.value==""){
+      if(input.value!=firstGuess.value && input.value!=secondGuess.value){
+      thirdGuess.innerText=input.value;
+      thirdGuess.value=input.value;
+      thirdGuess.disabled=false;
+      warning.style.display="none";
       inputCheck();
       }
-    else if (firstGuess.value!="" && secondGuess.value!="" && thirdGuess.value!="" && fourthGuess.value!="" && fifthGuess.value!="" && input.value==countryPick && input.value==fifthGuess.value){
+      else if(input.value==firstGuess.value || input.value==secondGuess.value){
       warning.style.display="block";
       input.value="";
       }
-    else if (firstGuess.value!="" && secondGuess.value!="" && thirdGuess.value!="" && fourthGuess.value!="" && fifthGuess.value!="" && input.value!=countryPick && input.value!=fifthGuess.value){
-    alert("It is " + countryPick + "!");
-    input.disabled="true";
-    document.getElementById("Flags").src= flag;
-    document.getElementById("Maps").src= map;
-    document.getElementById("Names").innerHTML=countryPick;
-    document.getElementById("Flags").style.display= "block";
-    document.getElementById("Maps").style.display= "block";
-    document.getElementById("Names").style.display= "block";
-    firstGuess.disabled=true;
-    secondGuess.disabled=true;
-    thirdGuess.disabled=true;
-    fourthGuess.disabled=true;
-    fifthGuess.disabled=true;
     }
-    else if (firstGuess.value!="" && secondGuess.value!="" && thirdGuess.value!="" && fourthGuess.value!="" && fifthGuess.value!="" && input.value!=countryPick && input.value==fifthGuess.value){
+    else if (firstGuess.value!="" && secondGuess.value!="" && thirdGuess.value!="" && fourthGuess.value=="" && fifthGuess.value==""){
+      if(input.value!=firstGuess.value && input.value!=secondGuess.value && input.value!=thirdGuess.value){
+      fourthGuess.innerText=input.value;
+      fourthGuess.value=input.value;
+      fourthGuess.disabled=false;
+      warning.style.display="none";
+      inputCheck();
+      }
+      else if(input.value==firstGuess.value || input.value==secondGuess.value || input.value==thirdGuess.value){
+        warning.style.display="block";
+        input.value=""; 
+      }
+    }
+    else if (firstGuess.value!="" && secondGuess.value!="" && thirdGuess.value!="" && fourthGuess.value!="" && fifthGuess.value==""){
+      if(input.value!=firstGuess.value && input.value!=secondGuess.value && input.value!=thirdGuess.value && input.value!=fourthGuess.value){
+      fifthGuess.innerText=input.value;
+      fifthGuess.value=input.value;
+      fifthGuess.disabled=false;
+      warning.style.display="none";
+      inputCheck();
+      }
+      else if(input.value==firstGuess.value || input.value==secondGuess.value || input.value==thirdGuess.value || input.value==fourthGuess.value){
+        warning.style.display="block";
+        input.value="";  
+      }
+    }
+    else if (firstGuess.value!="" && secondGuess.value!="" && thirdGuess.value!="" && fourthGuess.value!="" && fifthGuess.value!="" && input.value==countryPick){
+      if(input.value!=firstGuess.value && input.value!=secondGuess.value && input.value!=thirdGuess.value && input.value!=fourthGuess.value && input.value!=fifthGuess.value){
+      inputCheck();
+      }
+      else if(input.value==firstGuess.value || input.value==secondGuess.value || input.value==thirdGuess.value || input.value==fourthGuess.value || input.value==fifthGuess.value){
       warning.style.display="block";
       input.value="";
       }
+      }
+    else if (firstGuess.value!="" && secondGuess.value!="" && thirdGuess.value!="" && fourthGuess.value!="" && fifthGuess.value!="" && input.value!=countryPick){
+      if(input.value!=firstGuess.value && input.value!=secondGuess.value && input.value!=thirdGuess.value && input.value!=fourthGuess.value && input.value!=fifthGuess.value){
+      alert("It is " + countryPick + "!");
+      input.disabled="true";
+      document.getElementById("Flags").src= flag;
+      document.getElementById("Maps").src= map;
+      document.getElementById("Names").innerHTML=countryPick;
+      document.getElementById("Flags").style.display= "block";
+      document.getElementById("Maps").style.display= "block";
+      document.getElementById("Names").style.display= "block";
+      firstGuess.disabled=true;
+      secondGuess.disabled=true;
+      thirdGuess.disabled=true;
+      fourthGuess.disabled=true;
+      fifthGuess.disabled=true;
+      }
+      else if(input.value==firstGuess.value || input.value==secondGuess.value || input.value==thirdGuess.value || input.value==fourthGuess.value || input.value==fifthGuess.value){
+      warning.style.display="block";
+      input.value="";
+      }
+    }
 };
 function inputCheck(){
     if(input.value==countryPick){
