@@ -8,7 +8,8 @@ const Afghanistan={
   lettersUsed:['A','F','G','H','A','N','I','S','T','A','N'],
   militaryAlliances:[],
   Region: "Central Asia",
-  Continent: "Asia"
+  Continent: "Asia",
+  Link: "https://en.wikipedia.org/wiki/Afghanistan"
 }
 const Albania={
   Name: "Albania",
@@ -20,7 +21,8 @@ const Albania={
   lettersUsed:['A','L','B','A','N','I', 'A'],
   militaryAlliances:['NATO'],
   Region: "Southeastern Europe",
-  Continent: "Europe"
+  Continent: "Europe",
+  Link: "https://en.wikipedia.org/wiki/Albania"
 }
 const Algeria={
   Name: "Algeria",
@@ -32,7 +34,8 @@ const Algeria={
   lettersUsed:['A','L','G','E','R','I','A'],
   militaryAlliances:[],
   Region: "North Africa",
-  Continent: "Africa"
+  Continent: "Africa",
+  Link: "https://en.wikipedia.org/wiki/Algeria"
 }
 const Andorra={
   Name: "Andorra",
@@ -44,7 +47,8 @@ const Andorra={
   lettersUsed:['A','N','D','O','R','R','A'],
   militaryAlliances:[],
   Region: "Southern Europe",
-  Continent: "Europe"
+  Continent: "Europe",
+  Link: "https://en.wikipedia.org/wiki/Andorra"
 }
 const Angola={
   Name: "Angola",
@@ -56,7 +60,8 @@ const Angola={
   lettersUsed:['A','N','G','O','L','A'],
   militaryAlliances:[],
   Region: "Southern Africa",
-  Continent: "Africa"
+  Continent: "Africa",
+  Link: "https://en.wikipedia.org/wiki/Angola"
 }
 const Antigua={
   Name: "Antigua and Barbuda",
@@ -68,7 +73,8 @@ const Antigua={
   lettersUsed:['A','N','T','I','G','U','A','A','N','D','B','A','R','B','U','D','A'],
   militaryAlliances:[],
   Region: "the Caribbean",
-  Continent: "North America"
+  Continent: "North America",
+  Link: "https://en.wikipedia.org/wiki/Antigua_and_Barbuda"
 }
 const Argentina={
   Name: "Argentina",
@@ -80,7 +86,8 @@ const Argentina={
   lettersUsed:['A','R','G','E','N','T','I','N','A'],
   militaryAlliances:['Rio Pact'],
   Region: "",
-  Continent: "South America"
+  Continent: "South America",
+  Link: "https://en.wikipedia.org/wiki/Argentina"
 }
 const Armenia={
   Name: "Armenia",
@@ -92,7 +99,8 @@ const Armenia={
   lettersUsed:['A','R','M','E','N','I','A'],
   militaryAlliances:['CSTO'],
   Region: "the Caucasus",
-  Continent: "Asia"
+  Continent: "Asia",
+  Link: "https://en.wikipedia.org/wiki/Armenia"
 }
 const Australia={
   Name: "Australia",
@@ -104,7 +112,8 @@ const Australia={
   lettersUsed:['A','U','S','T','R','A','L','I','A'],
   militaryAlliances:[],
   Region: "Australasia",
-  Continent: "Oceania"
+  Continent: "Oceania",
+  Link: "https://en.wikipedia.org/wiki/Australia"
 }
 const Austria={
   Name: "Austria",
@@ -116,7 +125,8 @@ const Austria={
   lettersUsed:['A','U','S','T','R','I','A'],
   militaryAlliances:[],
   Region: "Central Europe", 
-  Continent: "Europe"
+  Continent: "Europe",
+  Link: "https://en.wikipedia.org/wiki/Austria"
 }
 const Azerbaijan={
   Name: "Azerbaijan",
@@ -128,7 +138,8 @@ const Azerbaijan={
   lettersUsed:['A','Z','E','R','B','A','I','J','A','N'],
   militaryAlliances:[],
   Region: "the Caucasus", 
-  Continent: "Asia"
+  Continent: "Asia",
+  Link: "https://en.wikipedia.org/wiki/Azerbaijan"
 }
 const Bahrain={
   Name: "Bahrain",
@@ -140,7 +151,8 @@ const Bahrain={
   lettersUsed:['B','A','H','R','A','I','N'],
   militaryAlliances:[],
   Region: "the Middle East",
-  Continent: "Asia"
+  Continent: "Asia",
+  Link: "https://en.wikipedia.org/wiki/Bahrain"
 }
 const Bangladesh={
   Name: "Bangladesh",
@@ -152,7 +164,8 @@ const Bangladesh={
   lettersUsed:['B','A','N','G','L','A','D','E','S','H'],
   militaryAlliances:[],
   Region: "South Asia",
-  Continent: "Asia"
+  Continent: "Asia",
+  Link: "https://en.wikipedia.org/wiki/Bangladesh"
 }
 const Barbados={
   Name: "Barbados",
@@ -164,7 +177,8 @@ const Barbados={
   lettersUsed:['B','A','R','B','A','D','O','S'],
   militaryAlliances:[],
   Region: "the Caribbean",
-  Continent: "North America"
+  Continent: "North America",
+  Link: "https://en.wikipedia.org/wiki/Barbados"
 }
 const Belarus={
   Name: "Belarus",
@@ -176,7 +190,8 @@ const Belarus={
   lettersUsed:['B','E','L','A','R','U','S'],
   militaryAlliances:['CSTO'],
   Region: "Eastern Europe",
-  Continent: "Europe"
+  Continent: "Europe",
+  Link: "https://en.wikipedia.org/wiki/Belarus"
 }
 const Belgium={
   Name: "Belgium",
@@ -188,7 +203,8 @@ const Belgium={
   lettersUsed:['B','E','L','G','I','U','M'],
   militaryAlliances:['NATO'],
   Region: "Western Europe",
-  Continent: "Europe"
+  Continent: "Europe",
+  Link: "https://en.wikipedia.org/wiki/Belgium"
 }
 const Belize={
   Name: "Belize",
@@ -200,7 +216,8 @@ const Belize={
   lettersUsed:['B','E','L','I','Z','E'],
   militaryAlliances:[],
   Region: "Central America",
-  Continent: "North America"
+  Continent: "North America",
+  Link: "https://en.wikipedia.org/wiki/Belize"
 }
 const Benin={
   Name: "Benin",
@@ -212,7 +229,8 @@ const Benin={
   lettersUsed:['B','E','N','I','N'],
   militaryAlliances:[],
   Region: "West Africa",
-  Continent: "Africa"
+  Continent: "Africa",
+  Link: "https://en.wikipedia.org/wiki/Benin"
 }
 const Bhutan={
   Name: "Bhutan",
@@ -224,7 +242,8 @@ const Bhutan={
   lettersUsed:['B','H','U','T','A','N'],
   militaryAlliances:[],
   Region: "South Asia",
-  Continent: "Asia"
+  Continent: "Asia",
+  Link: "https://en.wikipedia.org/wiki/Bhutan"
 }
 const Bolivia={
   Name: "Bolivia",
@@ -236,7 +255,8 @@ const Bolivia={
   lettersUsed:['B','O','L','I','V','I','A'],
   militaryAlliances:[],
   Region: "",
-  Continent: "South America"
+  Continent: "South America",
+  Link: "https://en.wikipedia.org/wiki/Bolivia"
 }
 const Bosnia={
   Name: "Bosnia and Herzegovina",
@@ -248,7 +268,8 @@ const Bosnia={
   lettersUsed:['B','O','S','N','I','A','A','N','D','H','E','R','Z','E','G','O','V','I','N','A'],
   militaryAlliances:[],
   Region: "Southeastern Europe",
-  Continent: "Europe"
+  Continent: "Europe",
+  Link: "https://en.wikipedia.org/wiki/Bosnia_and_Herzegovina"
 }
 const Botswana={
   Name: "Angola",
@@ -260,7 +281,8 @@ const Botswana={
   lettersUsed:['B','O','T','S','W','A','N','A'],
   militaryAlliances:[],
   Region: "Southern Africa",
-  Continent: "Africa"
+  Continent: "Africa",
+  Link: "https://en.wikipedia.org/wiki/Botswana"
 }
 const Brazil={
   Name: "Brazil",
@@ -272,7 +294,8 @@ const Brazil={
   lettersUsed:['B','R','A','Z','I','L'],
   militaryAlliances:['Rio Pact'],
   Region: "",
-  Continent: "South America"
+  Continent: "South America",
+  Link: "https://en.wikipedia.org/wiki/Brazil"
 }
 const Brunei={
   Name: "Brunei Darussalam",
@@ -284,7 +307,8 @@ const Brunei={
   lettersUsed:['B','R','U','N','E','I','D','A','R','U','S','S','A','L','A','M'],
   militaryAlliances:[],
   Region: "Southeast Asia",
-  Continent: "Asia"
+  Continent: "Asia",
+  Link: "https://en.wikipedia.org/wiki/Brunei"
 }
 const Bulgaria={
   Name: "Bulgaria",
@@ -296,7 +320,8 @@ const Bulgaria={
   lettersUsed:['B','U','L','G','A','R','I','A'],
   militaryAlliances:['NATO'],
   Region: "Southeastern Europe",
-  Continent: "Europe"
+  Continent: "Europe",
+  Link: "https://en.wikipedia.org/wiki/Bulgaria"
 }
 const Burkina={
   Name: "Burkina Faso",
@@ -308,7 +333,8 @@ const Burkina={
   lettersUsed:['B','U','R','K','I','N','A','F','A','S','O'],
   militaryAlliances:[],
   Region: "West Africa",
-  Continent: "Africa"
+  Continent: "Africa",
+  Link: "https://en.wikipedia.org/wiki/Burkina_Faso"
 }
 const Burundi={
   Name: "Burundi",
@@ -320,7 +346,8 @@ const Burundi={
   lettersUsed:['B','U','R','U','N','D','I'],
   militaryAlliances:[],
   Region: "East Africa",
-  Continent: "Africa"
+  Continent: "Africa",
+  Link: "https://en.wikipedia.org/wiki/Burundi"
 }
 const Cambodia={
   Name: "Cambodia",
@@ -332,7 +359,8 @@ const Cambodia={
   lettersUsed:['C','A','M','B','O','D','I','A'],
   militaryAlliances:[],
   Region: "Southeast Asia",
-  Continent: "Asia"
+  Continent: "Asia",
+  Link: "https://en.wikipedia.org/wiki/Cambodia"
 }
 const Cameroon={
   Name: "Cameroon",
@@ -344,7 +372,8 @@ const Cameroon={
   lettersUsed:['C','A','M','E','R','O','O','N'],
   militaryAlliances:[],
   Region: "Central Africa",
-  Continent: "Africa"
+  Continent: "Africa",
+  Link: "https://en.wikipedia.org/wiki/Cameroon"
 }
 const Canada={
   Name: "Canada",
@@ -356,7 +385,8 @@ const Canada={
   lettersUsed:['C','A','N','A','D','A'],
   militaryAlliances:['NATO'],
   Region: "North America",
-  Continent: "North America"
+  Continent: "North America",
+  Link: "https://en.wikipedia.org/wiki/Canada"
 }
 const CapeVerde={
   Name: "Cape Verde",
@@ -368,7 +398,8 @@ const CapeVerde={
   lettersUsed:['C','A','P','E','V','E','R','D','E'],
   militaryAlliances:[],
   Region: "West Africa",
-  Continent: "Africa"
+  Continent: "Africa",
+  Link: "https://en.wikipedia.org/wiki/Cape_Verde"
 }
 const CAR={
   Name: "Central African Republic",
@@ -380,7 +411,8 @@ const CAR={
   lettersUsed:['C','E','N','T','R','A','L','A','F','R','I','C','A','N','R','E','P','U','B','L','I','C'],
   militaryAlliances:[],
   Region: "Central Africa",
-  Continent: "Africa"
+  Continent: "Africa",
+  Link: "https://en.wikipedia.org/wiki/Central_African_Republic"
 }
 const Chad={
   Name: "Chad",
@@ -392,7 +424,8 @@ const Chad={
   lettersUsed:['C','H','A','D'],
   militaryAlliances:[],
   Region: "Central Africa",
-  Continent: "Africa"
+  Continent: "Africa",
+  Link: "https://en.wikipedia.org/wiki/Chad"
 }
 const Chile={
   Name: "Chile",
@@ -404,7 +437,8 @@ const Chile={
   lettersUsed:['C','H','I','L','E'],
   militaryAlliances:['Rio Pact'],
   Region: "",
-  Continent: "South America"
+  Continent: "South America",
+  Link: "https://en.wikipedia.org/wiki/Chile"
 }
 const China={
   Name: "China",
@@ -416,7 +450,8 @@ const China={
   lettersUsed:['C','H','I','N','A'],
   militaryAlliances:[],
   Region: "East Asia",
-  Continent: "Asia"
+  Continent: "Asia",
+  Link: "https://en.wikipedia.org/wiki/China"
 }
 const Colombia={
   Name: "Colombia",
@@ -428,7 +463,8 @@ const Colombia={
   lettersUsed:['C','O','L','O','M','B','I','A'],
   militaryAlliances:['Rio Pact'],
   Region: "",
-  Continent: "South America"
+  Continent: "South America",
+  Link: "https://en.wikipedia.org/wiki/Colombia"
 }
 const Comoros={
   Name: "Comoros",
@@ -440,7 +476,8 @@ const Comoros={
   lettersUsed:['C','O','M','O','R','O','S'],
   militaryAlliances:[],
   Region: "East Africa",
-  Continent: "Africa"
+  Continent: "Africa",
+  Link: "https://en.wikipedia.org/wiki/Comoros"
 }
 const CostaRica={
   Name: "Costa Rica",
@@ -452,7 +489,8 @@ const CostaRica={
   lettersUsed:['C','O','S','T','A','R','I','C','A'],
   militaryAlliances:['Rio Pact'],
   Region: "Central America",
-  Continent: "North America"
+  Continent: "North America",
+  Link: "https://en.wikipedia.org/wiki/Costa_Rica"
 }
 const Croatia={
   Name: "Croatia",
@@ -464,7 +502,8 @@ const Croatia={
   lettersUsed:['C','R','O','A','T','I','A'],
   militaryAlliances:['NATO'],
   Region: "Southeastern Europe",
-  Continent: "Europe"
+  Continent: "Europe",
+  Link: "https://en.wikipedia.org/wiki/Croatia"
 }
 const Cuba={
   Name: "Cuba",
@@ -476,7 +515,8 @@ const Cuba={
   lettersUsed:['C','U','B','A'],
   militaryAlliances:[],
   Region: "the Caribbean",
-  Continent: "North America"
+  Continent: "North America",
+  Link: "https://en.wikipedia.org/wiki/Cuba"
 }
 const Cyprus={
   Name: "Cyprus",
@@ -488,7 +528,8 @@ const Cyprus={
   lettersUsed:['C','Y','P','R','U','S'],
   militaryAlliances:[],
   Region: "Western Asia",
-  Continent: "Asia"
+  Continent: "Asia",
+  Link: "https://en.wikipedia.org/wiki/Cyprus"
 }
 const Czechia={
   Name: "Czech Republic",
@@ -500,7 +541,8 @@ const Czechia={
   lettersUsed:['C','Z','E','C','H','R','E','P','U','B','L','I','C'],
   militaryAlliances:['NATO'],
   Region: "Central Europe",
-  Continent: "Europe"
+  Continent: "Europe",
+  Link: "https://en.wikipedia.org/wiki/Czech_Republic"
 }
 const DRC={
   Name: "Democratic Republic of the Congo",
@@ -512,7 +554,8 @@ const DRC={
   lettersUsed:['D','E','M','O','C','R','A','T','I','C','R','E','P','U','B','L','I','C','O','F','T','H','E','C','O','N','G','O'],
   militaryAlliances:[],
   Region: "Central Africa",
-  Continent: "Africa"
+  Continent: "Africa",
+  Link: "https://en.wikipedia.org/wiki/Democratic_Republic_of_the_Congo"
 }
 const Denmark={
   Name: "Denmark",
@@ -524,7 +567,8 @@ const Denmark={
   lettersUsed:['D','E','N','M','A','R','K'],
   militaryAlliances:['NATO'],
   Region: "Northern Europe",
-  Continent: "Europe"
+  Continent: "Europe",
+  Link: "https://en.wikipedia.org/wiki/Denmark"
 }
 const Djibouti={
   Name: "Djibouti",
@@ -536,7 +580,8 @@ const Djibouti={
   lettersUsed:['D','J','I','B','O','U','T','I'],
   militaryAlliances:[],
   Region: "the Horn of Africa",
-  Continent: "Africa"
+  Continent: "Africa",
+  Link: "https://en.wikipedia.org/wiki/Djibouti"
 }
 const Dominica={
   Name: "Dominica",
@@ -548,7 +593,8 @@ const Dominica={
   lettersUsed:['D','O','M','I','N','I','C','A'],
   militaryAlliances:[],
   Region: "the Caribbean",
-  Continent: "North America"
+  Continent: "North America",
+  Link: "https://en.wikipedia.org/wiki/Dominica"
 }
 const DR={
   Name: "Dominican Republic",
@@ -560,7 +606,8 @@ const DR={
   lettersUsed:['D','O','M','I','N','I','C','A','N','R','E','P','U','B','L','I','C'],
   militaryAlliances:['Rio Pact'],
   Region: "the Caribbean",
-  Continent: "North America"
+  Continent: "North America",
+  Link: "https://en.wikipedia.org/wiki/Dominican_Republic"
 }
 const EastTimor={
   Name: "East Timor",
@@ -572,7 +619,8 @@ const EastTimor={
   lettersUsed:['E','A','S','T','T','I','M','O','R'],
   militaryAlliances:[],
   Region: "Southeast Asia",
-  Continent: "Asia"
+  Continent: "Asia",
+  Link: "https://en.wikipedia.org/wiki/East_Timor"
 }
 const Ecuador={
   Name: "Ecuador",
@@ -584,7 +632,8 @@ const Ecuador={
   lettersUsed:['E','C','U','A','D','O','R'],
   militaryAlliances:[],
   Region: "",
-  Continent: "South America"
+  Continent: "South America",
+  Link: "https://en.wikipedia.org/wiki/Ecuador"
 }
 const Egypt={
   Name: "Egypt",
@@ -596,7 +645,8 @@ const Egypt={
   lettersUsed:['E','G','Y','P','T'],
   militaryAlliances:[],
   Region: "North Africa",
-  Continent: "Africa"
+  Continent: "Africa",
+  Link: "https://en.wikipedia.org/wiki/Egypt"
 }
 const Salvador={
   Name: "El Salvador",
@@ -608,7 +658,8 @@ const Salvador={
   lettersUsed:['E','L','S','A','L','V','A','D','O','R'],
   militaryAlliances:['Rio Pact'],
   Region: "Central America",
-  Continent: "North America"
+  Continent: "North America",
+  Link: "https://en.wikipedia.org/wiki/El_Salvador"
 }
 const EquatorialGuinea={
   Name: "Equatorial Guinea",
@@ -620,7 +671,8 @@ const EquatorialGuinea={
   lettersUsed:['E','Q','U','A','T','O','R','I','A','L','G','U','I','N','E','A'],
   militaryAlliances:[],
   Region: "Central Africa",
-  Continent: "Africa"
+  Continent: "Africa",
+  Link: "https://en.wikipedia.org/wiki/Equatorial_Guinea"
 }
 const Eritrea={
   Name: "Eritrea",
@@ -632,7 +684,8 @@ const Eritrea={
   lettersUsed:['E','R','I','T','R','E','A'],
   militaryAlliances:[],
   Region: "the Horn of Africa",
-  Continent: "Africa"
+  Continent: "Africa",
+  Link: "https://en.wikipedia.org/wiki/Eritrea"
 }
 const Estonia={
   Name: "Estonia",
@@ -644,7 +697,8 @@ const Estonia={
   lettersUsed:['E','S','T','O','N','I','A'],
   militaryAlliances:['NATO'],
   Region: "Northern Europe",
-  Continent: "Europe"
+  Continent: "Europe",
+  Link: "https://en.wikipedia.org/wiki/Estonia"
 }
 const Eswatini={
   Name: "Eswatini",
@@ -656,7 +710,8 @@ const Eswatini={
   lettersUsed:['E','S','W','A','T','I','N','I'],
   militaryAlliances:[],
   Region: "Southern Africa",
-  Continent: "Africa"
+  Continent: "Africa",
+  Link: "https://en.wikipedia.org/wiki/Eswatini"
 }
 const Ethiopia={
   Name: "Ethiopia",
@@ -668,7 +723,8 @@ const Ethiopia={
   lettersUsed:['E','T','H','I','O','P','I','A'],
   militaryAlliances:[],
   Region: "the Horn of Africa",
-  Continent: "Africa"
+  Continent: "Africa",
+  Link: "https://en.wikipedia.org/wiki/Ethiopia"
 }
 const Fiji={
   Name: "Fiji",
@@ -680,7 +736,8 @@ const Fiji={
   lettersUsed:['F','I','J','I'],
   militaryAlliances:[],
   Region: "Melanesia",
-  Continent: "Oceania"
+  Continent: "Oceania",
+  Link: "https://en.wikipedia.org/wiki/Fiji"
 }
 const Finland={
   Name: "Finland",
@@ -692,7 +749,8 @@ const Finland={
   lettersUsed:['F','I','N','L','A','N','D'],
   militaryAlliances:[],
   Region: "Northern Europe",
-  Continent: "Europe"
+  Continent: "Europe",
+  Link: "https://en.wikipedia.org/wiki/Finland"
 }
 const France={
   Name: "France",
@@ -704,7 +762,8 @@ const France={
   lettersUsed:['F','R','A','N','C','E'],
   militaryAlliances:['NATO'],
   Region: "Western Europe",
-  Continent: "Europe"
+  Continent: "Europe",
+  Link: "https://en.wikipedia.org/wiki/France"
 }
 const Gabon={
   Name: "Gabon",
@@ -716,7 +775,8 @@ const Gabon={
   lettersUsed:['G','A','B','O','N'],
   militaryAlliances:[],
   Region: "Central Africa",
-  Continent: "Africa"
+  Continent: "Africa",
+  Link: "https://en.wikipedia.org/wiki/Gabon"
 }
 const Georgia={
   Name: "Georgia",
@@ -728,7 +788,8 @@ const Georgia={
   lettersUsed:['G','E','O','R','G','I','A'],
   militaryAlliances:[],
   Region: "the Caucasus",
-  Continent: "Asia"
+  Continent: "Asia",
+  Link: "https://en.wikipedia.org/wiki/Georgia"
 }
 const Germany={
   Name: "Germany",
@@ -740,7 +801,8 @@ const Germany={
   lettersUsed:['G','E','R','M','A','N','Y'],
   militaryAlliances:['NATO'],
   Region: "Central Europe",
-  Continent: "Europe"
+  Continent: "Europe",
+  Link: "https://en.wikipedia.org/wiki/Germany"
 }
 const Ghana={
   Name: "Ghana",
@@ -752,7 +814,8 @@ const Ghana={
   lettersUsed:['G','H','A','N','A'],
   militaryAlliances:[],
   Region: "West Africa",
-  Continent: "Africa"
+  Continent: "Africa",
+  Link: "https://en.wikipedia.org/wiki/Ghana"
 }
 const Greece={
   Name: "Greece",
@@ -764,7 +827,8 @@ const Greece={
   lettersUsed:['G','R','E','E','C','E'],
   militaryAlliances:['NATO'],
   Region: "Southeastern Europe",
-  Continent: "Europe"
+  Continent: "Europe",
+  Link: "https://en.wikipedia.org/wiki/Greece"
 }
 const Grenada={
   Name: "Grenada",
@@ -776,7 +840,8 @@ const Grenada={
   lettersUsed:['G','R','E','N','A','D','A'],
   militaryAlliances:[],
   Region: "the Caribbean",
-  Continent: "North America"
+  Continent: "North America",
+  Link: "https://en.wikipedia.org/wiki/Grenada"
 }
 const Guatemala={
   Name: "Guatemala",
@@ -788,7 +853,8 @@ const Guatemala={
   lettersUsed:['G','U','A','T','E','M','A','L','A'],
   militaryAlliances:['Rio Pact'],
   Region: "Central America",
-  Continent: "North America"
+  Continent: "North America",
+  Link: "https://en.wikipedia.org/wiki/Guatemala"
 }
 const GuineaBissau={
   Name: "Guinea Bissau",
@@ -800,7 +866,8 @@ const GuineaBissau={
   lettersUsed:['G','U','I','N','E','A','B','I','S','S','A','U'],
   militaryAlliances:[],
   Region: "West Africa",
-  Continent: "Africa"
+  Continent: "Africa",
+  Link: "https://en.wikipedia.org/wiki/Guinea-Bissau"
 }
 const Guinea={
   Name: "Guinea",
@@ -812,7 +879,8 @@ const Guinea={
   lettersUsed:['G','U','I','N','E','A'],
   militaryAlliances:[],
   Region: "West Africa",
-  Continent: "Africa"
+  Continent: "Africa",
+  Link: "https://en.wikipedia.org/wiki/Guinea"
 }
 const Guyana={
   Name: "Guyana",
@@ -824,7 +892,8 @@ const Guyana={
   lettersUsed:['G','U','Y','A','N','A'],
   militaryAlliances:[],
   Region: "",
-  Continent: "South America"
+  Continent: "South America",
+  Link: "https://en.wikipedia.org/wiki/Guyana"
 }
 const Haiti={
   Name: "Haiti",
@@ -836,7 +905,8 @@ const Haiti={
   lettersUsed:['H','A','I','T','I'],
   militaryAlliances:['Rio Pact'],
   Region: "the Caribbean",
-  Continent: "North America"
+  Continent: "North America",
+  Link: "https://en.wikipedia.org/wiki/Haiti"
 }
 const Honduras={
   Name: "Honduras",
@@ -848,7 +918,8 @@ const Honduras={
   lettersUsed:['H','O','N','D','U','R','A','S'],
   militaryAlliances:['Rio Pact'],
   Region: "Central America",
-  Continent: "North America"
+  Continent: "North America",
+  Link: "https://en.wikipedia.org/wiki/Honduras"
 }
 const Hungary={
   Name: "Hungary",
@@ -860,7 +931,8 @@ const Hungary={
   lettersUsed:['H','U','N','G','A','R','Y'],
   militaryAlliances:['NATO'],
   Region: "Central Europe",
-  Continent: "Europe"
+  Continent: "Europe",
+  Link: "https://en.wikipedia.org/wiki/Hungary"
 }
 const Iceland={
   Name: "Iceland",
@@ -872,7 +944,8 @@ const Iceland={
   lettersUsed:['I','C','E','L','A','N','D'],
   militaryAlliances:['NATO'],
   Region: "Northern Europe",
-  Continent: "Europe"
+  Continent: "Europe",
+  Link: "https://en.wikipedia.org/wiki/Iceland"
 }
 const India={
   Name: "India",
@@ -884,7 +957,8 @@ const India={
   lettersUsed:['I','N','D','I','A'],
   militaryAlliances:[],
   Region: "South Asia",
-  Continent: "Asia"
+  Continent: "Asia",
+  Link: "https://en.wikipedia.org/wiki/India"
 }
 const Indonesia={
   Name: "Indonesia",
@@ -896,7 +970,8 @@ const Indonesia={
   lettersUsed:['I','N','D','O','N','E','S','I','A'],
   militaryAlliances:[],
   Region: "Southeast Asia",
-  Continent: "Asia"
+  Continent: "Asia",
+  Link: "https://en.wikipedia.org/wiki/Indonesia"
 }
 const Iran={
   Name: "Iran",
@@ -908,7 +983,8 @@ const Iran={
   lettersUsed:['I','R','A','N'],
   militaryAlliances:[],
   Region: "Western Asia",
-  Continent: "Asia"
+  Continent: "Asia",
+  Link: "https://en.wikipedia.org/wiki/Iran"
 }
 const Iraq={
   Name: "Iraq",
@@ -920,7 +996,8 @@ const Iraq={
   lettersUsed:['I','R','A','Q'],
   militaryAlliances:[],
   Region: "Western Asia",
-  Continent: "Asia"
+  Continent: "Asia",
+  Link: "https://en.wikipedia.org/wiki/Iraq"
 }
 const Ireland={
   Name: "Ireland",
@@ -932,7 +1009,8 @@ const Ireland={
   lettersUsed:['I','R','E','L','A','N','D'],
   militaryAlliances:[],
   Region: "Western Europe",
-  Continent: "Europe"
+  Continent: "Europe",
+  Link: "https://en.wikipedia.org/wiki/Ireland"
 }
 const Israel={
   Name: "Israel",
@@ -944,7 +1022,8 @@ const Israel={
   lettersUsed:['I','S','R','A','E','L'],
   militaryAlliances:[],
   Region: "Western Asia",
-  Continent: "Asia"
+  Continent: "Asia",
+  Link: "https://en.wikipedia.org/wiki/Israel"
 }
 const Italy={
   Name: "Italy",
@@ -956,7 +1035,8 @@ const Italy={
   lettersUsed:['I','T','A','L','Y'],
   militaryAlliances:['NATO'],
   Region: "Southern Europe",
-  Continent: "Europe"
+  Continent: "Europe",
+  Link: "https://en.wikipedia.org/wiki/Italy"
 }
 const IvoryCoast={
   Name: "Ivory Coast",
@@ -968,7 +1048,8 @@ const IvoryCoast={
   lettersUsed:['I','V','O','R','Y','C','O','A','S','T'],
   militaryAlliances:[],
   Region: "West Africa",
-  Continent: "Africa"
+  Continent: "Africa",
+  Link: "https://en.wikipedia.org/wiki/Ivory_Coast"
 }
 const Jamaica={
   Name: "Jamaica",
@@ -980,7 +1061,8 @@ const Jamaica={
   lettersUsed:['J','A','M','A','I','C','A'],
   militaryAlliances:[],
   Region: "the Caribbean",
-  Continent: "North America"
+  Continent: "North America",
+  Link: "https://en.wikipedia.org/wiki/Jamaica"
 }
 const Japan={
   Name: "Japan",
@@ -992,7 +1074,8 @@ const Japan={
   lettersUsed:['J','A','P','A','N'],
   militaryAlliances:[],
   Region: "East Asia",
-  Continent: "Asia"
+  Continent: "Asia",
+  Link: "https://en.wikipedia.org/wiki/Japan"
 }
 const Jordan={
   Name: "Jordan",
@@ -1004,7 +1087,8 @@ const Jordan={
   lettersUsed:['J','O','R','D','A','N'],
   militaryAlliances:[],
   Region: "Western Asia",
-  Continent: "Asia"
+  Continent: "Asia",
+  Link: "https://en.wikipedia.org/wiki/Jordan"
 }
 const Kazakhstan={
   Name: "Kazakhstan",
@@ -1016,7 +1100,8 @@ const Kazakhstan={
   lettersUsed:['K','A','Z','A','K','H','S','T','A','N'],
   militaryAlliances:['CSTO'],
   Region: "Central Asia",
-  Continent: "Asia"
+  Continent: "Asia",
+  Link: "https://en.wikipedia.org/wiki/Kazakhstan"
 }
 const Kenya={
   Name: "Kenya",
@@ -1028,7 +1113,8 @@ const Kenya={
   lettersUsed:['K','E','N','Y','A'],
   militaryAlliances:[],
   Region: "East Africa",
-  Continent: "Africa"
+  Continent: "Africa",
+  Link: "https://en.wikipedia.org/wiki/Kenya"
 }
 const Kiribati={
   Name: "Kiribati",
@@ -1040,7 +1126,8 @@ const Kiribati={
   lettersUsed:['K','I','R','I','B','A','T','I'],
   militaryAlliances:[],
   Region: "Micronesia",
-  Continent: "Oceania"
+  Continent: "Oceania",
+  Link: "https://en.wikipedia.org/wiki/Kiribati"
 }
 const Kuwait={
   Name: "Kuwait",
@@ -1052,7 +1139,8 @@ const Kuwait={
   lettersUsed:['K','U','W','A','I','T'],
   militaryAlliances:[],
   Region: "Western Asia",
-  Continent: "Asia"
+  Continent: "Asia",
+  Link: "https://en.wikipedia.org/wiki/Kuwait"
 }
 const Kyrgyzstan={
   Name: "Kyrgyzstan",
@@ -1064,7 +1152,8 @@ const Kyrgyzstan={
   lettersUsed:['K','Y','R','G','Y','Z','S','T','A','N'],
   militaryAlliances:['CSTO'],
   Region: "Central Asia",
-  Continent: "Asia"
+  Continent: "Asia",
+  Link: "https://en.wikipedia.org/wiki/Kyrgyzstan"
 }
 const Laos={
   Name: "Laos",
@@ -1076,7 +1165,8 @@ const Laos={
   lettersUsed:['L','A','O','S'],
   militaryAlliances:[],
   Region: "Southeast Asia",
-  Continent: "Asia"
+  Continent: "Asia",
+  Link: "https://en.wikipedia.org/wiki/Laos"
 }
 const Latvia={
   Name: "Latvia",
@@ -1088,7 +1178,8 @@ const Latvia={
   lettersUsed:['L','A','T','V','I','A'],
   militaryAlliances:['NATO'],
   Region: "Northern Europe",
-  Continent: "Europe"
+  Continent: "Europe",
+  Link: "https://en.wikipedia.org/wiki/Latvia"
 }
 const Lebanon={
   Name: "Lebanon",
@@ -1100,7 +1191,8 @@ const Lebanon={
   lettersUsed:['L','E','B','A','N','O','N'],
   militaryAlliances:[],
   Region: "Western Asia",
-  Continent: "Asia"
+  Continent: "Asia",
+  Link: "https://en.wikipedia.org/wiki/Lebanon"
 }
 const Lesotho={
   Name: "Lesotho",
@@ -1112,7 +1204,8 @@ const Lesotho={
   lettersUsed:['L','E','S','O','T','H','O'],
   militaryAlliances:[],
   Region: "Southern Africa",
-  Continent: "Africa"
+  Continent: "Africa",
+  Link: "https://en.wikipedia.org/wiki/Lesotho"
 }
 const Liberia={
   Name: "Liberia",
@@ -1124,7 +1217,8 @@ const Liberia={
   lettersUsed:['L','I','B','E','R','I','A'],
   militaryAlliances:[],
   Region: "West Africa",
-  Continent: "Africa"
+  Continent: "Africa",
+  Link: "https://en.wikipedia.org/wiki/Liberia"
 }
 const Libya={
   Name: "Libya",
@@ -1136,7 +1230,8 @@ const Libya={
   lettersUsed:['L','I','B','Y','A'],
   militaryAlliances:[],
   Region: "North Africa",
-  Continent: "Africa"
+  Continent: "Africa",
+  Link: "https://en.wikipedia.org/wiki/Libya"
 }
 const Liechtenstein={
   Name: "Liechtenstein",
@@ -1148,7 +1243,8 @@ const Liechtenstein={
   lettersUsed:['L','I','E','C','H','T','E','N','S','T','E','I','N'],
   militaryAlliances:[],
   Region: "Western Europe",
-  Continent: "Europe"
+  Continent: "Europe",
+  Link: "https://en.wikipedia.org/wiki/Liechtenstein"
 }
 const Lithuania={
   Name: "Lithuania",
@@ -1160,7 +1256,8 @@ const Lithuania={
   lettersUsed:['L','I','T','H','U','A','N','I','A'],
   militaryAlliances:['NATO'],
   Region: "Northern Europe",
-  Continent: "Europe"
+  Continent: "Europe",
+  Link: "https://en.wikipedia.org/wiki/Lithuania"
 }
 const Luxembourg={
   Name: "Luxembourg",
@@ -1172,7 +1269,8 @@ const Luxembourg={
   lettersUsed:['L','U','X','E','M','B','O','U','R','G'],
   militaryAlliances:['NATO'],
   Region: "Western Europe",
-  Continent: "Europe"
+  Continent: "Europe",
+  Link: "https://en.wikipedia.org/wiki/Luxembourg"
 }
 const Madagascar={
   Name: "Madagascar",
@@ -1184,7 +1282,8 @@ const Madagascar={
   lettersUsed:['M','A','D','A','G','A','S','C','A','R'],
   militaryAlliances:[],
   Region: "East Africa",
-  Continent: "Africa"
+  Continent: "Africa",
+  Link: "https://en.wikipedia.org/wiki/Madagascar"
 }
 const Malawi={
   Name: "Malawi",
@@ -1196,7 +1295,8 @@ const Malawi={
   lettersUsed:['M','A','L','A','W','I'],
   militaryAlliances:[],
   Region: "Southern Africa",
-  Continent: "Africa"
+  Continent: "Africa",
+  Link: "https://en.wikipedia.org/wiki/Malawi"
 }
 const Malaysia={
   Name: "Malaysia",
@@ -1208,7 +1308,8 @@ const Malaysia={
   lettersUsed:['M','A','L','A','Y','S','I','A'],
   militaryAlliances:[],
   Region: "Southeast Asia",
-  Continent: "Asia"
+  Continent: "Asia",
+  Link: "https://en.wikipedia.org/wiki/Malaysia"
 }
 const Maldives={
   Name: "Maldives",
@@ -1220,7 +1321,8 @@ const Maldives={
   lettersUsed:['M','A','L','D','I','V','E','S'],
   militaryAlliances:[],
   Region: "South Asia",
-  Continent: "Asia"
+  Continent: "Asia",
+  Link: "https://en.wikipedia.org/wiki/Maldives"
 }
 const Mali={
   Name: "Mali",
@@ -1232,7 +1334,8 @@ const Mali={
   lettersUsed:['M','A','L','I'],
   militaryAlliances:[],
   Region: "West Africa",
-  Continent: "Africa"
+  Continent: "Africa",
+  Link: "https://en.wikipedia.org/wiki/Mali"
 }
 const Malta={
   Name: "Malta",
@@ -1244,7 +1347,8 @@ const Malta={
   lettersUsed:['M','A','L','T','A'],
   militaryAlliances:[],
   Region: "Southern Europe",
-  Continent: "Europe"
+  Continent: "Europe",
+  Link: "https://en.wikipedia.org/wiki/Malta"
 }
 const Mauritania={
   Name: "Mauritania",
@@ -1256,7 +1360,8 @@ const Mauritania={
   lettersUsed:['M','A','U','R','I','T','A','N','I','A'],
   militaryAlliances:[],
   Region: "North Africa",
-  Continent: "Africa"
+  Continent: "Africa",
+  Link: "https://en.wikipedia.org/wiki/Mauritania"
 }
 const Mauritius={
   Name: "Mauritius",
@@ -1268,7 +1373,8 @@ const Mauritius={
   lettersUsed:['M','A','U','R','I','T','I','U','S'],
   militaryAlliances:[],
   Region: "East Africa",
-  Continent: "Africa"
+  Continent: "Africa",
+  Link: "https://en.wikipedia.org/wiki/Mauritius"
 }
 const Mexico={
   Name: "Mexico",
@@ -1280,7 +1386,8 @@ const Mexico={
   lettersUsed:['M','E','X','I','C','O'],
   militaryAlliances:[],
   Region: "",
-  Continent: "North America"
+  Continent: "North America",
+  Link: "https://en.wikipedia.org/wiki/Mexico"
 }
 const Moldova={
   Name: "Moldova",
@@ -1292,7 +1399,8 @@ const Moldova={
   lettersUsed:['M','O','L','D','O','V','A'],
   militaryAlliances:[],
   Region: "Eastern Europe",
-  Continent: "Europe"
+  Continent: "Europe",
+  Link: "https://en.wikipedia.org/wiki/Moldova"
 }
 const Monaco={
   Name: "Monaco",
@@ -1304,7 +1412,8 @@ const Monaco={
   lettersUsed:['M','O','N','A','C','O'],
   militaryAlliances:[],
   Region: "Western Europe",
-  Continent: "Europe"
+  Continent: "Europe",
+  Link: "https://en.wikipedia.org/wiki/Monaco"
 }
 const Mongolia={
   Name: "Mongolia",
@@ -1316,7 +1425,8 @@ const Mongolia={
   lettersUsed:['M','O','N','G','O','L','I','A'],
   militaryAlliances:[],
   Region: "East Asia",
-  Continent: "Asia"
+  Continent: "Asia",
+  Link: "https://en.wikipedia.org/wiki/Mongolia"
 }
 const Montenegro={
   Name: "Montenegro",
@@ -1328,7 +1438,8 @@ const Montenegro={
   lettersUsed:['M','O','N','T','E','N','E','G','R','O'],
   militaryAlliances:['NATO'],
   Region: "Central Europe",
-  Continent: "Europe"
+  Continent: "Europe",
+  Link: "https://en.wikipedia.org/wiki/Montenegro"
 }
 const Morocco={
   Name: "Morocco",
@@ -1340,7 +1451,8 @@ const Morocco={
   lettersUsed:['M','O','R','O','C','C','O'],
   militaryAlliances:[],
   Region: "North Africa",
-  Continent: "Africa"
+  Continent: "Africa",
+  Link: "https://en.wikipedia.org/wiki/Morocco"
 }
 const Mozambique={
   Name: "Mozambique",
@@ -1352,7 +1464,8 @@ const Mozambique={
   lettersUsed:['M','O','Z','A','M','B','I','Q','U','E'],
   militaryAlliances:[],
   Region: "Southern Africa",
-  Continent: "Africa"
+  Continent: "Africa",
+  Link: "https://en.wikipedia.org/wiki/Mozambique"
 }
 const Myanmar={
   Name: "Myanmar",
@@ -1364,7 +1477,8 @@ const Myanmar={
   lettersUsed:['M','Y','A','N','M','A','R'],
   militaryAlliances:[],
   Region: "Southeast Asia",
-  Continent: "Asia"
+  Continent: "Asia",
+  Link: "https://en.wikipedia.org/wiki/Myanmar"
 }
 const Namibia={
   Name: "Namibia",
@@ -1376,7 +1490,8 @@ const Namibia={
   lettersUsed:['N','A','M','I','B','I','A'],
   militaryAlliances:[],
   Region: "Southern Africa",
-  Continent: "Africa"
+  Continent: "Africa",
+  Link: "https://en.wikipedia.org/wiki/Namibia"
 }
 const Nauru={
   Name: "Nauru",
@@ -1388,7 +1503,8 @@ const Nauru={
   lettersUsed:['N','A','U','R','U'],
   militaryAlliances:[],
   Region: "Melanesia",
-  Continent: "Oceania"
+  Continent: "Oceania",
+  Link: "https://en.wikipedia.org/wiki/Nauru"
 }
 const Nepal={
   Name: "Nepal",
@@ -1400,7 +1516,8 @@ const Nepal={
   lettersUsed:['N','E','P','A','L'],
   militaryAlliances:[],
   Region: "South Asia",
-  Continent: "Asia"
+  Continent: "Asia",
+  Link: "https://en.wikipedia.org/wiki/Nepal"
 }
 const Zealand={
   Name: "New Zealand",
@@ -1412,7 +1529,8 @@ const Zealand={
   lettersUsed:['N','E','W','Z','E','A','L','A','N','D'],
   militaryAlliances:[],
   Region: "Australasia",
-  Continent: "Oceania"
+  Continent: "Oceania",
+  Link: "https://en.wikipedia.org/wiki/New_Zealand"
 }
 const Nicaragua={
   Name: "Nicaragua",
@@ -1424,7 +1542,8 @@ const Nicaragua={
   lettersUsed:['N','I','C','A','R','A','G','U','A'],
   militaryAlliances:[],
   Region: "Central America",
-  Continent: "North America"
+  Continent: "North America",
+  Link: "https://en.wikipedia.org/wiki/Nicaragua"
 }
 const Niger={
   Name: "Niger",
@@ -1436,7 +1555,8 @@ const Niger={
   lettersUsed:['N','I','G','E','R'],
   militaryAlliances:[],
   Region: "West Africa",
-  Continent: "Africa"
+  Continent: "Africa",
+  Link: "https://en.wikipedia.org/wiki/Niger"
 }
 const Nigeria={
   Name: "Nigeria",
@@ -1448,7 +1568,8 @@ const Nigeria={
   lettersUsed:['N','I','G','E','R','I','A'],
   militaryAlliances:[],
   Region: "West Africa",
-  Continent: "Africa"
+  Continent: "Africa",
+  Link: "https://en.wikipedia.org/wiki/Nigeria"
 }
 const DPRK={
   Name: "North Korea",
@@ -1460,7 +1581,8 @@ const DPRK={
   lettersUsed:['N','O','R','T','H','K','O','R','E','A'],
   militaryAlliances:[],
   Region: "East Asia",
-  Continent: "Asia"
+  Continent: "Asia",
+  Link: "https://en.wikipedia.org/wiki/North_Korea"
 }
 const Netherlands={
   Name: "The Netherlands",
@@ -1472,7 +1594,8 @@ const Netherlands={
   lettersUsed:['N','E','T','H','E','R','L','A','N','D','S'],
   militaryAlliances:['NATO'],
   Region: "Western Europe",
-  Continent: "Europe"
+  Continent: "Europe",
+  Link: "https://en.wikipedia.org/wiki/Kingdom_of_the_Netherlands"
 }
 const Macedonia={
   Name: "North Macedonia",
@@ -1484,7 +1607,8 @@ const Macedonia={
   lettersUsed:['N','O','R','T','H','M','A','C','E','D','O','N','I','A'],
   militaryAlliances:['NATO'],
   Region: "Southeastern Europe",
-  Continent: "Europe"
+  Continent: "Europe",
+  Link: "https://en.wikipedia.org/wiki/North_Macedonia"
 }
 const Norway={
   Name: "Norway",
@@ -1496,7 +1620,8 @@ const Norway={
   lettersUsed:['N','O','R','W','A','Y'],
   militaryAlliances:['NATO'],
   Region: "Northern Europe",
-  Continent: "Europe"
+  Continent: "Europe",
+  Link: "https://en.wikipedia.org/wiki/Norway"
 }
 const Oman={
   Name: "Oman",
@@ -1508,7 +1633,8 @@ const Oman={
   lettersUsed:['O','M','A','N'],
   militaryAlliances:[],
   Region: "Western Asia",
-  Continent: "Asia"
+  Continent: "Asia",
+  Link: "https://en.wikipedia.org/wiki/Oman"
 }
 const Pakistan={
   Name: "Pakistan",
@@ -1520,7 +1646,8 @@ const Pakistan={
   lettersUsed:['P','A','K','I','S','T','A','N'],
   militaryAlliances:[],
   Region: "South Asia",
-  Continent: "Asia"
+  Continent: "Asia",
+  Link: "https://en.wikipedia.org/wiki/Pakistan"
 }
 const Palau={
   Name: "Palau",
@@ -1532,7 +1659,8 @@ const Palau={
   lettersUsed:['P','A','L','A','U'],
   militaryAlliances:[],
   Region: "Western Asia",
-  Continent: "Micronesia"
+  Continent: "Micronesia",
+  Link: "https://en.wikipedia.org/wiki/Palau"
 }
 const Panama={
   Name: "Panama",
@@ -1544,7 +1672,8 @@ const Panama={
   lettersUsed:['P','A','N','A','M','A'],
   militaryAlliances:['Rio Pact'],
   Region: "Central America",
-  Continent: "North America"
+  Continent: "North America",
+  Link: "https://en.wikipedia.org/wiki/Panama"
 }
 const Papua={
   Name: "Papua New Guinea",
@@ -1556,7 +1685,8 @@ const Papua={
   lettersUsed:['P','A','P','U','A','N','E','W','G','U','I','N','E','A'],
   militaryAlliances:[],
   Region: "Melanesia",
-  Continent: "Oceania"
+  Continent: "Oceania",
+  Link: "https://en.wikipedia.org/wiki/Papua_New_Guinea"
 }
 const Paraguay={
   Name: "Paraguay",
@@ -1568,7 +1698,8 @@ const Paraguay={
   lettersUsed:['P','A','R','A','G','U','A','Y'],
   militaryAlliances:['Rio Pact'],
   Region: "",
-  Continent: "South America"
+  Continent: "South America",
+  Link: "https://en.wikipedia.org/wiki/Paraguay"
 }
 const Peru={
   Name: "Peru",
@@ -1580,7 +1711,8 @@ const Peru={
   lettersUsed:['P','E','R','U'],
   militaryAlliances:['Rio Pact'],
   Region: "",
-  Continent: "South America"
+  Continent: "South America",
+  Link: "https://en.wikipedia.org/wiki/Peru"
 }
 const Philippines={
   Name: "Philippines",
@@ -1592,7 +1724,8 @@ const Philippines={
   lettersUsed:['P','H','I','L','I','P','P','I','N','E','S'],
   militaryAlliances:[],
   Region: "Southeast Asia",
-  Continent: "Asia"
+  Continent: "Asia",
+  Link: "https://en.wikipedia.org/wiki/Philippines"
 }
 const Poland={
   Name: "Poland",
@@ -1604,7 +1737,8 @@ const Poland={
   lettersUsed:['P','O','L','A','N','D'],
   militaryAlliances:['NATO'],
   Region: "Central Europe",
-  Continent: "Europe"
+  Continent: "Europe",
+  Link: "https://en.wikipedia.org/wiki/Poland"
 }
 const Portugal={
   Name: "Portugal",
@@ -1616,7 +1750,8 @@ const Portugal={
   lettersUsed:['P','O','R','T','U','G','A','L'],
   militaryAlliances:['NATO'],
   Region: "Southern Europe",
-  Continent: "Europe"
+  Continent: "Europe",
+  Link: "https://en.wikipedia.org/wiki/Portugal"
 }
 const Qatar={
   Name: "Qatar",
@@ -1628,7 +1763,8 @@ const Qatar={
   lettersUsed:['Q','A','T','A','R'],
   militaryAlliances:[],
   Region: "Western Asia",
-  Continent: "Asia"
+  Continent: "Asia",
+  Link: "https://en.wikipedia.org/wiki/Qatar"
 }
 const RCongo={
   Name: "Republic of Congo",
@@ -1640,7 +1776,8 @@ const RCongo={
   lettersUsed:['R','E','P','U','B','L','I','C','O','F','C','O','N','G','O'],
   militaryAlliances:[],
   Region: "Central Africa",
-  Continent: "Africa"
+  Continent: "Africa",
+  Link: "https://en.wikipedia.org/wiki/Republic_of_the_Congo"
 }
 const Romania={
   Name: "Romania",
@@ -1652,7 +1789,8 @@ const Romania={
   lettersUsed:['R','O','M','A','N','I','A'],
   militaryAlliances:['NATO'],
   Region: "Southeastern Europe",
-  Continent: "Europe"
+  Continent: "Europe",
+  Link: "https://en.wikipedia.org/wiki/Romania"
 }
 const Russia={
   Name: "Russia",
@@ -1664,7 +1802,8 @@ const Russia={
   lettersUsed:['R','U','S','S','I','A'],
   militaryAlliances:['CSTO'],
   Region: "Eastern Europe",
-  Continent: "Europe"
+  Continent: "Europe",
+  Link: "https://en.wikipedia.org/wiki/Russia"
 }
 const Rwanda={
   Name: "Rwanda",
@@ -1676,7 +1815,8 @@ const Rwanda={
   lettersUsed:['R','W','A','N','D','A'],
   militaryAlliances:[],
   Region: "East Africa",
-  Continent: "Africa"
+  Continent: "Africa",
+  Link: "https://en.wikipedia.org/wiki/Rwanda"
 }
 const Kitts={
   Name: "Saint Kitts and Nevis",
@@ -1688,7 +1828,8 @@ const Kitts={
   lettersUsed:['S','A','I','N','T','K','I','T','T','S','A','N','D','N','E','V','I','S'],
   militaryAlliances:[],
   Region: "the Caribbean",
-  Continent: "North America"
+  Continent: "North America",
+  Link: "https://en.wikipedia.org/wiki/Saint_Kitts_and_Nevis"
 }
 const Lucia={
   Name: "Saint Lucia",
@@ -1700,7 +1841,8 @@ const Lucia={
   lettersUsed:['S','A','I','N','T','L','U','C','I','A'],
   militaryAlliances:[],
   Region: "the Caribbean",
-  Continent: "North America"
+  Continent: "North America",
+  Link: "https://en.wikipedia.org/wiki/Saint_Lucia"
 }
 const Vincent={
   Name: "Saint Vincent and the Grenadines",
@@ -1712,7 +1854,8 @@ const Vincent={
   lettersUsed:['S','A','I','N','T','V','I','N','C','E','N','T','A','N','D','T','H','E','G','R','E','N','A','D','I','N','E','S'],
   militaryAlliances:[],
   Region: "the Caribbean",
-  Continent: "North America"
+  Continent: "North America",
+  Link: "https://en.wikipedia.org/wiki/Saint_Vincent_and_the_Grenadines"
 }
 const Samoa={
   Name: "Samoa",
@@ -1724,7 +1867,8 @@ const Samoa={
   lettersUsed:['S','A','M','O','A'],
   militaryAlliances:[],
   Region: "Polynesia",
-  Continent: "Oceania"
+  Continent: "Oceania",
+  Link: "https://en.wikipedia.org/wiki/Samoa"
 }
 const Marino={
   Name: "San Marino",
@@ -1736,7 +1880,8 @@ const Marino={
   lettersUsed:['S','A','N','M','A','R','I','N','O'],
   militaryAlliances:[],
   Region: "Southern Europe",
-  Continent: "Europe"
+  Continent: "Europe",
+  Link: "https://en.wikipedia.org/wiki/San_Marino"
 }
 const Tome={
   Name: "Sao Tome and Principe",
@@ -1748,7 +1893,8 @@ const Tome={
   lettersUsed:['S','A','O','T','O','M','E','A','N','D','P','R','I','N','C','I','P','E'],
   militaryAlliances:[],
   Region: "Central Africa",
-  Continent: "Africa"
+  Continent: "Africa",
+  Link: "https://en.wikipedia.org/wiki/S%C3%A3o_Tom%C3%A9_and_Pr%C3%ADncipe"
 }
 const Saudi={
   Name: "Saudi Arabia",
@@ -1760,7 +1906,8 @@ const Saudi={
   lettersUsed:['S','A','U','D','I','A','R','A','B','I','A'],
   militaryAlliances:[],
   Region: "Western Asia",
-  Continent: "Asia"
+  Continent: "Asia",
+  Link: "https://en.wikipedia.org/wiki/Saudi_Arabia"
 }
 const Senegal={
   Name: "Senegal",
@@ -1772,7 +1919,8 @@ const Senegal={
   lettersUsed:['S','E','N','E','G','A','L'],
   militaryAlliances:[],
   Region: "West Africa",
-  Continent: "Africa"
+  Continent: "Africa",
+  Link: "https://en.wikipedia.org/wiki/Senegal"
 }
 const Serbia={
   Name: "Serbia",
@@ -1784,7 +1932,8 @@ const Serbia={
   lettersUsed:['S','E','R','B','I','A'],
   militaryAlliances:[],
   Region: "Southeastern Europe",
-  Continent: "Europe"
+  Continent: "Europe",
+  Link: "https://en.wikipedia.org/wiki/Serbia"
 }
 const Seychelles={
   Name: "Seychelles",
@@ -1796,7 +1945,8 @@ const Seychelles={
   lettersUsed:['S','E','Y','C','H','L','L','E','S'],
   militaryAlliances:[],
   Region: "East Africa",
-  Continent: "Africa"
+  Continent: "Africa",
+  Link: "https://en.wikipedia.org/wiki/Seychelles"
 }
 const Sierra={
   Name: "Sierra Leone",
@@ -1808,7 +1958,8 @@ const Sierra={
   lettersUsed:['S','I','E','R','R','A','L','E','O','N','E'],
   militaryAlliances:[],
   Region: "West Africa",
-  Continent: "Africa"
+  Continent: "Africa",
+  Link: "https://en.wikipedia.org/wiki/Sierra_Leone"
 }
 const Singapore={
   Name: "Singapore",
@@ -1820,7 +1971,8 @@ const Singapore={
   lettersUsed:['S','I','N','G','A','P','O','R','E'],
   militaryAlliances:[],
   Region: "Southeast Asia",
-  Continent: "Asia"
+  Continent: "Asia",
+  Link: "https://en.wikipedia.org/wiki/Singapore"
 }
 const Slovakia={
   Name: "Slovakia",
@@ -1832,7 +1984,8 @@ const Slovakia={
   lettersUsed:['S','L','O','V','A','K','I','A'],
   militaryAlliances:['NATO'],
   Region: "Central Europe",
-  Continent: "Europe"
+  Continent: "Europe",
+  Link: "https://en.wikipedia.org/wiki/Slovakia"
 }
 const Slovenia={
   Name: "Slovenia",
@@ -1844,7 +1997,8 @@ const Slovenia={
   lettersUsed:['S','L','O','V','E','N','I','A'],
   militaryAlliances:['NATO'],
   Region: "Southern Europe",
-  Continent: "Europe"
+  Continent: "Europe",
+  Link: "https://en.wikipedia.org/wiki/Slovenia"
 }
 const Solomon={
   Name: "Solomon Islands",
@@ -1856,7 +2010,8 @@ const Solomon={
   lettersUsed:['S','O','L','O','M','O','N','I','S','L','A','N','D','S'],
   militaryAlliances:[],
   Region: "Melanesia",
-  Continent: "Oceania"
+  Continent: "Oceania",
+  Link: "https://en.wikipedia.org/wiki/Solomon_Islands"
 }
 const Somalia={
   Name: "Somalia",
@@ -1868,7 +2023,8 @@ const Somalia={
   lettersUsed:['S','O','M','A','L','I','A'],
   militaryAlliances:[],
   Region: "Horn of Africa",
-  Continent: "Africa"
+  Continent: "Africa",
+  Link: "https://en.wikipedia.org/wiki/Somalia"
 }
 const SouthAfrica={
   Name: "South Africa",
@@ -1880,7 +2036,8 @@ const SouthAfrica={
   lettersUsed:['S','O','U','T','H','A','F','R','I','C','A'],
   militaryAlliances:[],
   Region: "Southern Africa",
-  Continent: "Africa"
+  Continent: "Africa",
+  Link: "https://en.wikipedia.org/wiki/South_Africa"
 }
 const ROK={
   Name: "South Korea",
@@ -1892,7 +2049,8 @@ const ROK={
   lettersUsed:['S','O','U','T','H','K','O','R','E','A'],
   militaryAlliances:[],
   Region: "East Asia",
-  Continent: "Asia"
+  Continent: "Asia",
+  Link: "https://en.wikipedia.org/wiki/South_Korea"
 }
 const SouthSudan={
   Name: "South Sudan",
@@ -1904,7 +2062,8 @@ const SouthSudan={
   lettersUsed:['S','O','U','T','H','S','U','D','A','N'],
   militaryAlliances:[],
   Region: "Central Africa",
-  Continent: "Africa"
+  Continent: "Africa",
+  Link: "https://en.wikipedia.org/wiki/South_Sudan"
 }
 const Spain={
   Name: "Spain",
@@ -1916,7 +2075,8 @@ const Spain={
   lettersUsed:['S','P','A','I','N'],
   militaryAlliances:['NATO'],
   Region: "Southern Europe",
-  Continent: "Europe"
+  Continent: "Europe",
+  Link: "https://en.wikipedia.org/wiki/Spain"
 }
 const SriLanka={
   Name: "Sri Lanka",
@@ -1928,7 +2088,8 @@ const SriLanka={
   lettersUsed:['S','R','I','L','A','N','K','A'],
   militaryAlliances:[],
   Region: "South Asia",
-  Continent: "Asia"
+  Continent: "Asia",
+  Link: "https://en.wikipedia.org/wiki/Sri_Lanka"
 }
 const Sudan={
   Name: "Sudan",
@@ -1940,7 +2101,8 @@ const Sudan={
   lettersUsed:['S','U','D','A','N'],
   militaryAlliances:[],
   Region: "North Africa",
-  Continent: "Africa"
+  Continent: "Africa",
+  Link: "https://en.wikipedia.org/wiki/Sudan"
 }
 const Suriname={
   Name: "Suriname",
@@ -1952,7 +2114,8 @@ const Suriname={
   lettersUsed:['S','U','R','I','N','A','M','E'],
   militaryAlliances:[],
   Region: "",
-  Continent: "South America"
+  Continent: "South America",
+  Link: "https://en.wikipedia.org/wiki/Suriname"
 }
 const Sweden={
   Name: "Sweden",
@@ -1964,7 +2127,8 @@ const Sweden={
   lettersUsed:['S','W','E','D','E','N'],
   militaryAlliances:[],
   Region: "Northern Europe",
-  Continent: "Europe"
+  Continent: "Europe",
+  Link: "https://en.wikipedia.org/wiki/Sweden"
 }
 const Switzerland={
   Name: "Switzerland",
@@ -1976,7 +2140,8 @@ const Switzerland={
   lettersUsed:['S','W','I','T','Z','E','R','L','A','N','D'],
   militaryAlliances:[],
   Region: "Western Europe",
-  Continent: "Europe"
+  Continent: "Europe",
+  Link: "https://en.wikipedia.org/wiki/Switzerland"
 }
 const Syria={
   Name: "Syria",
@@ -1988,7 +2153,8 @@ const Syria={
   lettersUsed:['S','Y','R','I','A'],
   militaryAlliances:[],
   Region: "Western Asia",
-  Continent: "Asia"
+  Continent: "Asia",
+  Link: "https://en.wikipedia.org/wiki/Syria"
 }
 const Tajikistan={
   Name: "Tajikistan",
@@ -2000,7 +2166,8 @@ const Tajikistan={
   lettersUsed:['T','A','J','I','K','I','S','T','A','N'],
   militaryAlliances:['CSTO'],
   Region: "Central Asia",
-  Continent: "Asia"
+  Continent: "Asia",
+  Link: "https://en.wikipedia.org/wiki/Tajikistan"
 }
 const Tanzania={
   Name: "Tanzania",
@@ -2012,7 +2179,8 @@ const Tanzania={
   lettersUsed:['T','A','N','Z','A','N','I','A'],
   militaryAlliances:[],
   Region: "East Africa",
-  Continent: "Africa"
+  Continent: "Africa",
+  Link: "https://en.wikipedia.org/wiki/Tanzania"
 }
 const Thailand={
   Name: "Thailand",
@@ -2024,7 +2192,8 @@ const Thailand={
   lettersUsed:['T','H','A','I','L','A','N','D'],
   militaryAlliances:[],
   Region: "Southeast Asia",
-  Continent: "Asia"
+  Continent: "Asia",
+  Link: "https://en.wikipedia.org/wiki/Thailand"
 }
 const Bahamas={
   Name: "The Bahamas",
@@ -2036,7 +2205,8 @@ const Bahamas={
   lettersUsed:['T','H','E','B','A','H','A','M','A','S'],
   militaryAlliances:[],
   Region: "the Caribbean",
-  Continent: "North America"
+  Continent: "North America",
+  Link: "https://en.wikipedia.org/wiki/The_Bahamas"
 }
 const Gambia={
   Name: "The Gambia",
@@ -2048,7 +2218,8 @@ const Gambia={
   lettersUsed:['T','H','E','G','A','M','B','I','A'],
   militaryAlliances:[],
   Region: "West Africa",
-  Continent: "Africa"
+  Continent: "Africa",
+  Link: "https://en.wikipedia.org/wiki/The_Gambia"
 }
 const Togo={
   Name: "Togo",
@@ -2060,7 +2231,8 @@ const Togo={
   lettersUsed:['T','O','G','O'],
   militaryAlliances:[],
   Region: "West Africa",
-  Continent: "Africa"
+  Continent: "Africa",
+  Link: "https://en.wikipedia.org/wiki/Togo"
 }
 const Tonga={
   Name: "Tonga",
@@ -2072,7 +2244,8 @@ const Tonga={
   lettersUsed:['T','O','N','G','A'],
   militaryAlliances:[],
   Region: "Polynesia",
-  Continent: "Oceania"
+  Continent: "Oceania",
+  Link: "https://en.wikipedia.org/wiki/Tonga"
 }
 const Trinidad={
   Name: "Trinidad and Tobago",
@@ -2084,7 +2257,8 @@ const Trinidad={
   lettersUsed:['T','R','I','N','I','D','A','D','A','N','D','T','O','B','A','G','O'],
   militaryAlliances:['Rio Pact'],
   Region: "the Caribbean",
-  Continent: "North America"
+  Continent: "North America",
+  Link: "https://en.wikipedia.org/wiki/Trinidad_and_Tobago"
 }
 const Tunisia={
   Name: "Tunisia",
@@ -2096,7 +2270,8 @@ const Tunisia={
   lettersUsed:['T','U','N','I','S','I','A'],
   militaryAlliances:[],
   Region: "North Africa",
-  Continent: "Africa"
+  Continent: "Africa",
+  Link: "https://en.wikipedia.org/wiki/Tunisia"
 }
 const Turkey={
   Name: "Turkey",
@@ -2108,7 +2283,8 @@ const Turkey={
   lettersUsed:['T','U','R','K','E','Y'],
   militaryAlliances:['NATO'],
   Region: "Western Asia",
-  Continent: "Asia"
+  Continent: "Asia",
+  Link: "https://en.wikipedia.org/wiki/Turkey"
 }
 const Turkmenistan={
   Name: "Turkmenistan",
@@ -2120,7 +2296,8 @@ const Turkmenistan={
   lettersUsed:['T','U','R','K','M','E','N','I','S','T','A','N'],
   militaryAlliances:[],
   Region: "Central Asia",
-  Continent: "Asia"
+  Continent: "Asia",
+  Link: "https://en.wikipedia.org/wiki/Turkmenistan"
 }
 const Uganda={
   Name: "Uganda",
@@ -2132,7 +2309,8 @@ const Uganda={
   lettersUsed:['U','G','A','N','D','A'],
   militaryAlliances:[],
   Region: "East Africa",
-  Continent: "Africa"
+  Continent: "Africa",
+  Link: "https://en.wikipedia.org/wiki/Uganda"
 }
 const Ukraine={
   Name: "Ukraine",
@@ -2144,7 +2322,8 @@ const Ukraine={
   lettersUsed:['U','K','R','A','I','N','E'],
   militaryAlliances:[],
   Region: "Eastern Europe",
-  Continent: "Europe"
+  Continent: "Europe",
+  Link: "https://en.wikipedia.org/wiki/Ukraine"
 }
 const UAE={
   Name: "United Arab Emirates",
@@ -2156,7 +2335,8 @@ const UAE={
   lettersUsed:['U','N','I','T','E','D','A','R','A','B','E','M','I','R','A','T','E','S'],
   militaryAlliances:[],
   Region: "Western Asia",
-  Continent: "Asia"
+  Continent: "Asia",
+  Link: "https://en.wikipedia.org/wiki/United_Arab_Emirates"
 }
 const UK={
   Name: "United Kingdom",
@@ -2168,7 +2348,8 @@ const UK={
   lettersUsed:['U','N','I','T','E','D','K','I','N','G','D','O','M'],
   militaryAlliances:['NATO'],
   Region: "Western Europe",
-  Continent: "Europe"
+  Continent: "Europe",
+  Link: "https://en.wikipedia.org/wiki/United_Kingdom"
 }
 const USA={
   Name: "United States of America",
@@ -2180,7 +2361,8 @@ const USA={
   lettersUsed:['U','N','I','T','E','D','S','T','A','T','E','S','O','F','A','M','E','R','I','C','A'],
   militaryAlliances:['NATO','Rio Pact'],
   Region: "",
-  Continent: "North America"
+  Continent: "North America",
+  Link: "https://en.wikipedia.org/wiki/United_States"
 }
 const Uruguay={
   Name: "Uruguay",
@@ -2192,7 +2374,8 @@ const Uruguay={
   lettersUsed:['U','R','U','G','U','A','Y'],
   militaryAlliances:['Rio Pact'],
   Region: "",
-  Continent: "South America"
+  Continent: "South America",
+  Link: "https://en.wikipedia.org/wiki/Uruguay"
 }
 const Uzbekistan={
   Name: "Uzbekistan",
@@ -2204,7 +2387,8 @@ const Uzbekistan={
   lettersUsed:['U','Z','B','E','K','I','S','T','A','N'],
   militaryAlliances:[],
   Region: "Central Asia",
-  Continent: "Asia"
+  Continent: "Asia",
+  Link: "https://en.wikipedia.org/wiki/Uzbekistan"
 }
 const Vanuatu={
   Name: "Vanuatu",
@@ -2216,7 +2400,8 @@ const Vanuatu={
   lettersUsed:['V','A','N','U','A','T','U'],
   militaryAlliances:[],
   Region: "Melanesia",
-  Continent: "Oceania"
+  Continent: "Oceania",
+  Link: "https://en.wikipedia.org/wiki/Vanuatu"
 }
 const Vatican={
   Name: "Vatican City",
@@ -2228,7 +2413,8 @@ const Vatican={
   lettersUsed:['V','A','T','I','C','A','N','C','I','T','Y'],
   militaryAlliances:[],
   Region: "Southern Europe",
-  Continent: "Europe"
+  Continent: "Europe",
+  Link: "https://en.wikipedia.org/wiki/Vatican_City"
 }
 const Venezuela={
   Name: "Venezuela",
@@ -2240,7 +2426,8 @@ const Venezuela={
   lettersUsed:['V','E','N','E','Z','U','E','L','A'],
   militaryAlliances:['Rio Pact'],
   Region: "",
-  Continent: "South America"
+  Continent: "South America",
+  Link: "https://en.wikipedia.org/wiki/Venezuela"
 }
 const Vietnam={
   Name: "Vietnam",
@@ -2252,7 +2439,8 @@ const Vietnam={
   lettersUsed:['V','I','E','T','N','A','M'],
   militaryAlliances:[],
   Region: "Southeast Asia",
-  Continent: "Asia"
+  Continent: "Asia",
+  Link: "https://en.wikipedia.org/wiki/Vietnam"
 }
 const Yemen={
   Name: "Yemen",
@@ -2264,7 +2452,8 @@ const Yemen={
   lettersUsed:['Y','E','M','E','N'],
   militaryAlliances:[],
   Region: "Western Asia",
-  Continent: "Asia"
+  Continent: "Asia",
+  Link: "https://en.wikipedia.org/wiki/Yemen"
 }
 const Zambia={
   Name: "Zambia",
@@ -2276,7 +2465,8 @@ const Zambia={
   lettersUsed:['Z','A','M','B','I','A'],
   militaryAlliances:[],
   Region: "Southern Africa",
-  Continent: "Africa"
+  Continent: "Africa",
+  Link: "https://en.wikipedia.org/wiki/Zambia"
 }
 const Zimbabwe={
   Name: "Zimbabwe",
@@ -2288,7 +2478,8 @@ const Zimbabwe={
   lettersUsed:['Z','I','M','B','A','B','W','E'],
   militaryAlliances:[],
   Region: "Southern Africa",
-  Continent: "Africa"
+  Continent: "Africa",
+  Link: "https://en.wikipedia.org/wiki/Zimbabwe"
 }
 let countries=[Afghanistan,Albania,Algeria,Andorra,Angola,Antigua,Argentina,Armenia,Australia,Austria,Azerbaijan,Bahrain,Bangladesh,Barbados,Belarus,Belgium,Belize,Benin,Bhutan,Bolivia,Bosnia,Botswana,Brazil,Brunei,Bulgaria,Burkina,Burundi,Cambodia,Cameroon,Canada,CapeVerde,CAR,Chad,Chile,China,Colombia,Comoros,CostaRica,Croatia,Cuba,Cyprus,Czechia,DRC,Denmark,Djibouti,Dominica,DR,Ecuador,Egypt,Salvador,EastTimor,EquatorialGuinea,Eritrea,Estonia,Eswatini,Ethiopia,Fiji,Finland,France,Gabon,Georgia,Germany,Ghana,Greece,Grenada,Guatemala,GuineaBissau,Guinea,Guyana,Haiti,Honduras,Hungary,Iceland,India,Indonesia,Iran,Iraq,Ireland,Israel,Italy,IvoryCoast,Jamaica,Japan,Jordan,Kazakhstan,Kenya,Kiribati,Kuwait,Kyrgyzstan,Laos,Latvia,Lebanon,Lesotho,Liberia,Libya,Liechtenstein,Lithuania,Luxembourg,Madagascar,Malawi,Malaysia,Maldives,Mali,Malta,Mauritania,Mauritius,Mexico,Moldova,Monaco,Mongolia,Montenegro,Morocco,Mozambique,Myanmar,Namibia,Nauru,Nepal,Zealand,Nicaragua,Niger,Nigeria,DPRK,Macedonia,Netherlands,Norway,Oman,Pakistan,Palau,Panama,Papua,Paraguay,Peru,Philippines,Poland,Portugal,Qatar,RCongo,Romania,Russia,Rwanda,Kitts,Lucia,Vincent,Samoa,Marino,Tome,Saudi,Senegal,Serbia,Seychelles,Sierra,Singapore,Slovakia,Slovenia,Solomon,Somalia,SouthAfrica,ROK,SouthSudan,Spain,SriLanka,Sudan,Suriname,Sweden,Switzerland,Syria,Tajikistan,Tanzania,Thailand,Bahamas,Gambia,Togo,Tonga,Trinidad,Tunisia,Turkey,Turkmenistan,Uganda,Ukraine,UAE,UK,USA,Uruguay,Uzbekistan,Vanuatu,Vatican,Venezuela,Vietnam,Yemen,Zambia,Zimbabwe]
 export {countries as default}

@@ -12,8 +12,7 @@ let secondGuess = document.getElementById("Guess1");
 let thirdGuess = document.getElementById("Guess2");
 let fourthGuess = document.getElementById("Guess3");
 let fifthGuess = document.getElementById("Guess4");
-let firstCountry = countries[0];
-//let firstCountry = countries[Math.floor(Math.random()*countries.length)]; //chooses random object from the countries list
+let firstCountry = countries[Math.floor(Math.random()*countries.length)]; //chooses random object from the countries list
 let secondCountry = ""; //when the user inputs a country, the country's value will be registered in this variable
 let countryPick = firstCountry.Name;
 console.log(countryPick);
@@ -134,7 +133,7 @@ function guessInput(){
 };
 function inputCheck(){
     if(input.value==countryPick){
-        alert("Your Guess is Correct!");
+        alert("Your Guess is Correct!🎉");
         input.disabled="true";
         document.getElementById("Flags").src= flag;
         document.getElementById("Maps").src= map;
@@ -149,6 +148,8 @@ function inputCheck(){
         fifthGuess.disabled=true;
         localStorage.setItem("GuessTime", today);
         console.log(localStorage.getItem("GuessTime"));
+        document.getElementById("infoLink").href= firstCountry.Link;
+        document.getElementById("linkDiv").style.display= "block";
     }
     else{
         return;
